@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customDatasources": {
+    "apk-wolfi": {
+      "defaultRegistryUrlTemplate": "https://cwaits6.github.io/apk-datasource/x86_64/{{packageName}}.json",
+      "format": "json"
+    }
+  },
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["(^|/)Dockerfile[^/]*$"],
+      "matchStrings": [
+        "apk add[^\\n]*?\\s(?<depName>[a-zA-Z0-9][a-zA-Z0-9_.+\\-]*)=(?<currentValue>[^\\s]+)"
+      ],
+      "datasourceTemplate": "custom.apk-wolfi",
+      "versioningTemplate": "loose"
+    }
+  ]
+}

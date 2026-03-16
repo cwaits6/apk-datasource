@@ -1,0 +1,31 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  GOPATH: ${CI_PROJECT_DIR}/.go
+
+build:
+  stage: build
+  image: golang:1.26-alpine
+  script:
+    - go build -o apk-index ./cmd/apk-index
+    - mkdir -p public
+    - ./apk-index generate
+        --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
+        --index-url https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz
+        --output-dir ./public
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  needs: [build]
+  script:
+    - echo "Deploying to GitLab Pages"
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

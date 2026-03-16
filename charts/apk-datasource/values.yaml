@@ -1,0 +1,51 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/cwaits6/apk-datasource
+  pullPolicy: IfNotPresent
+  tag: ""
+
+serve:
+  port: 3000
+  refreshInterval: "4h"
+  indexURLs:
+    - https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
+    - https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz
+  sourceURL: ""
+  homepage: ""
+
+cronjob:
+  enabled: false
+  schedule: "0 */4 * * *"
+  outputDir: /data/output
+  persistence:
+    enabled: false
+    storageClass: ""
+    size: 1Gi
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: apk-datasource.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+nodeSelector: {}
+tolerations: []
+affinity: {}

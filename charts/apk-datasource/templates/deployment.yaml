@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "apk-datasource.fullname" . }}
+  labels:
+    {{- include "apk-datasource.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "apk-datasource.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "apk-datasource.selectorLabels" . | nindent 8 }}
+    spec:
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ include "apk-datasource.image" . }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          args:
+            - serve
+            {{- range .Values.serve.indexURLs }}
+            - --index-url={{ . }}
+            {{- end }}
+            - --port={{ .Values.serve.port }}
+            - --refresh-interval={{ .Values.serve.refreshInterval }}
+            {{- if .Values.serve.sourceURL }}
+            - --source-url={{ .Values.serve.sourceURL }}
+            {{- end }}
+            {{- if .Values.serve.homepage }}
+            - --homepage={{ .Values.serve.homepage }}
+            {{- end }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.serve.port }}
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 60
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /readyz
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}

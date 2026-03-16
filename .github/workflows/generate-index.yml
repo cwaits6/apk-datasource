@@ -1,0 +1,40 @@
+name: Generate Index
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Build CLI
+        run: go build -o apk-index ./cmd/apk-index
+
+      - name: Generate x86_64 index
+        run: |
+          ./apk-index generate \
+            --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
+            --output-dir ./output
+
+      - name: Generate aarch64 index
+        run: |
+          ./apk-index generate \
+            --index-url https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz \
+            --output-dir ./output
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          force_orphan: true

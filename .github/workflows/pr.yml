@@ -1,0 +1,13 @@
+name: PR
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  dependency-review:
+    uses: cwaits6/.github/.github/workflows/dependency-review.yml@main
+  trivy:
+    uses: cwaits6/.github/.github/workflows/trivy.yml@main
+  semgrep:
+    uses: cwaits6/.github/.github/workflows/semgrep.yml@main

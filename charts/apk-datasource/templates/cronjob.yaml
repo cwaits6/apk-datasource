@@ -1,0 +1,36 @@
+{{- if .Values.cronjob.enabled }}
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ include "apk-datasource.fullname" . }}-generate
+  labels:
+    {{- include "apk-datasource.labels" . | nindent 4 }}
+spec:
+  schedule: {{ .Values.cronjob.schedule | quote }}
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: generate
+              image: {{ include "apk-datasource.image" . }}
+              imagePullPolicy: {{ .Values.image.pullPolicy }}
+              args:
+                - generate
+                {{- range .Values.serve.indexURLs }}
+                - --index-url={{ . }}
+                {{- end }}
+                - --output-dir={{ .Values.cronjob.outputDir }}
+              {{- if .Values.cronjob.persistence.enabled }}
+              volumeMounts:
+                - name: output
+                  mountPath: {{ .Values.cronjob.outputDir }}
+              {{- end }}
+          {{- if .Values.cronjob.persistence.enabled }}
+          volumes:
+            - name: output
+              persistentVolumeClaim:
+                claimName: {{ include "apk-datasource.fullname" . }}-output
+          {{- end }}
+{{- end }}

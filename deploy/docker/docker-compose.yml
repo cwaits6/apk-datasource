@@ -1,0 +1,19 @@
+services:
+  apk-datasource:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile
+    command:
+      - serve
+      - --index-url=https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
+      - --index-url=https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz
+      - --port=3000
+      - --refresh-interval=4h
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s

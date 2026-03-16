@@ -1,0 +1,17 @@
+# Binaries
+/apk-index
+*.exe
+
+# Output
+output/
+
+# Go
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
