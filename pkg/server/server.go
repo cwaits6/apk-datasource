@@ -176,5 +176,7 @@ func (s *Server) handlePackage(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	enc := json.NewEncoder(w)
 	enc.SetIndent("", "  ")
-	_ = enc.Encode(pkg)
+	if err := enc.Encode(pkg); err != nil {
+		zerolog.Ctx(r.Context()).Err(err).Msg("failed to encode JSON response")
+	}
 }
