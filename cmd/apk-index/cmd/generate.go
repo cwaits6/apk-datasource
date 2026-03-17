@@ -80,6 +80,6 @@ func init() {
 	generateCmd.Flags().StringVar(&outputDir, "output-dir", "./output", "Output directory for generated JSON files")
 	generateCmd.Flags().StringVar(&sourceURL, "source-url", "", "Override source URL for all packages")
 	generateCmd.Flags().StringVar(&homepage, "homepage", "", "Override homepage for all packages")
-	generateCmd.MarkFlagRequired("index-url")
+	_ = generateCmd.MarkFlagRequired("index-url")
 	rootCmd.AddCommand(generateCmd)
 }

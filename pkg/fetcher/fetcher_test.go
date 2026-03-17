@@ -17,7 +17,7 @@ func fixtureServer(t *testing.T) *httptest.Server {
 	}
 	return httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/octet-stream")
-		w.Write(data)
+		_, _ = w.Write(data)
 	}))
 }
 
