@@ -177,6 +177,6 @@ func (s *Server) handlePackage(w http.ResponseWriter, r *http.Request) {
 	enc := json.NewEncoder(w)
 	enc.SetIndent("", "  ")
 	if err := enc.Encode(pkg); err != nil {
-		zerolog.Ctx(r.Context()).Err(err).Msg("failed to encode JSON response")
+		zerolog.Ctx(r.Context()).Error().Err(err).Msg("failed to encode JSON response")
 	}
 }
