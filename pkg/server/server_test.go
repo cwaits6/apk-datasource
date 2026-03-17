@@ -21,7 +21,7 @@ func newTestServer(t *testing.T) (*Server, *httptest.Server) {
 	}
 
 	upstream := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.Write(data)
+		_, _ = w.Write(data)
 	}))
 
 	srv := New(
