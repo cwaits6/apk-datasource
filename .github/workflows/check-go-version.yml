@@ -54,7 +54,7 @@ jobs:
           echo "go-$NEXT is available!"
 
           # Check if a PR already exists
-          EXISTING=$(gh pr list --search "chore: upgrade to go-$NEXT" --state open --json number --jq 'length')
+          EXISTING=$(gh pr list --search "feat: upgrade to go-$NEXT" --state open --json number --jq 'length')
           if [ "$EXISTING" -gt 0 ]; then
             echo "PR already exists, skipping"
             exit 0
@@ -72,16 +72,16 @@ jobs:
           sed -i "s/^go ${CURRENT}/go ${NEXT}/" go.mod
 
           # Create branch and PR
-          BRANCH="chore/upgrade-go-${NEXT}"
+          BRANCH="feat/upgrade-go-${NEXT}"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
           git add deploy/docker/Dockerfile go.mod
-          git commit -m "chore: upgrade to go-$NEXT"
+          git commit -m "feat: upgrade to go-$NEXT"
           git push origin "$BRANCH"
 
           gh pr create \
-            --title "chore: upgrade to go-$NEXT" \
+            --title "feat: upgrade to go-$NEXT" \
             --label "dependencies" \
             --body "$(cat <<EOF
           ## Summary
