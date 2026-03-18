@@ -120,7 +120,9 @@ func TestGenerate_RenovateJSONContract(t *testing.T) {
 
 	// Verify JSON has correct keys.
 	var raw map[string]interface{}
-	json.Unmarshal(data, &raw)
+	if err := json.Unmarshal(data, &raw); err != nil {
+		t.Fatalf("failed to unmarshal into raw map: %v", err)
+	}
 	if _, ok := raw["releases"]; !ok {
 		t.Error("JSON missing 'releases' key")
 	}

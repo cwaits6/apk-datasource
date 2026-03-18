@@ -38,6 +38,6 @@ func init() {
 	serveCmd.Flags().DurationVar(&refreshInterval, "refresh-interval", 4*time.Hour, "Interval between index refreshes")
 	serveCmd.Flags().StringVar(&serveSourceURL, "source-url", "", "Override source URL for all packages")
 	serveCmd.Flags().StringVar(&serveHomepage, "homepage", "", "Override homepage for all packages")
-	serveCmd.MarkFlagRequired("index-url")
+	_ = serveCmd.MarkFlagRequired("index-url")
 	rootCmd.AddCommand(serveCmd)
 }

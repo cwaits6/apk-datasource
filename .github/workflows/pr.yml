@@ -4,10 +4,17 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   dependency-review:
     uses: cwaits6/.github/.github/workflows/dependency-review.yml@main
   trivy:
     uses: cwaits6/.github/.github/workflows/trivy.yml@main
   semgrep:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     uses: cwaits6/.github/.github/workflows/semgrep.yml@main

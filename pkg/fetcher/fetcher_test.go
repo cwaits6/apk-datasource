@@ -15,9 +15,11 @@ func fixtureServer(t *testing.T) *httptest.Server {
 	if err != nil {
 		t.Fatalf("reading fixture: %v", err)
 	}
-	return httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+	return httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
 		w.Header().Set("Content-Type", "application/octet-stream")
-		w.Write(data)
+		if _, err := w.Write(data); err != nil {
+			t.Errorf("failed to write fixture data: %v", err)
+		}
 	}))
 }
 

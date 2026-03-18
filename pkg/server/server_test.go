@@ -20,8 +20,10 @@ func newTestServer(t *testing.T) (*Server, *httptest.Server) {
 		t.Fatalf("reading fixture: %v", err)
 	}
 
-	upstream := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.Write(data)
+	upstream := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		if _, err := w.Write(data); err != nil {
+			t.Errorf("failed to write fixture data: %v", err)
+		}
 	}))
 
 	srv := New(

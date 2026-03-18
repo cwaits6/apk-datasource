@@ -62,7 +62,7 @@ func (p *FilesystemPublisher) Publish(ctx context.Context, arch, packageName str
 	}
 
 	if err := os.Rename(tmp, target); err != nil {
-		os.Remove(tmp)
+		_ = os.Remove(tmp)
 		return fmt.Errorf("renaming %s to %s: %w", tmp, target, err)
 	}
 

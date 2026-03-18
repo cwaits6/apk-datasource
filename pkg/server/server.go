@@ -119,7 +119,9 @@ func (s *Server) Run(ctx context.Context) error {
 		shutdownCtx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 		defer cancel()
 		log.Info().Msg("shutting down server")
-		srv.Shutdown(shutdownCtx)
+		if err := srv.Shutdown(shutdownCtx); err != nil {
+			log.Error().Err(err).Msg("server shutdown error")
+		}
 	}()
 
 	log.Info().Int("port", s.port).Msg("starting server")
@@ -131,7 +133,7 @@ func (s *Server) Run(ctx context.Context) error {
 
 func (s *Server) handleHealthz(w http.ResponseWriter, _ *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte("ok"))
+	_, _ = w.Write([]byte("ok"))
 }
 
 func (s *Server) handleReadyz(w http.ResponseWriter, _ *http.Request) {
@@ -144,7 +146,7 @@ func (s *Server) handleReadyz(w http.ResponseWriter, _ *http.Request) {
 		return
 	}
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte("ok"))
+	_, _ = w.Write([]byte("ok"))
 }
 
 func (s *Server) handlePackage(w http.ResponseWriter, r *http.Request) {
@@ -174,5 +176,7 @@ func (s *Server) handlePackage(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	enc := json.NewEncoder(w)
 	enc.SetIndent("", "  ")
-	enc.Encode(pkg)
+	if err := enc.Encode(pkg); err != nil {
+		zerolog.Ctx(r.Context()).Error().Err(err).Msg("failed to encode JSON response")
+	}
 }
