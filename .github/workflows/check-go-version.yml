@@ -1,0 +1,95 @@
+name: Check Go Version
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - uses: actions/checkout@v6
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Check for newer Go minor version
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          # Extract current go minor version from Dockerfile
+          CURRENT=$(grep -oP 'go-\K[0-9]+\.[0-9]+' deploy/docker/Dockerfile | head -1)
+          if [ -z "$CURRENT" ]; then
+            echo "Could not detect Go version from Dockerfile"
+            exit 1
+          fi
+          echo "Current Go minor version: $CURRENT"
+
+          # Check the index for newer go-X.Y packages
+          MAJOR="${CURRENT%%.*}"
+          MINOR="${CURRENT#*.}"
+          NEXT_MINOR=$((MINOR + 1))
+          NEXT="$MAJOR.$NEXT_MINOR"
+
+          echo "Checking for go-$NEXT..."
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            "https://cwaits6.github.io/apk-datasource/x86_64/go-${NEXT}.json")
+
+          if [ "$STATUS" != "200" ]; then
+            echo "go-$NEXT not yet available (HTTP $STATUS)"
+            exit 0
+          fi
+
+          echo "go-$NEXT is available!"
+
+          # Check if a PR already exists
+          EXISTING=$(gh pr list --search "feat: upgrade to go-$NEXT" --state open --json number --jq 'length')
+          if [ "$EXISTING" -gt 0 ]; then
+            echo "PR already exists, skipping"
+            exit 0
+          fi
+
+          # Get the latest version
+          LATEST=$(curl -s "https://cwaits6.github.io/apk-datasource/x86_64/go-${NEXT}.json" \
+            | jq -r '.releases[0].version')
+          echo "Latest version: $LATEST"
+
+          # Update Dockerfile
+          sed -i "s/go-${CURRENT}=[^ ]*/go-${NEXT}=${LATEST}/" deploy/docker/Dockerfile
+
+          # Update go.mod
+          sed -i "s/^go ${CURRENT}/go ${NEXT}/" go.mod
+
+          # Create branch and PR
+          BRANCH="feat/upgrade-go-${NEXT}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add deploy/docker/Dockerfile go.mod
+          git commit -m "feat: upgrade to go-$NEXT"
+          git push origin "$BRANCH"
+
+          gh pr create \
+            --title "feat: upgrade to go-$NEXT" \
+            --label "dependencies" \
+            --body "$(cat <<EOF
+          ## Summary
+          - Upgrades Go from \`$CURRENT\` to \`$NEXT\` (Wolfi package \`go-${NEXT}=${LATEST}\`)
+          - Updates \`deploy/docker/Dockerfile\` and \`go.mod\`
+
+          ## Notes
+          - Run \`go mod tidy\` after checking out this branch to update \`go.sum\`
+          - Review the [Go $NEXT release notes](https://go.dev/doc/go${NEXT}) for breaking changes
+          EOF
+          )"

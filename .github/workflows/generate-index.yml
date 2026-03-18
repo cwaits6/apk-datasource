@@ -20,16 +20,10 @@ jobs:
       - name: Build CLI
         run: go build -o apk-index ./cmd/apk-index
 
-      - name: Generate x86_64 index
+      - name: Generate index
         run: |
           ./apk-index generate \
             --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
-            --output-dir ./output
-
-      - name: Generate aarch64 index
-        run: |
-          ./apk-index generate \
-            --index-url https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz \
             --output-dir ./output
 
       - name: Deploy to GitHub Pages

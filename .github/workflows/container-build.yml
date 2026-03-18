@@ -3,10 +3,13 @@ name: Container Build
 on:
   push:
     tags: ["v*"]
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
   packages: write
+  id-token: write
 
 jobs:
   build:
