@@ -16,3 +16,6 @@ jobs:
       go-binary-name: apk-index
       go-main-package: ./cmd/apk-index
       go-ldflags-prefix: github.com/cwaits6/apk-datasource/cmd/apk-index/cmd
+    secrets:
+      APP_ID: ${{ secrets.APP_ID }}
+      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
