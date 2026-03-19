@@ -11,6 +11,12 @@ spec:
       {{- include "apk-datasource.selectorLabels" . | nindent 6 }}
   template:
     metadata:
+      {{- if .Values.metrics.enabled }}
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: {{ .Values.serve.port | quote }}
+        prometheus.io/path: "/metrics"
+      {{- end }}
       labels:
         {{- include "apk-datasource.selectorLabels" . | nindent 8 }}
     spec:
@@ -43,6 +49,7 @@ spec:
             {{- if .Values.serve.homepage }}
             - --homepage={{ .Values.serve.homepage }}
             {{- end }}
+            - --metrics={{ .Values.metrics.enabled }}
           ports:
             - name: http
               containerPort: {{ .Values.serve.port }}

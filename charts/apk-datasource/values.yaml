@@ -13,6 +13,11 @@ serve:
   sourceURL: ""
   homepage: ""
 
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: false
+
 cronjob:
   enabled: false
   schedule: "0 */4 * * *"

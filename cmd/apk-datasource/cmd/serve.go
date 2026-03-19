@@ -2,10 +2,13 @@ package cmd
 
 import (
 	"context"
+	"fmt"
+	"net/http"
 	"os/signal"
 	"syscall"
 	"time"
 
+	"github.com/cwaits6/apk-datasource/pkg/metrics"
 	"github.com/cwaits6/apk-datasource/pkg/server"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
@@ -17,6 +20,7 @@ var (
 	refreshInterval time.Duration
 	serveSourceURL  string
 	serveHomepage   string
+	serveMetrics    bool
 )
 
 var serveCmd = &cobra.Command{
@@ -27,7 +31,23 @@ var serveCmd = &cobra.Command{
 		ctx, cancel := signal.NotifyContext(ctx, syscall.SIGINT, syscall.SIGTERM)
 		defer cancel()
 
-		srv := server.New(serveIndexURLs, servePort, refreshInterval, serveSourceURL, serveHomepage)
+		var (
+			m              *metrics.Metrics
+			metricsHandler http.Handler
+		)
+
+		if serveMetrics {
+			var err error
+			m, metricsHandler, err = metrics.Setup()
+			if err != nil {
+				return fmt.Errorf("setting up metrics: %w", err)
+			}
+			log.Info().Msg("metrics enabled on /metrics")
+		} else {
+			m = metrics.Noop()
+		}
+
+		srv := server.New(serveIndexURLs, servePort, refreshInterval, serveSourceURL, serveHomepage, m, metricsHandler)
 		return srv.Run(ctx)
 	},
 }
@@ -38,6 +58,7 @@ func init() {
 	serveCmd.Flags().DurationVar(&refreshInterval, "refresh-interval", 4*time.Hour, "Interval between index refreshes")
 	serveCmd.Flags().StringVar(&serveSourceURL, "source-url", "", "Override source URL for all packages")
 	serveCmd.Flags().StringVar(&serveHomepage, "homepage", "", "Override homepage for all packages")
+	serveCmd.Flags().BoolVar(&serveMetrics, "metrics", true, "Enable Prometheus metrics on /metrics")
 	_ = serveCmd.MarkFlagRequired("index-url")
 	rootCmd.AddCommand(serveCmd)
 }

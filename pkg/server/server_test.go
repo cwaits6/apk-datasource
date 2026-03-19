@@ -10,6 +10,7 @@ import (
 	"time"
 
 	"github.com/cwaits6/apk-datasource/pkg/generator"
+	"github.com/cwaits6/apk-datasource/pkg/metrics"
 )
 
 func newTestServer(t *testing.T) (*Server, *httptest.Server) {
@@ -31,6 +32,7 @@ func newTestServer(t *testing.T) (*Server, *httptest.Server) {
 		0, // port unused for handler tests
 		1*time.Hour,
 		"", "",
+		metrics.Noop(), nil,
 	)
 
 	ctx := context.Background()
