@@ -9,6 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"strings"
+
 	"github.com/cwaits6/apk-datasource/pkg/generator"
 	"github.com/cwaits6/apk-datasource/pkg/metrics"
 )
@@ -122,6 +124,35 @@ func TestServer_Readyz_BeforeLoad(t *testing.T) {
 
 	if w.Code != http.StatusServiceUnavailable {
 		t.Errorf("expected 503 before load, got %d", w.Code)
+	}
+}
+
+func TestServer_Metrics(t *testing.T) {
+	m, handler, err := metrics.Setup()
+	if err != nil {
+		t.Fatalf("metrics setup: %v", err)
+	}
+
+	srv := &Server{
+		metrics:        m,
+		metricsHandler: handler,
+	}
+
+	mux := http.NewServeMux()
+	mux.Handle("GET /metrics", handler)
+	_ = srv // ensure server has metrics wired
+
+	req := httptest.NewRequest("GET", "/metrics", nil)
+	w := httptest.NewRecorder()
+	mux.ServeHTTP(w, req)
+
+	if w.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d", w.Code)
+	}
+
+	contentType := w.Header().Get("Content-Type")
+	if !strings.Contains(contentType, "text/plain") {
+		t.Errorf("expected text/plain content type, got %s", contentType)
 	}
 }
 

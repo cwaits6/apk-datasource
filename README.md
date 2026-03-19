@@ -33,7 +33,7 @@ Renovate has no built-in datasource for APK packages, making it impossible to au
 
 A pre-built index for Wolfi x86_64 packages is published to GitHub Pages and refreshed every 4 hours:
 
-```
+```text
 https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
 ```
 
@@ -104,7 +104,7 @@ apk-datasource serve \
 docker compose -f deploy/docker/docker-compose.yml up -d
 ```
 
-The server runs on port 3000 with a 4-hour refresh interval. Edit `docker-compose.yml` to customize index URLs or other settings.
+The server runs on port 3000 with a 4-hour refresh interval. Edit `deploy/docker/docker-compose.yml` to customize index URLs or other settings.
 
 ### Helm
 

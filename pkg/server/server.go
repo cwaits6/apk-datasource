@@ -161,13 +161,28 @@ func (rw *responseWriter) WriteHeader(code int) {
 	rw.ResponseWriter.WriteHeader(code)
 }
 
+// normalizePath maps a request path to a bounded route template to avoid
+// high-cardinality metric labels from unique package names.
+func normalizePath(path string) string {
+	switch {
+	case path == "/healthz":
+		return "/healthz"
+	case path == "/readyz":
+		return "/readyz"
+	case path == "/metrics":
+		return "/metrics"
+	default:
+		return "/{arch}/{packageName}"
+	}
+}
+
 // metricsMiddleware records HTTP request metrics for every request.
 func (s *Server) metricsMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		start := time.Now()
 		rw := &responseWriter{ResponseWriter: w, statusCode: http.StatusOK}
 		next.ServeHTTP(rw, r)
-		s.metrics.RecordHTTPRequest(r.Context(), r.Method, r.URL.Path, rw.statusCode, time.Since(start))
+		s.metrics.RecordHTTPRequest(r.Context(), r.Method, normalizePath(r.URL.Path), rw.statusCode, time.Since(start))
 	})
 }
 

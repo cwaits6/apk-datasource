@@ -91,7 +91,7 @@ func Noop() *Metrics {
 
 // RecordHTTPRequest records an HTTP request's method, path, status code, and duration.
 func (m *Metrics) RecordHTTPRequest(ctx context.Context, method, path string, statusCode int, duration time.Duration) {
-	if m.httpRequestsTotal == nil {
+	if m == nil || m.httpRequestsTotal == nil {
 		return
 	}
 	attrs := metric.WithAttributes(
@@ -105,7 +105,7 @@ func (m *Metrics) RecordHTTPRequest(ctx context.Context, method, path string, st
 
 // RecordRefresh records a refresh attempt's status and duration.
 func (m *Metrics) RecordRefresh(ctx context.Context, status string, duration time.Duration, packageCount int64) {
-	if m.refreshTotal == nil {
+	if m == nil || m.refreshTotal == nil {
 		return
 	}
 	attrs := metric.WithAttributes(attrStatus.String(status))
@@ -116,7 +116,7 @@ func (m *Metrics) RecordRefresh(ctx context.Context, status string, duration tim
 
 // SetReady sets the server readiness gauge.
 func (m *Metrics) SetReady(ctx context.Context, ready bool) {
-	if m.serverReady == nil {
+	if m == nil || m.serverReady == nil {
 		return
 	}
 	var v int64
