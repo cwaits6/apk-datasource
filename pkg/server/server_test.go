@@ -6,10 +6,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"os"
+	"strings"
 	"testing"
 	"time"
-
-	"strings"
 
 	"github.com/cwaits6/apk-datasource/pkg/generator"
 	"github.com/cwaits6/apk-datasource/pkg/metrics"
@@ -139,8 +138,8 @@ func TestServer_Metrics(t *testing.T) {
 	}
 
 	mux := http.NewServeMux()
-	mux.Handle("GET /metrics", handler)
-	_ = srv // ensure server has metrics wired
+	mux.HandleFunc("GET /healthz", srv.handleHealthz)
+	mux.Handle("GET /metrics", srv.metricsHandler)
 
 	req := httptest.NewRequest("GET", "/metrics", nil)
 	w := httptest.NewRecorder()
