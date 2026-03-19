@@ -17,20 +17,10 @@ Renovate has no built-in datasource for APK packages, so `apk add curl=8.11.1-r0
 
 ## Renovate Setup
 
-Add this to your `renovate.json` and Renovate will start opening PRs to update pinned APK versions (e.g. `curl=8.15.0-r2` -> `curl=8.19.0-r1`):
-
-```json
-{ "extends": ["github>cwaits6/renovate-config"] }
-```
-
-That's it. This uses the [hosted index](#hosted-index) on GitHub Pages — no server to run.
-
-<details>
-<summary>Manual configuration (if you want full control)</summary>
+Add the following `customDatasources` and `customManagers` blocks to your existing `renovate.json`. Renovate will start opening PRs to update pinned APK versions (e.g. `curl=8.15.0-r2` -> `curl=8.19.0-r1`):
 
 ```json
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "customDatasources": {
     "apk-wolfi": {
       "defaultRegistryUrlTemplate": "https://cwaits6.github.io/apk-datasource/x86_64/{{packageName}}.json",
@@ -53,13 +43,11 @@ That's it. This uses the [hosted index](#hosted-index) on GitHub Pages — no se
 }
 ```
 
-For a self-hosted instance, replace the `defaultRegistryUrlTemplate` URL with your server address (e.g. `http://apk-datasource:3000/x86_64/{{packageName}}`).
-
-</details>
+The example above points at a [public hosted index](#hosted-index) — no server to run. If you'd prefer to self-host, see [Quick Start](#quick-start) and replace the `defaultRegistryUrlTemplate` URL with your server address (e.g. `https://apk.example.com/x86_64/{{packageName}}`).
 
 ## Hosted Index
 
-A pre-built index for Wolfi x86_64 packages is published to GitHub Pages and refreshed every 4 hours:
+A public index for Wolfi x86_64 packages is hosted on GitHub Pages and refreshed every 4 hours. You're welcome to point your Renovate config directly at it:
 
 ```text
 https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
