@@ -1,13 +1,13 @@
 # apk-datasource
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/cwaits6/apk-datasource?logo=go)
-![Release](https://img.shields.io/github/v/release/cwaits6/apk-datasource?logo=github)
-![CI](https://github.com/cwaits6/apk-datasource/actions/workflows/ci.yml/badge.svg)
-![Container Build](https://github.com/cwaits6/apk-datasource/actions/workflows/container-build.yml/badge.svg)
-![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/cwaits6/apk-datasource/badge)
-![GHCR](https://img.shields.io/badge/ghcr.io-cwaits6%2Fapk--datasource-blue?logo=github)
-![Docker Hub](https://img.shields.io/docker/v/cwaits6/apk-datasource?logo=docker&label=docker%20hub)
-![License](https://img.shields.io/github/license/cwaits6/apk-datasource)
+[![Release](https://img.shields.io/github/v/release/cwaits6/apk-datasource?logo=github)](https://github.com/cwaits6/apk-datasource/releases/latest)
+[![CI](https://github.com/cwaits6/apk-datasource/actions/workflows/ci.yml/badge.svg)](https://github.com/cwaits6/apk-datasource/actions/workflows/ci.yml)
+[![Container Build](https://github.com/cwaits6/apk-datasource/actions/workflows/container-build.yml/badge.svg)](https://github.com/cwaits6/apk-datasource/actions/workflows/container-build.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/cwaits6/apk-datasource/badge)](https://scorecard.dev/viewer/?uri=github.com/cwaits6/apk-datasource)
+[![GHCR](https://img.shields.io/badge/ghcr.io-cwaits6%2Fapk--datasource-blue?logo=github)](https://github.com/cwaits6/apk-datasource/pkgs/container/apk-datasource)
+[![Docker Hub](https://img.shields.io/docker/v/cwaits6/apk-datasource?logo=docker&label=docker%20hub)](https://hub.docker.com/r/cwaits6/apk-datasource)
+[![License](https://img.shields.io/github/license/cwaits6/apk-datasource)](https://github.com/cwaits6/apk-datasource/blob/main/LICENSE)
 
 Generate [Renovate-compatible custom datasource](https://docs.renovatebot.com/modules/datasource/custom/) files from Wolfi and Alpine APK package indexes.
 
