@@ -34,7 +34,7 @@ type Metrics struct {
 // Setup creates a Prometheus exporter, registers an OTel MeterProvider, and
 // returns the Metrics instruments plus an http.Handler for /metrics.
 func Setup() (*Metrics, http.Handler, error) {
-	exporter, err := prometheus.New()
+	exporter, err := prometheus.New(prometheus.WithoutScopeInfo())
 	if err != nil {
 		return nil, nil, err
 	}
@@ -52,7 +52,8 @@ func Setup() (*Metrics, http.Handler, error) {
 	}
 
 	m.httpRequestDuration, err = meter.Float64Histogram("http_request_duration_seconds",
-		metric.WithDescription("HTTP request duration in seconds"))
+		metric.WithDescription("HTTP request duration in seconds"),
+		metric.WithExplicitBucketBoundaries(0.001, 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10))
 	if err != nil {
 		return nil, nil, err
 	}
@@ -64,7 +65,8 @@ func Setup() (*Metrics, http.Handler, error) {
 	}
 
 	m.refreshDuration, err = meter.Float64Histogram("refresh_duration_seconds",
-		metric.WithDescription("Index refresh duration in seconds"))
+		metric.WithDescription("Index refresh duration in seconds"),
+		metric.WithExplicitBucketBoundaries(0.1, 0.5, 1, 2.5, 5, 10, 30, 60))
 	if err != nil {
 		return nil, nil, err
 	}
