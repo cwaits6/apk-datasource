@@ -164,12 +164,12 @@ func (rw *responseWriter) WriteHeader(code int) {
 // normalizePath maps a request path to a bounded route template to avoid
 // high-cardinality metric labels from unique package names.
 func normalizePath(path string) string {
-	switch {
-	case path == "/healthz":
+	switch path {
+	case "/healthz":
 		return "/healthz"
-	case path == "/readyz":
+	case "/readyz":
 		return "/readyz"
-	case path == "/metrics":
+	case "/metrics":
 		return "/metrics"
 	default:
 		return "/{arch}/{packageName}"
