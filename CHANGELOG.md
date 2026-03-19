@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/cwaits6/apk-datasource/compare/v1.0.0...v1.0.1) (2026-03-19)
+
+
+### Bug Fixes
+
+* trigger container build on release event instead of tag push ([#7](https://github.com/cwaits6/apk-datasource/issues/7)) ([00a9b7a](https://github.com/cwaits6/apk-datasource/commit/00a9b7a3c23ec3a0d81e559e734d3d775b184eb3))
+
 # [1.0.0](https://github.com/cwaits6/apk-datasource/compare/v0.1.0...v1.0.0) (2026-03-19)
 
 
