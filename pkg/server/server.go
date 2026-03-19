@@ -10,6 +10,7 @@ import (
 
 	"github.com/cwaits6/apk-datasource/pkg/fetcher"
 	"github.com/cwaits6/apk-datasource/pkg/generator"
+	"github.com/cwaits6/apk-datasource/pkg/metrics"
 	"github.com/rs/zerolog"
 )
 
@@ -31,6 +32,9 @@ type Server struct {
 	refreshInterval time.Duration
 	port            int
 
+	metrics        *metrics.Metrics
+	metricsHandler http.Handler
+
 	mu   sync.RWMutex
 	data map[string]map[string]*generator.RenovatePackage // arch -> name -> package
 
@@ -38,13 +42,15 @@ type Server struct {
 }
 
 // New creates a new Server instance.
-func New(indexURLs []string, port int, refreshInterval time.Duration, sourceURL, homepage string) *Server {
+func New(indexURLs []string, port int, refreshInterval time.Duration, sourceURL, homepage string, m *metrics.Metrics, metricsHandler http.Handler) *Server {
 	return &Server{
 		indexURLs:       indexURLs,
 		sourceURL:       sourceURL,
 		homepage:        homepage,
 		refreshInterval: refreshInterval,
 		port:            port,
+		metrics:        m,
+		metricsHandler: metricsHandler,
 	}
 }
 
@@ -53,11 +59,14 @@ func (s *Server) refresh(ctx context.Context) error {
 	log := zerolog.Ctx(ctx)
 	log.Info().Msg("refreshing package data")
 
+	start := time.Now()
 	sources, err := fetcher.FetchAll(ctx, s.indexURLs)
 	if err != nil {
+		s.metrics.RecordRefresh(ctx, "failure", time.Since(start), 0)
 		return fmt.Errorf("fetching indexes: %w", err)
 	}
 	if len(sources) == 0 {
+		s.metrics.RecordRefresh(ctx, "failure", time.Since(start), 0)
 		return fmt.Errorf("no indexes fetched successfully")
 	}
 
@@ -73,6 +82,9 @@ func (s *Server) refresh(ctx context.Context) error {
 		total += len(pkgs)
 	}
 	log.Info().Int("totalPackages", total).Int("architectures", len(data)).Msg("refresh complete")
+
+	s.metrics.RecordRefresh(ctx, "success", time.Since(start), int64(total))
+	s.metrics.SetReady(ctx, true)
 
 	return nil
 }
@@ -107,9 +119,16 @@ func (s *Server) Run(ctx context.Context) error {
 	mux.HandleFunc("GET /readyz", s.handleReadyz)
 	mux.HandleFunc("GET /{arch}/{packageName}", s.handlePackage)
 
+	if s.metricsHandler != nil {
+		mux.Handle("GET /metrics", s.metricsHandler)
+	}
+
+	var handler http.Handler = mux
+	handler = s.metricsMiddleware(handler)
+
 	srv := &http.Server{
 		Addr:              fmt.Sprintf(":%d", s.port),
-		Handler:           mux,
+		Handler:           handler,
 		ReadHeaderTimeout: 10 * time.Second,
 	}
 
@@ -129,6 +148,42 @@ func (s *Server) Run(ctx context.Context) error {
 		return fmt.Errorf("server error: %w", err)
 	}
 	return nil
+}
+
+// responseWriter wraps http.ResponseWriter to capture the status code.
+type responseWriter struct {
+	http.ResponseWriter
+	statusCode int
+}
+
+func (rw *responseWriter) WriteHeader(code int) {
+	rw.statusCode = code
+	rw.ResponseWriter.WriteHeader(code)
+}
+
+// normalizePath maps a request path to a bounded route template to avoid
+// high-cardinality metric labels from unique package names.
+func normalizePath(path string) string {
+	switch path {
+	case "/healthz":
+		return "/healthz"
+	case "/readyz":
+		return "/readyz"
+	case "/metrics":
+		return "/metrics"
+	default:
+		return "/{arch}/{packageName}"
+	}
+}
+
+// metricsMiddleware records HTTP request metrics for every request.
+func (s *Server) metricsMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		start := time.Now()
+		rw := &responseWriter{ResponseWriter: w, statusCode: http.StatusOK}
+		next.ServeHTTP(rw, r)
+		s.metrics.RecordHTTPRequest(r.Context(), r.Method, normalizePath(r.URL.Path), rw.statusCode, time.Since(start))
+	})
 }
 
 func (s *Server) handleHealthz(w http.ResponseWriter, _ *http.Request) {

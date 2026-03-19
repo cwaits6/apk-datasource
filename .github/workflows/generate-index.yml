@@ -18,11 +18,11 @@ jobs:
           go-version-file: go.mod
 
       - name: Build CLI
-        run: go build -o apk-index ./cmd/apk-index
+        run: go build -o apk-datasource ./cmd/apk-datasource
 
       - name: Generate index
         run: |
-          ./apk-index generate \
+          ./apk-datasource generate \
             --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
             --output-dir ./output
 

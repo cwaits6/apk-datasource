@@ -14,13 +14,13 @@ RUN go mod download
 COPY . .
 
 RUN CGO_ENABLED=0 go build \
-    -ldflags "-s -w -X github.com/cwaits6/apk-datasource/cmd/apk-index/cmd.version=${VERSION} -X github.com/cwaits6/apk-datasource/cmd/apk-index/cmd.commit=${COMMIT} -X github.com/cwaits6/apk-datasource/cmd/apk-index/cmd.date=${DATE}" \
-    -o /apk-index ./cmd/apk-index
+    -ldflags "-s -w -X github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd.version=${VERSION} -X github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd.commit=${COMMIT} -X github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd.date=${DATE}" \
+    -o /apk-datasource ./cmd/apk-datasource
 
 FROM cgr.dev/chainguard/wolfi-base:latest
 
-COPY --from=builder /apk-index /usr/local/bin/apk-index
+COPY --from=builder /apk-datasource /usr/local/bin/apk-datasource
 
 USER nonroot:nonroot
 
-ENTRYPOINT ["apk-index"]
+ENTRYPOINT ["apk-datasource"]

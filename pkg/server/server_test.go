@@ -6,10 +6,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"os"
+	"strings"
 	"testing"
 	"time"
 
 	"github.com/cwaits6/apk-datasource/pkg/generator"
+	"github.com/cwaits6/apk-datasource/pkg/metrics"
 )
 
 func newTestServer(t *testing.T) (*Server, *httptest.Server) {
@@ -31,6 +33,7 @@ func newTestServer(t *testing.T) (*Server, *httptest.Server) {
 		0, // port unused for handler tests
 		1*time.Hour,
 		"", "",
+		metrics.Noop(), nil,
 	)
 
 	ctx := context.Background()
@@ -120,6 +123,35 @@ func TestServer_Readyz_BeforeLoad(t *testing.T) {
 
 	if w.Code != http.StatusServiceUnavailable {
 		t.Errorf("expected 503 before load, got %d", w.Code)
+	}
+}
+
+func TestServer_Metrics(t *testing.T) {
+	m, handler, err := metrics.Setup()
+	if err != nil {
+		t.Fatalf("metrics setup: %v", err)
+	}
+
+	srv := &Server{
+		metrics:        m,
+		metricsHandler: handler,
+	}
+
+	mux := http.NewServeMux()
+	mux.HandleFunc("GET /healthz", srv.handleHealthz)
+	mux.Handle("GET /metrics", srv.metricsHandler)
+
+	req := httptest.NewRequest("GET", "/metrics", nil)
+	w := httptest.NewRecorder()
+	mux.ServeHTTP(w, req)
+
+	if w.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d", w.Code)
+	}
+
+	contentType := w.Header().Get("Content-Type")
+	if !strings.Contains(contentType, "text/plain") {
+		t.Errorf("expected text/plain content type, got %s", contentType)
 	}
 }
 

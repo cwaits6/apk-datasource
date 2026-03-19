@@ -10,9 +10,13 @@ serve:
   refreshInterval: "4h"
   indexURLs:
     - https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
-    - https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz
   sourceURL: ""
   homepage: ""
+
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: false
 
 cronjob:
   enabled: false

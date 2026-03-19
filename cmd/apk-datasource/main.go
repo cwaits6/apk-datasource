@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/cwaits6/apk-datasource/cmd/apk-index/cmd"
+	"github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd"
 )
 
 func main() {

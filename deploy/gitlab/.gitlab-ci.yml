@@ -9,9 +9,9 @@ build:
   stage: build
   image: golang:1.26-alpine
   script:
-    - go build -o apk-index ./cmd/apk-index
+    - go build -o apk-datasource ./cmd/apk-datasource
     - mkdir -p public
-    - ./apk-index generate
+    - ./apk-datasource generate
         --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
         --index-url https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz
         --output-dir ./public

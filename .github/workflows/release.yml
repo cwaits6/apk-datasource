@@ -13,9 +13,9 @@ jobs:
   release:
     uses: cwaits6/.github/.github/workflows/release.yml@main
     with:
-      go-binary-name: apk-index
-      go-main-package: ./cmd/apk-index
-      go-ldflags-prefix: github.com/cwaits6/apk-datasource/cmd/apk-index/cmd
+      go-binary-name: apk-datasource
+      go-main-package: ./cmd/apk-datasource
+      go-ldflags-prefix: github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}

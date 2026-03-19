@@ -1,5 +1,5 @@
 # Binaries
-/apk-index
+/apk-datasource
 *.exe
 
 # Output
