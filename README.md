@@ -11,41 +11,22 @@
   <a href="https://github.com/cwaits6/apk-datasource/blob/main/LICENSE"><img src="https://img.shields.io/github/license/cwaits6/apk-datasource" alt="License"></a>
 </p>
 
-Generate [Renovate-compatible custom datasource](https://docs.renovatebot.com/modules/datasource/custom/) files from Wolfi and Alpine APK package indexes.
+Auto-update pinned APK package versions in Dockerfiles using [Renovate](https://docs.renovatebot.com/). Supports Wolfi and Alpine package indexes.
 
-## Problem
-
-Renovate has no built-in datasource for APK packages, making it impossible to auto-update pinned versions like `apk add curl=8.11.1-r0` in Dockerfiles. See [renovatebot/renovate#5422](https://github.com/renovatebot/renovate/issues/5422).
-
-## How It Works
-
-`apk-datasource` fetches `APKINDEX.tar.gz` archives from Wolfi or Alpine repositories, parses the package metadata, and outputs one JSON file per package conforming to Renovate's custom datasource schema:
-
-```json
-{
-  "releases": [
-    { "version": "8.11.1-r0" }
-  ],
-  "sourceUrl": "https://github.com/wolfi-dev/os",
-  "homepage": "https://curl.se"
-}
-```
-
-## Hosted Index
-
-A pre-built index for Wolfi x86_64 packages is published to GitHub Pages and refreshed every 4 hours:
-
-```text
-https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
-```
-
-```bash
-curl -s https://cwaits6.github.io/apk-datasource/x86_64/curl.json | jq .
-```
+Renovate has no built-in datasource for APK packages, so `apk add curl=8.11.1-r0` in your Dockerfiles can't be auto-updated. This project solves that. See [renovatebot/renovate#5422](https://github.com/renovatebot/renovate/issues/5422).
 
 ## Renovate Setup
 
-Add the following to your `renovate.json` to auto-update pinned APK package versions in Dockerfiles:
+Add this to your `renovate.json` and Renovate will start opening PRs to update pinned APK versions (e.g. `curl=8.15.0-r2` -> `curl=8.19.0-r1`):
+
+```json
+{ "extends": ["github>cwaits6/renovate-config"] }
+```
+
+That's it. This uses the [hosted index](#hosted-index) on GitHub Pages — no server to run.
+
+<details>
+<summary>Manual configuration (if you want full control)</summary>
 
 ```json
 {
@@ -60,8 +41,10 @@ Add the following to your `renovate.json` to auto-update pinned APK package vers
     {
       "customType": "regex",
       "fileMatch": ["(^|/)Dockerfile[^/]*$"],
+      "matchStringsStrategy": "recursive",
       "matchStrings": [
-        "apk add[^\\n]*?\\s(?<depName>[a-zA-Z0-9][a-zA-Z0-9_.+\\-]*)=(?<currentValue>[^\\s]+)"
+        "apk\\s+add[^\\n\\\\]*(?:\\\\[^\\S\\n]*\\n[^\\n\\\\]*)*",
+        "(?<depName>[a-zA-Z0-9][a-zA-Z0-9._+-]*)=(?<currentValue>\\d+[^\\s\\\\]+)"
       ],
       "datasourceTemplate": "custom.apk-wolfi",
       "versioningTemplate": "loose"
@@ -70,9 +53,21 @@ Add the following to your `renovate.json` to auto-update pinned APK package vers
 }
 ```
 
-For a self-hosted instance, replace the `defaultRegistryUrlTemplate` URL with your server address.
+For a self-hosted instance, replace the `defaultRegistryUrlTemplate` URL with your server address (e.g. `http://apk-datasource:3000/x86_64/{{packageName}}`).
 
-Or extend the shared config: `{ "extends": ["github>cwaits6/renovate-config"] }`.
+</details>
+
+## Hosted Index
+
+A pre-built index for Wolfi x86_64 packages is published to GitHub Pages and refreshed every 4 hours:
+
+```text
+https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
+```
+
+```bash
+curl -s https://cwaits6.github.io/apk-datasource/x86_64/curl.json | jq .
+```
 
 ## Quick Start
 
@@ -175,6 +170,22 @@ scrape_configs:
 ```
 
 The Helm chart adds `prometheus.io/*` annotations automatically when `metrics.enabled` is `true`.
+
+## How It Works
+
+`apk-datasource` fetches `APKINDEX.tar.gz` archives from Wolfi or Alpine repositories, parses the package metadata, and outputs one JSON file per package conforming to Renovate's [custom datasource schema](https://docs.renovatebot.com/modules/datasource/custom/):
+
+```json
+{
+  "releases": [
+    { "version": "8.11.1-r0" }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os",
+  "homepage": "https://curl.se"
+}
+```
+
+Two modes: `generate` writes static JSON files to disk, `serve` runs an HTTP server with periodic refresh.
 
 ## Contributing
 
