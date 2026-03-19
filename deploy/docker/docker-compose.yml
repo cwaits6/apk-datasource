@@ -1,12 +1,14 @@
 services:
   apk-datasource:
-    build:
-      context: ../..
-      dockerfile: deploy/docker/Dockerfile
+    image: ghcr.io/cwaits6/apk-datasource:latest
+    # To build locally instead of pulling the published image, comment out
+    # the `image:` line above and uncomment the `build:` block below:
+    # build:
+    #   context: ../..
+    #   dockerfile: deploy/docker/Dockerfile
     command:
       - serve
       - --index-url=https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
-      - --index-url=https://packages.wolfi.dev/os/aarch64/APKINDEX.tar.gz
       - --port=3000
       - --refresh-interval=4h
     ports:
