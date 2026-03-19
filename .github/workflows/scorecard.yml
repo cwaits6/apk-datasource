@@ -6,12 +6,11 @@ on:
   schedule:
     - cron: "0 6 * * 1"
 
-permissions: read-all
-
 jobs:
   scorecard:
     permissions:
       contents: read
       security-events: write
       id-token: write
+      actions: read
     uses: cwaits6/.github/.github/workflows/scorecard.yml@main
