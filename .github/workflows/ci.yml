@@ -42,4 +42,4 @@ jobs:
         with:
           go-version-file: go.mod
       - name: Build
-        run: go build -o apk-index ./cmd/apk-index
+        run: go build -o apk-datasource ./cmd/apk-datasource

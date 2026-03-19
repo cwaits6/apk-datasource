@@ -15,7 +15,7 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "apk-index",
+	Use:   "apk-datasource",
 	Short: "Generate Renovate-compatible datasource files from APK indexes",
 	PersistentPreRun: func(cmd *cobra.Command, args []string) {
 		level, err := zerolog.ParseLevel(logLevel)
