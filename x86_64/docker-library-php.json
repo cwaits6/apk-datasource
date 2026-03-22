@@ -1,0 +1,149 @@
+{
+  "releases": [
+    {
+      "version": "0_git20260312-r0"
+    },
+    {
+      "version": "0_git20260227-r0"
+    },
+    {
+      "version": "0_git20260213-r0"
+    },
+    {
+      "version": "0_git20260212-r0"
+    },
+    {
+      "version": "0_git20260130-r1"
+    },
+    {
+      "version": "0_git20260130-r0"
+    },
+    {
+      "version": "0_git20260121-r0"
+    },
+    {
+      "version": "0_git20260117-r0"
+    },
+    {
+      "version": "0_git20260116-r0"
+    },
+    {
+      "version": "0_git20260115-r0"
+    },
+    {
+      "version": "0_git20260110-r0"
+    },
+    {
+      "version": "0_git20260109-r0"
+    },
+    {
+      "version": "0_git20260106-r0"
+    },
+    {
+      "version": "0_git20260105-r0"
+    },
+    {
+      "version": "0_git20260102-r1"
+    },
+    {
+      "version": "0_git20260102-r0"
+    },
+    {
+      "version": "0_git20251219-r1"
+    },
+    {
+      "version": "0_git20251219-r0"
+    },
+    {
+      "version": "0_git20251218-r0"
+    },
+    {
+      "version": "0_git20251212-r0"
+    },
+    {
+      "version": "0_git20251205-r1"
+    },
+    {
+      "version": "0_git20251205-r0"
+    },
+    {
+      "version": "0_git20251204-r0"
+    },
+    {
+      "version": "0_git20251120-r1"
+    },
+    {
+      "version": "0_git20251120-r0"
+    },
+    {
+      "version": "0_git20251114-r0"
+    },
+    {
+      "version": "0_git20251111-r0"
+    },
+    {
+      "version": "0_git20251110-r0"
+    },
+    {
+      "version": "0_git20251013-r0"
+    },
+    {
+      "version": "0_git20250929-r0"
+    },
+    {
+      "version": "0_git20250922-r0"
+    },
+    {
+      "version": "0_git20250915-r0"
+    },
+    {
+      "version": "0_git20250908-r0"
+    },
+    {
+      "version": "0_git20250825-r0"
+    },
+    {
+      "version": "0_git20250818-r0"
+    },
+    {
+      "version": "0_git20250811-r0"
+    },
+    {
+      "version": "0_git20250728-r0"
+    },
+    {
+      "version": "0_git20250721-r0"
+    },
+    {
+      "version": "0_git20250714-r1"
+    },
+    {
+      "version": "0_git20250714-r0"
+    },
+    {
+      "version": "0_git20250707-r0"
+    },
+    {
+      "version": "0_git20250630-r0"
+    },
+    {
+      "version": "0_git20250623-r0"
+    },
+    {
+      "version": "0_git20250616-r0"
+    },
+    {
+      "version": "0_git20250609-r0"
+    },
+    {
+      "version": "0_git20250602-r0"
+    },
+    {
+      "version": "0_git20250526-r0"
+    },
+    {
+      "version": "0_git20250522-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

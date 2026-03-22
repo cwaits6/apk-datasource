@@ -1,0 +1,20 @@
+{
+  "releases": [
+    {
+      "version": "02.20-r44"
+    },
+    {
+      "version": "02.20-r43"
+    },
+    {
+      "version": "02.20-r42"
+    },
+    {
+      "version": "02.20-r41"
+    },
+    {
+      "version": "02.20-r40"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
