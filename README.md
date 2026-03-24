@@ -77,7 +77,7 @@ apk-datasource generate --output-dir ./output
 apk-datasource serve
 ```
 
-Both commands default to the Chainguard Wolfi index (`apk.cgr.dev/chainguard/x86_64`). Override with `--index-url` for other indexes (e.g. Alpine).
+Both commands default to the Chainguard Wolfi index (`https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz`). Override with `--index-url` for other indexes (e.g. Alpine).
 
 ## Deployment
 

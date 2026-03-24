@@ -21,10 +21,7 @@ jobs:
         run: go build -o apk-datasource ./cmd/apk-datasource
 
       - name: Generate index
-        run: |
-          ./apk-datasource generate \
-            --index-url https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz \
-            --output-dir ./output
+        run: ./apk-datasource generate --output-dir ./output
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
