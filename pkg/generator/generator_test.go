@@ -50,6 +50,7 @@ func TestGenerate_SourceURLDetection(t *testing.T) {
 		expected string
 	}{
 		{"wolfi", "https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz", "https://github.com/wolfi-dev/os"},
+		{"chainguard", "https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz", "https://github.com/wolfi-dev/os"},
 		{"alpine", "https://dl-cdn.alpinelinux.org/alpine/v3.19/main/x86_64/APKINDEX.tar.gz", "https://gitlab.alpinelinux.org/alpine/aports"},
 		{"unknown", "https://example.com/APKINDEX.tar.gz", ""},
 	}

@@ -8,7 +8,6 @@ services:
     #   dockerfile: deploy/docker/Dockerfile
     command:
       - serve
-      - --index-url=https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
       - --port=3000
       - --refresh-interval=4h
     ports:

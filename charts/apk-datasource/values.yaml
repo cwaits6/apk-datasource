@@ -9,7 +9,7 @@ serve:
   port: 3000
   refreshInterval: "4h"
   indexURLs:
-    - https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
+    - https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz
   sourceURL: ""
   homepage: ""
 

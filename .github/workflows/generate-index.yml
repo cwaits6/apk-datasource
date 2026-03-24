@@ -23,7 +23,7 @@ jobs:
       - name: Generate index
         run: |
           ./apk-datasource generate \
-            --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
+            --index-url https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz \
             --output-dir ./output
 
       - name: Deploy to GitHub Pages

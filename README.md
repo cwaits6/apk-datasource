@@ -68,18 +68,16 @@ go install github.com/cwaits6/apk-datasource/cmd/apk-datasource@latest
 ### Generate static files
 
 ```bash
-apk-datasource generate \
-  --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
-  --output-dir ./output
+apk-datasource generate --output-dir ./output
 ```
 
 ### Serve over HTTP
 
 ```bash
-apk-datasource serve \
-  --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
-  --port 3000
+apk-datasource serve
 ```
+
+Both commands default to the Chainguard Wolfi index (`apk.cgr.dev/chainguard/x86_64`). Override with `--index-url` for other indexes (e.g. Alpine).
 
 ## Deployment
 
@@ -89,13 +87,12 @@ apk-datasource serve \
 docker compose -f deploy/docker/docker-compose.yml up -d
 ```
 
-The server runs on port 3000 with a 4-hour refresh interval. Edit `deploy/docker/docker-compose.yml` to customize index URLs or other settings.
+The server runs on port 3000 with a 4-hour refresh interval. Edit `deploy/docker/docker-compose.yml` to customize settings.
 
 ### Helm
 
 ```bash
-helm install apk-datasource ./charts/apk-datasource \
-  --set serve.indexURLs[0]=https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
+helm install apk-datasource ./charts/apk-datasource
 ```
 
 See [`charts/apk-datasource/`](charts/apk-datasource/) for all configurable values.
@@ -119,7 +116,7 @@ See [`charts/apk-datasource/`](charts/apk-datasource/) for all configurable valu
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--index-url` | *(required)* | APKINDEX.tar.gz URL (repeatable) |
+| `--index-url` | Chainguard Wolfi x86_64 | APKINDEX.tar.gz URL (repeatable) |
 | `--output-dir` | `./output` | Output directory |
 | `--source-url` | *(auto-detect)* | Override source URL |
 | `--homepage` | *(from index)* | Override homepage |
@@ -128,7 +125,7 @@ See [`charts/apk-datasource/`](charts/apk-datasource/) for all configurable valu
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--index-url` | *(required)* | APKINDEX.tar.gz URL (repeatable) |
+| `--index-url` | Chainguard Wolfi x86_64 | APKINDEX.tar.gz URL (repeatable) |
 | `--port` | `3000` | HTTP port |
 | `--refresh-interval` | `4h` | Refresh interval |
 | `--source-url` | *(auto-detect)* | Override source URL |

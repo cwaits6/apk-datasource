@@ -22,7 +22,8 @@ type RenovatePackage struct {
 // detectSourceURL infers a source repository URL from the APKINDEX URL.
 func detectSourceURL(indexURL string) string {
 	switch {
-	case strings.Contains(indexURL, "packages.wolfi.dev"):
+	case strings.Contains(indexURL, "packages.wolfi.dev"),
+		strings.Contains(indexURL, "apk.cgr.dev/chainguard"):
 		return "https://github.com/wolfi-dev/os"
 	case strings.Contains(indexURL, "dl-cdn.alpinelinux.org"):
 		return "https://gitlab.alpinelinux.org/alpine/aports"

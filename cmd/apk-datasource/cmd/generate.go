@@ -24,10 +24,6 @@ var generateCmd = &cobra.Command{
 	Use:   "generate",
 	Short: "Fetch APK indexes and generate Renovate-compatible JSON files",
 	RunE: func(cmd *cobra.Command, args []string) error {
-		if len(indexURLs) == 0 {
-			return fmt.Errorf("at least one --index-url is required")
-		}
-
 		ctx := log.Logger.WithContext(context.Background())
 		start := time.Now()
 
@@ -76,10 +72,9 @@ var generateCmd = &cobra.Command{
 }
 
 func init() {
-	generateCmd.Flags().StringSliceVar(&indexURLs, "index-url", nil, "APKINDEX.tar.gz URL(s) to fetch (repeatable)")
+	generateCmd.Flags().StringSliceVar(&indexURLs, "index-url", defaultIndexURLs, "APKINDEX.tar.gz URL(s) to fetch (repeatable)")
 	generateCmd.Flags().StringVar(&outputDir, "output-dir", "./output", "Output directory for generated JSON files")
 	generateCmd.Flags().StringVar(&sourceURL, "source-url", "", "Override source URL for all packages")
 	generateCmd.Flags().StringVar(&homepage, "homepage", "", "Override homepage for all packages")
-	_ = generateCmd.MarkFlagRequired("index-url")
 	rootCmd.AddCommand(generateCmd)
 }

@@ -53,12 +53,11 @@ var serveCmd = &cobra.Command{
 }
 
 func init() {
-	serveCmd.Flags().StringSliceVar(&serveIndexURLs, "index-url", nil, "APKINDEX.tar.gz URL(s) to fetch (repeatable)")
+	serveCmd.Flags().StringSliceVar(&serveIndexURLs, "index-url", defaultIndexURLs, "APKINDEX.tar.gz URL(s) to fetch (repeatable)")
 	serveCmd.Flags().IntVar(&servePort, "port", 3000, "HTTP port to listen on")
 	serveCmd.Flags().DurationVar(&refreshInterval, "refresh-interval", 4*time.Hour, "Interval between index refreshes")
 	serveCmd.Flags().StringVar(&serveSourceURL, "source-url", "", "Override source URL for all packages")
 	serveCmd.Flags().StringVar(&serveHomepage, "homepage", "", "Override homepage for all packages")
 	serveCmd.Flags().BoolVar(&serveMetrics, "metrics", true, "Enable Prometheus metrics on /metrics")
-	_ = serveCmd.MarkFlagRequired("index-url")
 	rootCmd.AddCommand(serveCmd)
 }
