@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/cwaits6/apk-datasource/compare/v1.0.1...v1.1.0) (2026-03-25)
+
+
+### Features
+
+* default to Chainguard Wolfi index and make --index-url optional ([#12](https://github.com/cwaits6/apk-datasource/issues/12)) ([1ff4ee4](https://github.com/cwaits6/apk-datasource/commit/1ff4ee4a372b873b9ec2cbed76ebf106e431b94a))
+
 ## [1.0.1](https://github.com/cwaits6/apk-datasource/compare/v1.0.0...v1.0.1) (2026-03-19)
 
 
