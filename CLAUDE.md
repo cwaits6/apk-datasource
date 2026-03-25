@@ -81,4 +81,5 @@ Shared workflows live in `cwaits6/.github` repo.
 
 - Wolfi uses dash for Go package names: `go-1.26` not `go~1.26`
 - Dockerfile pins with `apk add go-1.26=<version>` — see `deploy/docker/Dockerfile` for the current exact pin
-- APKINDEX URL pattern: `https://packages.wolfi.dev/os/{arch}/APKINDEX.tar.gz`
+- Default APKINDEX URL: `https://apk.cgr.dev/chainguard/{arch}/APKINDEX.tar.gz` (Chainguard's Wolfi mirror, used by `cgr.dev/chainguard/wolfi-base`)
+- Wolfi OS upstream: `https://packages.wolfi.dev/os/{arch}/APKINDEX.tar.gz` (identical packages/versions)

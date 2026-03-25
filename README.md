@@ -47,7 +47,7 @@ The example above points at a [public hosted index](#hosted-index) — no server
 
 ## Hosted Index
 
-A public index for Wolfi x86_64 packages is hosted on GitHub Pages and refreshed every 4 hours. You're welcome to point your Renovate config directly at it:
+A public index for Wolfi x86_64 and aarch64 packages is hosted on GitHub Pages and refreshed every 4 hours. You're welcome to point your Renovate config directly at it:
 
 ```text
 https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
@@ -61,6 +61,8 @@ curl -s https://cwaits6.github.io/apk-datasource/x86_64/curl.json | jq .
 
 ### Install
 
+Download a pre-built binary from [GitHub Releases](https://github.com/cwaits6/apk-datasource/releases/latest), or install from source:
+
 ```bash
 go install github.com/cwaits6/apk-datasource/cmd/apk-datasource@latest
 ```
@@ -68,18 +70,16 @@ go install github.com/cwaits6/apk-datasource/cmd/apk-datasource@latest
 ### Generate static files
 
 ```bash
-apk-datasource generate \
-  --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
-  --output-dir ./output
+apk-datasource generate --output-dir ./output
 ```
 
 ### Serve over HTTP
 
 ```bash
-apk-datasource serve \
-  --index-url https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz \
-  --port 3000
+apk-datasource serve
 ```
+
+Both commands default to the Chainguard Wolfi index for x86_64 and aarch64. Override with `--index-url` for other indexes (see [Available Indexes](#available-indexes)).
 
 ## Deployment
 
@@ -89,13 +89,12 @@ apk-datasource serve \
 docker compose -f deploy/docker/docker-compose.yml up -d
 ```
 
-The server runs on port 3000 with a 4-hour refresh interval. Edit `deploy/docker/docker-compose.yml` to customize index URLs or other settings.
+The server runs on port 3000 with a 4-hour refresh interval. Edit `deploy/docker/docker-compose.yml` to customize settings.
 
 ### Helm
 
 ```bash
-helm install apk-datasource ./charts/apk-datasource \
-  --set serve.indexURLs[0]=https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz
+helm install apk-datasource ./charts/apk-datasource
 ```
 
 See [`charts/apk-datasource/`](charts/apk-datasource/) for all configurable values.
@@ -119,7 +118,7 @@ See [`charts/apk-datasource/`](charts/apk-datasource/) for all configurable valu
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--index-url` | *(required)* | APKINDEX.tar.gz URL (repeatable) |
+| `--index-url` | Chainguard Wolfi x86_64 + aarch64 | APKINDEX.tar.gz URL (repeatable) |
 | `--output-dir` | `./output` | Output directory |
 | `--source-url` | *(auto-detect)* | Override source URL |
 | `--homepage` | *(from index)* | Override homepage |
@@ -128,7 +127,7 @@ See [`charts/apk-datasource/`](charts/apk-datasource/) for all configurable valu
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--index-url` | *(required)* | APKINDEX.tar.gz URL (repeatable) |
+| `--index-url` | Chainguard Wolfi x86_64 + aarch64 | APKINDEX.tar.gz URL (repeatable) |
 | `--port` | `3000` | HTTP port |
 | `--refresh-interval` | `4h` | Refresh interval |
 | `--source-url` | *(auto-detect)* | Override source URL |
@@ -158,6 +157,38 @@ scrape_configs:
 ```
 
 The Helm chart adds `prometheus.io/*` annotations automatically when `metrics.enabled` is `true`.
+
+## Available Indexes
+
+The `--index-url` flag accepts any `APKINDEX.tar.gz` URL. Below are the most common public indexes:
+
+### Chainguard Wolfi (default)
+
+| Architecture | URL |
+|--------------|-----|
+| x86_64 | `https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz` |
+| aarch64 | `https://apk.cgr.dev/chainguard/aarch64/APKINDEX.tar.gz` |
+
+### Alpine Linux
+
+Replace `v3.23` with your target version, or use `edge` for rolling.
+
+| Repository | Architecture | URL |
+|------------|--------------|-----|
+| main | x86_64 | `https://dl-cdn.alpinelinux.org/alpine/v3.23/main/x86_64/APKINDEX.tar.gz` |
+| main | aarch64 | `https://dl-cdn.alpinelinux.org/alpine/v3.23/main/aarch64/APKINDEX.tar.gz` |
+| community | x86_64 | `https://dl-cdn.alpinelinux.org/alpine/v3.23/community/x86_64/APKINDEX.tar.gz` |
+| community | aarch64 | `https://dl-cdn.alpinelinux.org/alpine/v3.23/community/aarch64/APKINDEX.tar.gz` |
+
+Alpine also supports `armv7`, `ppc64le`, `s390x`, and `riscv64` architectures.
+
+**Example — serve Alpine main + community:**
+
+```bash
+apk-datasource serve \
+  --index-url https://dl-cdn.alpinelinux.org/alpine/v3.23/main/x86_64/APKINDEX.tar.gz \
+  --index-url https://dl-cdn.alpinelinux.org/alpine/v3.23/community/x86_64/APKINDEX.tar.gz
+```
 
 ## How It Works
 
