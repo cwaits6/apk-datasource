@@ -1,0 +1,12 @@
+name: GoReleaser
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  goreleaser:
+    uses: cwaits6/.github/.github/workflows/goreleaser.yml@main

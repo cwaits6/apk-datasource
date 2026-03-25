@@ -1,0 +1,30 @@
+version: 2
+
+project_name: apk-datasource
+
+builds:
+  - main: ./cmd/apk-datasource
+    binary: apk-datasource
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    ldflags:
+      - -s -w
+      - -X github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd.version={{ .Version }}
+      - -X github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd.commit={{ .ShortCommit }}
+      - -X github.com/cwaits6/apk-datasource/cmd/apk-datasource/cmd.date={{ .Date }}
+
+archives:
+  - format: tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+
+checksum:
+  name_template: checksums.txt
+
+changelog:
+  disable: true

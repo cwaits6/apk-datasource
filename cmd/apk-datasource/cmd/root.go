@@ -11,6 +11,7 @@ import (
 
 var defaultIndexURLs = []string{
 	"https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz",
+	"https://apk.cgr.dev/chainguard/aarch64/APKINDEX.tar.gz",
 }
 
 var (

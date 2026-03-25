@@ -8,8 +8,7 @@ image:
 serve:
   port: 3000
   refreshInterval: "4h"
-  indexURLs:
-    - https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz
+  indexURLs: []
   sourceURL: ""
   homepage: ""
 
