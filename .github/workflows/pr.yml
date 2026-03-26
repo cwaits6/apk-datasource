@@ -5,14 +5,21 @@ on:
     branches: [main]
 
 permissions:
-  contents: write
-  issues: write
-  pull-requests: write
+  contents: read
 
 jobs:
   dependency-review:
+    permissions:
+      contents: read
+      pull-requests: read
     uses: cwaits6/.github/.github/workflows/dependency-review.yml@main
   trivy:
+    permissions:
+      contents: read
     uses: cwaits6/.github/.github/workflows/trivy.yml@main
   semgrep:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     uses: cwaits6/.github/.github/workflows/semgrep.yml@main
