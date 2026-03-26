@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build:
-    uses: cwaits6/.github/.github/workflows/container-build.yml@main
+    uses: krypsis-io/.github/.github/workflows/container-build.yml@main
     with:
       dockerfile: deploy/docker/Dockerfile
       platforms: linux/amd64,linux/arm64
