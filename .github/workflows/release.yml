@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   release:
-    uses: cwaits6/.github/.github/workflows/release.yml@main
+    uses: krypsis-io/.github/.github/workflows/release.yml@main
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
