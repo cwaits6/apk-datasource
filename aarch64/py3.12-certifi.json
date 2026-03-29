@@ -1,0 +1,41 @@
+{
+  "releases": [
+    {
+      "version": "2026.02.25-r0"
+    },
+    {
+      "version": "2026.01.04-r1"
+    },
+    {
+      "version": "2026.01.04-r0"
+    },
+    {
+      "version": "2025.11.12-r0"
+    },
+    {
+      "version": "2025.10.05-r0"
+    },
+    {
+      "version": "2025.08.03-r0"
+    },
+    {
+      "version": "2025.07.14-r2"
+    },
+    {
+      "version": "2025.07.14-r1"
+    },
+    {
+      "version": "2025.07.14-r0"
+    },
+    {
+      "version": "2025.07.09-r0"
+    },
+    {
+      "version": "2025.06.15-r0"
+    },
+    {
+      "version": "2025.04.26-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

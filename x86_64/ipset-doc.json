@@ -1,0 +1,23 @@
+{
+  "releases": [
+    {
+      "version": "7.24-r3"
+    },
+    {
+      "version": "7.24-r2"
+    },
+    {
+      "version": "7.24-r1"
+    },
+    {
+      "version": "7.24-r0"
+    },
+    {
+      "version": "7.23-r0"
+    },
+    {
+      "version": "7.22-r40"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

@@ -1,0 +1,140 @@
+{
+  "releases": [
+    {
+      "version": "149.0-r0"
+    },
+    {
+      "version": "148.0.2-r0"
+    },
+    {
+      "version": "148.0-r1"
+    },
+    {
+      "version": "148.0-r0"
+    },
+    {
+      "version": "147.0.3-r0"
+    },
+    {
+      "version": "147.0.2-r2"
+    },
+    {
+      "version": "147.0.2-r1"
+    },
+    {
+      "version": "147.0.2-r0"
+    },
+    {
+      "version": "147.0.1-r0"
+    },
+    {
+      "version": "147.0-r0"
+    },
+    {
+      "version": "146.0.1-r0"
+    },
+    {
+      "version": "146.0-r0"
+    },
+    {
+      "version": "145.0.2-r0"
+    },
+    {
+      "version": "145.0.1-r0"
+    },
+    {
+      "version": "145.0-r0"
+    },
+    {
+      "version": "144.0.2-r0"
+    },
+    {
+      "version": "144.0-r0"
+    },
+    {
+      "version": "143.0.4-r0"
+    },
+    {
+      "version": "143.0.3-r0"
+    },
+    {
+      "version": "143.0.1-r0"
+    },
+    {
+      "version": "143.0-r0"
+    },
+    {
+      "version": "142.0.1-r0"
+    },
+    {
+      "version": "142.0-r0"
+    },
+    {
+      "version": "141.0.3-r0"
+    },
+    {
+      "version": "141.0-r0"
+    },
+    {
+      "version": "140.0.4-r2"
+    },
+    {
+      "version": "140.0.4-r1"
+    },
+    {
+      "version": "140.0.4-r0"
+    },
+    {
+      "version": "140.0.2-r0"
+    },
+    {
+      "version": "140.0.1-r0"
+    },
+    {
+      "version": "140.0-r0"
+    },
+    {
+      "version": "139.0.4-r0"
+    },
+    {
+      "version": "139.0.1-r0"
+    },
+    {
+      "version": "139.0-r0"
+    },
+    {
+      "version": "138.0.4-r1"
+    },
+    {
+      "version": "138.0.4-r0"
+    },
+    {
+      "version": "138.0.3-r0"
+    },
+    {
+      "version": "138.0.1-r0"
+    },
+    {
+      "version": "138.0-r0"
+    },
+    {
+      "version": "137.0.2-r0"
+    },
+    {
+      "version": "137.0.1-r0"
+    },
+    {
+      "version": "137.0-r0"
+    },
+    {
+      "version": "136.0.4-r0"
+    },
+    {
+      "version": "136.0.3-r0"
+    },
+    {
+      "version": "136.0.2-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

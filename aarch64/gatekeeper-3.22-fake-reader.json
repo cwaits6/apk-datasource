@@ -1,0 +1,8 @@
+{
+  "releases": [
+    {
+      "version": "3.22.0-r2"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

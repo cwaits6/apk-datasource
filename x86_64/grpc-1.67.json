@@ -1,0 +1,29 @@
+{
+  "releases": [
+    {
+      "version": "1.67.1-r17"
+    },
+    {
+      "version": "1.67.1-r16"
+    },
+    {
+      "version": "1.67.1-r15"
+    },
+    {
+      "version": "1.67.1-r14"
+    },
+    {
+      "version": "1.67.1-r13"
+    },
+    {
+      "version": "1.67.1-r12"
+    },
+    {
+      "version": "1.67.1-r11"
+    },
+    {
+      "version": "1.67.1-r10"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

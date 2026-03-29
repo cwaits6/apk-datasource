@@ -1,0 +1,27 @@
+{
+  "releases": [
+    {
+      "version": "2.1.0-r0"
+    },
+    {
+      "version": "2.0.0-r2"
+    },
+    {
+      "version": "2.0.0-r1"
+    },
+    {
+      "version": "2.0.0-r0"
+    },
+    {
+      "version": "1.14.6-r4"
+    },
+    {
+      "version": "1.14.6-r3"
+    },
+    {
+      "version": "1.14.6-r2"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os",
+  "homepage": "https://www.hdfgroup.org/solutions/hdf5/"
+}

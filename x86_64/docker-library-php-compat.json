@@ -1,0 +1,461 @@
+{
+  "releases": [
+    {
+      "version": "0_git20260329-r9"
+    },
+    {
+      "version": "0_git20260329-r8"
+    },
+    {
+      "version": "0_git20260329-r7"
+    },
+    {
+      "version": "0_git20260329-r6"
+    },
+    {
+      "version": "0_git20260329-r5"
+    },
+    {
+      "version": "0_git20260329-r4"
+    },
+    {
+      "version": "0_git20260329-r32"
+    },
+    {
+      "version": "0_git20260329-r31"
+    },
+    {
+      "version": "0_git20260329-r30"
+    },
+    {
+      "version": "0_git20260329-r3"
+    },
+    {
+      "version": "0_git20260329-r29"
+    },
+    {
+      "version": "0_git20260329-r28"
+    },
+    {
+      "version": "0_git20260329-r27"
+    },
+    {
+      "version": "0_git20260329-r26"
+    },
+    {
+      "version": "0_git20260329-r25"
+    },
+    {
+      "version": "0_git20260329-r24"
+    },
+    {
+      "version": "0_git20260329-r23"
+    },
+    {
+      "version": "0_git20260329-r22"
+    },
+    {
+      "version": "0_git20260329-r21"
+    },
+    {
+      "version": "0_git20260329-r20"
+    },
+    {
+      "version": "0_git20260329-r2"
+    },
+    {
+      "version": "0_git20260329-r19"
+    },
+    {
+      "version": "0_git20260329-r18"
+    },
+    {
+      "version": "0_git20260329-r17"
+    },
+    {
+      "version": "0_git20260329-r16"
+    },
+    {
+      "version": "0_git20260329-r15"
+    },
+    {
+      "version": "0_git20260329-r14"
+    },
+    {
+      "version": "0_git20260329-r13"
+    },
+    {
+      "version": "0_git20260329-r12"
+    },
+    {
+      "version": "0_git20260329-r11"
+    },
+    {
+      "version": "0_git20260329-r10"
+    },
+    {
+      "version": "0_git20260329-r1"
+    },
+    {
+      "version": "0_git20260329-r0"
+    },
+    {
+      "version": "0_git20260328-r9"
+    },
+    {
+      "version": "0_git20260328-r8"
+    },
+    {
+      "version": "0_git20260328-r7"
+    },
+    {
+      "version": "0_git20260328-r6"
+    },
+    {
+      "version": "0_git20260328-r5"
+    },
+    {
+      "version": "0_git20260328-r4"
+    },
+    {
+      "version": "0_git20260328-r3"
+    },
+    {
+      "version": "0_git20260328-r2"
+    },
+    {
+      "version": "0_git20260328-r15"
+    },
+    {
+      "version": "0_git20260328-r14"
+    },
+    {
+      "version": "0_git20260328-r13"
+    },
+    {
+      "version": "0_git20260328-r12"
+    },
+    {
+      "version": "0_git20260328-r11"
+    },
+    {
+      "version": "0_git20260328-r10"
+    },
+    {
+      "version": "0_git20260328-r1"
+    },
+    {
+      "version": "0_git20260328-r0"
+    },
+    {
+      "version": "0_git20260327-r9"
+    },
+    {
+      "version": "0_git20260327-r8"
+    },
+    {
+      "version": "0_git20260327-r7"
+    },
+    {
+      "version": "0_git20260327-r6"
+    },
+    {
+      "version": "0_git20260327-r50"
+    },
+    {
+      "version": "0_git20260327-r5"
+    },
+    {
+      "version": "0_git20260327-r49"
+    },
+    {
+      "version": "0_git20260327-r48"
+    },
+    {
+      "version": "0_git20260327-r47"
+    },
+    {
+      "version": "0_git20260327-r46"
+    },
+    {
+      "version": "0_git20260327-r45"
+    },
+    {
+      "version": "0_git20260327-r44"
+    },
+    {
+      "version": "0_git20260327-r43"
+    },
+    {
+      "version": "0_git20260327-r42"
+    },
+    {
+      "version": "0_git20260327-r41"
+    },
+    {
+      "version": "0_git20260327-r40"
+    },
+    {
+      "version": "0_git20260327-r4"
+    },
+    {
+      "version": "0_git20260327-r39"
+    },
+    {
+      "version": "0_git20260327-r38"
+    },
+    {
+      "version": "0_git20260327-r37"
+    },
+    {
+      "version": "0_git20260327-r36"
+    },
+    {
+      "version": "0_git20260327-r35"
+    },
+    {
+      "version": "0_git20260327-r34"
+    },
+    {
+      "version": "0_git20260327-r33"
+    },
+    {
+      "version": "0_git20260327-r32"
+    },
+    {
+      "version": "0_git20260327-r31"
+    },
+    {
+      "version": "0_git20260327-r30"
+    },
+    {
+      "version": "0_git20260327-r3"
+    },
+    {
+      "version": "0_git20260327-r29"
+    },
+    {
+      "version": "0_git20260327-r28"
+    },
+    {
+      "version": "0_git20260327-r27"
+    },
+    {
+      "version": "0_git20260327-r26"
+    },
+    {
+      "version": "0_git20260327-r25"
+    },
+    {
+      "version": "0_git20260327-r24"
+    },
+    {
+      "version": "0_git20260327-r23"
+    },
+    {
+      "version": "0_git20260327-r22"
+    },
+    {
+      "version": "0_git20260327-r21"
+    },
+    {
+      "version": "0_git20260327-r20"
+    },
+    {
+      "version": "0_git20260327-r2"
+    },
+    {
+      "version": "0_git20260327-r19"
+    },
+    {
+      "version": "0_git20260327-r18"
+    },
+    {
+      "version": "0_git20260327-r17"
+    },
+    {
+      "version": "0_git20260327-r16"
+    },
+    {
+      "version": "0_git20260327-r15"
+    },
+    {
+      "version": "0_git20260327-r14"
+    },
+    {
+      "version": "0_git20260327-r13"
+    },
+    {
+      "version": "0_git20260327-r12"
+    },
+    {
+      "version": "0_git20260327-r11"
+    },
+    {
+      "version": "0_git20260327-r10"
+    },
+    {
+      "version": "0_git20260327-r1"
+    },
+    {
+      "version": "0_git20260327-r0"
+    },
+    {
+      "version": "0_git20260326-r3"
+    },
+    {
+      "version": "0_git20260326-r2"
+    },
+    {
+      "version": "0_git20260326-r1"
+    },
+    {
+      "version": "0_git20260326-r0"
+    },
+    {
+      "version": "0_git20260312-r0"
+    },
+    {
+      "version": "0_git20260227-r0"
+    },
+    {
+      "version": "0_git20260213-r0"
+    },
+    {
+      "version": "0_git20260212-r0"
+    },
+    {
+      "version": "0_git20260130-r1"
+    },
+    {
+      "version": "0_git20260130-r0"
+    },
+    {
+      "version": "0_git20260121-r0"
+    },
+    {
+      "version": "0_git20260117-r0"
+    },
+    {
+      "version": "0_git20260116-r0"
+    },
+    {
+      "version": "0_git20260115-r0"
+    },
+    {
+      "version": "0_git20260110-r0"
+    },
+    {
+      "version": "0_git20260109-r0"
+    },
+    {
+      "version": "0_git20260106-r0"
+    },
+    {
+      "version": "0_git20260105-r0"
+    },
+    {
+      "version": "0_git20260102-r1"
+    },
+    {
+      "version": "0_git20260102-r0"
+    },
+    {
+      "version": "0_git20251219-r1"
+    },
+    {
+      "version": "0_git20251219-r0"
+    },
+    {
+      "version": "0_git20251218-r0"
+    },
+    {
+      "version": "0_git20251212-r0"
+    },
+    {
+      "version": "0_git20251205-r1"
+    },
+    {
+      "version": "0_git20251205-r0"
+    },
+    {
+      "version": "0_git20251204-r0"
+    },
+    {
+      "version": "0_git20251120-r1"
+    },
+    {
+      "version": "0_git20251120-r0"
+    },
+    {
+      "version": "0_git20251114-r0"
+    },
+    {
+      "version": "0_git20251111-r0"
+    },
+    {
+      "version": "0_git20251110-r0"
+    },
+    {
+      "version": "0_git20251013-r0"
+    },
+    {
+      "version": "0_git20250929-r0"
+    },
+    {
+      "version": "0_git20250922-r0"
+    },
+    {
+      "version": "0_git20250915-r0"
+    },
+    {
+      "version": "0_git20250908-r0"
+    },
+    {
+      "version": "0_git20250825-r0"
+    },
+    {
+      "version": "0_git20250818-r0"
+    },
+    {
+      "version": "0_git20250811-r0"
+    },
+    {
+      "version": "0_git20250728-r0"
+    },
+    {
+      "version": "0_git20250721-r0"
+    },
+    {
+      "version": "0_git20250714-r1"
+    },
+    {
+      "version": "0_git20250714-r0"
+    },
+    {
+      "version": "0_git20250707-r0"
+    },
+    {
+      "version": "0_git20250630-r0"
+    },
+    {
+      "version": "0_git20250623-r0"
+    },
+    {
+      "version": "0_git20250616-r0"
+    },
+    {
+      "version": "0_git20250609-r0"
+    },
+    {
+      "version": "0_git20250602-r0"
+    },
+    {
+      "version": "0_git20250526-r0"
+    },
+    {
+      "version": "0_git20250522-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

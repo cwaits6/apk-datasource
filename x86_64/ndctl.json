@@ -1,0 +1,38 @@
+{
+  "releases": [
+    {
+      "version": "84-r8"
+    },
+    {
+      "version": "84-r7"
+    },
+    {
+      "version": "84-r4"
+    },
+    {
+      "version": "84-r0"
+    },
+    {
+      "version": "83-r2"
+    },
+    {
+      "version": "83-r1"
+    },
+    {
+      "version": "83-r0"
+    },
+    {
+      "version": "82-r1"
+    },
+    {
+      "version": "82-r0"
+    },
+    {
+      "version": "81-r1"
+    },
+    {
+      "version": "81-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
