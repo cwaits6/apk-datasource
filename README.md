@@ -32,8 +32,10 @@ Auto-update pinned APK package versions in Dockerfiles using [Renovate](https://
 A public index for Wolfi x86_64 and aarch64 packages is hosted on GitHub Pages and refreshed every 4 hours. Point your Renovate config directly at it — no server to run:
 
 ```text
-https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
+https://cwaits6.github.io/apk-datasource/x86_64/{{packageName}}.json
 ```
+
+(Replace `{{packageName}}` with an actual package name, e.g., `curl`)
 
 **Test it:** Fetch the datasource for a package to see the available versions:
 
@@ -71,7 +73,7 @@ Add the following `customDatasources` and `customManagers` blocks to your existi
 }
 ```
 
-**Want to self-host instead?** See [Deployment](#deployment) for Docker, Helm, GitLab CI, or binary options. Replace the `defaultRegistryUrlTemplate` URL with your server address (e.g. `https://apk.example.com/x86_64/{{packageName}}`)
+**Want to self-host instead?** See [Deployment](#deployment) for Docker, Helm, GitLab CI, or binary options. Replace the `defaultRegistryUrlTemplate` URL with your server address (e.g. `https://apk.example.com/x86_64/{{packageName}}.json`)
 
 ## Quick Start
 
