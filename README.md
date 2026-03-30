@@ -24,7 +24,7 @@ Auto-update pinned APK package versions in Dockerfiles using [Renovate](https://
 - **Automated updates** — Stop manually tracking APK package versions
 - **Reproducible builds** — Pin exact versions while staying current
 - **Works with Renovate** — Integrates with your existing dependency management workflow
-- **No server required** — Use our public hosted index, or self-host if you prefer
+- **No server required** — Use the public hosted index, or deploy your own (Docker, Helm, GitLab CI, or binary)
 - **Supports Wolfi & Alpine** — Works with both Chainguard Wolfi and Alpine Linux indexes
 
 ## Hosted Index (No Server Required)
@@ -35,11 +35,13 @@ A public index for Wolfi x86_64 and aarch64 packages is hosted on GitHub Pages a
 https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
 ```
 
-Test it:
+**Test it:** Fetch the datasource for a package to see the available versions:
 
 ```bash
 curl -s https://cwaits6.github.io/apk-datasource/x86_64/curl.json | jq .
 ```
+
+Replace `curl` with any APK package name to test others (e.g., `go`, `git`, `busybox`).
 
 ## Renovate Setup
 
