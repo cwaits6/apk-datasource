@@ -1,6 +1,10 @@
 <h1 align="center">apk-datasource</h1>
 
 <p align="center">
+  <img src="./docs/assets/icon.svg" alt="apk-datasource logo" width="220" height="220">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/go-mod/go-version/cwaits6/apk-datasource?logo=go" alt="Go Version">
   <a href="https://github.com/cwaits6/apk-datasource/releases/latest"><img src="https://img.shields.io/github/v/release/cwaits6/apk-datasource?logo=github" alt="Release"></a>
   <a href="https://github.com/cwaits6/apk-datasource/actions/workflows/ci.yml"><img src="https://github.com/cwaits6/apk-datasource/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
@@ -11,9 +15,35 @@
   <a href="https://github.com/cwaits6/apk-datasource/blob/main/LICENSE"><img src="https://img.shields.io/github/license/cwaits6/apk-datasource" alt="License"></a>
 </p>
 
-Auto-update pinned APK package versions in Dockerfiles using [Renovate](https://docs.renovatebot.com/). Supports Wolfi and Alpine package indexes.
+Auto-update pinned APK package versions in Dockerfiles using [Renovate](https://docs.renovatebot.com/).
 
-Renovate has no built-in datasource for APK packages, so `apk add curl=8.11.1-r0` in your Dockerfiles can't be auto-updated. This project solves that. See [renovatebot/renovate#5422](https://github.com/renovatebot/renovate/issues/5422).
+**The problem:** Working with Wolfi or Alpine containers? You pin APK packages for reproducibility — `apk add curl=8.11.1-r0` — but Renovate can't auto-update them. It has no built-in APK datasource. This tool fills that gap. See [renovatebot/renovate#5422](https://github.com/renovatebot/renovate/issues/5422) for context.
+
+## Why This Matters
+
+- **Automated updates** — Stop manually tracking APK package versions
+- **Reproducible builds** — Pin exact versions while staying current
+- **Works with Renovate** — Integrates with your existing dependency management workflow
+- **No server required** — Use the public hosted index, or deploy your own (Docker, Helm, GitLab CI, or binary)
+- **Supports Wolfi & Alpine** — Works with both Chainguard Wolfi and Alpine Linux indexes
+
+## Hosted Index (No Server Required)
+
+A public index for Wolfi x86_64 and aarch64 packages is hosted on GitHub Pages and refreshed every 4 hours. Point your Renovate config directly at it — no server to run:
+
+```text
+https://cwaits6.github.io/apk-datasource/x86_64/{{packageName}}.json
+```
+
+(Replace `{{packageName}}` with an actual package name, e.g., `curl`)
+
+**Test it:** Fetch the datasource for a package to see the available versions:
+
+```bash
+curl -s https://cwaits6.github.io/apk-datasource/x86_64/curl.json | jq .
+```
+
+Replace `curl` with any APK package name to test others (e.g., `go`, `git`, `busybox`).
 
 ## Renovate Setup
 
@@ -43,19 +73,7 @@ Add the following `customDatasources` and `customManagers` blocks to your existi
 }
 ```
 
-The example above points at a [public hosted index](#hosted-index) — no server to run. If you'd prefer to self-host, see [Quick Start](#quick-start) and replace the `defaultRegistryUrlTemplate` URL with your server address (e.g. `https://apk.example.com/x86_64/{{packageName}}`).
-
-## Hosted Index
-
-A public index for Wolfi x86_64 and aarch64 packages is hosted on GitHub Pages and refreshed every 4 hours. You're welcome to point your Renovate config directly at it:
-
-```text
-https://cwaits6.github.io/apk-datasource/x86_64/{package}.json
-```
-
-```bash
-curl -s https://cwaits6.github.io/apk-datasource/x86_64/curl.json | jq .
-```
+**Want to self-host instead?** See [Deployment](#deployment) for Docker, Helm, GitLab CI, or binary options. Replace the `defaultRegistryUrlTemplate` URL with your server address (e.g. `https://apk.example.com/x86_64/{{packageName}}.json`)
 
 ## Quick Start
 
