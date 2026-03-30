@@ -1,7 +1,7 @@
 <h1 align="center">apk-datasource</h1>
 
 <p align="center">
-  <img src="./docs/assets/icon.svg" alt="apk-datasource logo" width="128" height="128">
+  <img src="./docs/assets/icon.svg" alt="apk-datasource logo" width="180" height="180">
 </p>
 
 <p align="center">
