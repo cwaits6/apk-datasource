@@ -1,6 +1,10 @@
 <h1 align="center">apk-datasource</h1>
 
 <p align="center">
+  <img src="./docs/assets/icon.svg" alt="apk-datasource logo" width="128" height="128">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/go-mod/go-version/cwaits6/apk-datasource?logo=go" alt="Go Version">
   <a href="https://github.com/cwaits6/apk-datasource/releases/latest"><img src="https://img.shields.io/github/v/release/cwaits6/apk-datasource?logo=github" alt="Release"></a>
   <a href="https://github.com/cwaits6/apk-datasource/actions/workflows/ci.yml"><img src="https://github.com/cwaits6/apk-datasource/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
