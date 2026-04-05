@@ -1,0 +1,38 @@
+{
+  "releases": [
+    {
+      "version": "2.43-r6"
+    },
+    {
+      "version": "2.43-r5"
+    },
+    {
+      "version": "2.43-r4"
+    },
+    {
+      "version": "2.43-r3"
+    },
+    {
+      "version": "2.43-r2"
+    },
+    {
+      "version": "2.43-r1"
+    },
+    {
+      "version": "2.43-r0"
+    },
+    {
+      "version": "2.42-r8"
+    },
+    {
+      "version": "2.42-r7"
+    },
+    {
+      "version": "2.42-r6"
+    },
+    {
+      "version": "2.42-r5"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

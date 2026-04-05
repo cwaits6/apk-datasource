@@ -1,0 +1,38 @@
+{
+  "releases": [
+    {
+      "version": "20230201-r28"
+    },
+    {
+      "version": "20230201-r27"
+    },
+    {
+      "version": "20230201-r26"
+    },
+    {
+      "version": "20230201-r25"
+    },
+    {
+      "version": "20230201-r24"
+    },
+    {
+      "version": "20230201-r23"
+    },
+    {
+      "version": "20230201-r22"
+    },
+    {
+      "version": "20230201-r21"
+    },
+    {
+      "version": "20230201-r20"
+    },
+    {
+      "version": "20230201-r19"
+    },
+    {
+      "version": "20230201-r18"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

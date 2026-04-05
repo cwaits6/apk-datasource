@@ -1,0 +1,29 @@
+{
+  "releases": [
+    {
+      "version": "127-r3"
+    },
+    {
+      "version": "127-r2"
+    },
+    {
+      "version": "127-r1"
+    },
+    {
+      "version": "127-r0"
+    },
+    {
+      "version": "126-r4"
+    },
+    {
+      "version": "126-r3"
+    },
+    {
+      "version": "126-r2"
+    },
+    {
+      "version": "126-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

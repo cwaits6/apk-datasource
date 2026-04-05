@@ -1,0 +1,653 @@
+{
+  "releases": [
+    {
+      "version": "0.0_git20260226-r4"
+    },
+    {
+      "version": "0.0_git20260226-r3"
+    },
+    {
+      "version": "0.0_git20260226-r2"
+    },
+    {
+      "version": "0.0_git20260226-r1"
+    },
+    {
+      "version": "0.0_git20260226-r0"
+    },
+    {
+      "version": "0.0_git20260225-r0"
+    },
+    {
+      "version": "0.0_git20260224-r2"
+    },
+    {
+      "version": "0.0_git20260224-r1"
+    },
+    {
+      "version": "0.0_git20260224-r0"
+    },
+    {
+      "version": "0.0_git20260223-r0"
+    },
+    {
+      "version": "0.0_git20260221-r1"
+    },
+    {
+      "version": "0.0_git20260221-r0"
+    },
+    {
+      "version": "0.0_git20260220-r2"
+    },
+    {
+      "version": "0.0_git20260220-r1"
+    },
+    {
+      "version": "0.0_git20260220-r0"
+    },
+    {
+      "version": "0.0_git20260219-r2"
+    },
+    {
+      "version": "0.0_git20260219-r1"
+    },
+    {
+      "version": "0.0_git20260219-r0"
+    },
+    {
+      "version": "0.0_git20260218-r2"
+    },
+    {
+      "version": "0.0_git20260218-r1"
+    },
+    {
+      "version": "0.0_git20260218-r0"
+    },
+    {
+      "version": "0.0_git20260217-r2"
+    },
+    {
+      "version": "0.0_git20260217-r1"
+    },
+    {
+      "version": "0.0_git20260217-r0"
+    },
+    {
+      "version": "0.0_git20260213-r0"
+    },
+    {
+      "version": "0.0_git20260212-r5"
+    },
+    {
+      "version": "0.0_git20260212-r4"
+    },
+    {
+      "version": "0.0_git20260212-r3"
+    },
+    {
+      "version": "0.0_git20260212-r2"
+    },
+    {
+      "version": "0.0_git20260212-r1"
+    },
+    {
+      "version": "0.0_git20260212-r0"
+    },
+    {
+      "version": "0.0_git20260211-r3"
+    },
+    {
+      "version": "0.0_git20260211-r2"
+    },
+    {
+      "version": "0.0_git20260211-r1"
+    },
+    {
+      "version": "0.0_git20260211-r0"
+    },
+    {
+      "version": "0.0_git20260210-r0"
+    },
+    {
+      "version": "0.0_git20260209-r1"
+    },
+    {
+      "version": "0.0_git20260209-r0"
+    },
+    {
+      "version": "0.0_git20260207-r3"
+    },
+    {
+      "version": "0.0_git20260207-r2"
+    },
+    {
+      "version": "0.0_git20260207-r1"
+    },
+    {
+      "version": "0.0_git20260207-r0"
+    },
+    {
+      "version": "0.0_git20260206-r0"
+    },
+    {
+      "version": "0.0_git20260205-r2"
+    },
+    {
+      "version": "0.0_git20260205-r1"
+    },
+    {
+      "version": "0.0_git20260205-r0"
+    },
+    {
+      "version": "0.0_git20260204-r1"
+    },
+    {
+      "version": "0.0_git20260204-r0"
+    },
+    {
+      "version": "0.0_git20260203-r0"
+    },
+    {
+      "version": "0.0_git20260201-r0"
+    },
+    {
+      "version": "0.0_git20260131-r1"
+    },
+    {
+      "version": "0.0_git20260131-r0"
+    },
+    {
+      "version": "0.0_git20260130-r1"
+    },
+    {
+      "version": "0.0_git20260130-r0"
+    },
+    {
+      "version": "0.0_git20260129-r3"
+    },
+    {
+      "version": "0.0_git20260129-r2"
+    },
+    {
+      "version": "0.0_git20260129-r1"
+    },
+    {
+      "version": "0.0_git20260129-r0"
+    },
+    {
+      "version": "0.0_git20260128-r0"
+    },
+    {
+      "version": "0.0_git20260127-r1"
+    },
+    {
+      "version": "0.0_git20260127-r0"
+    },
+    {
+      "version": "0.0_git20260126-r0"
+    },
+    {
+      "version": "0.0_git20260123-r1"
+    },
+    {
+      "version": "0.0_git20260123-r0"
+    },
+    {
+      "version": "0.0_git20260122-r3"
+    },
+    {
+      "version": "0.0_git20260122-r2"
+    },
+    {
+      "version": "0.0_git20260122-r1"
+    },
+    {
+      "version": "0.0_git20260122-r0"
+    },
+    {
+      "version": "0.0_git20260121-r2"
+    },
+    {
+      "version": "0.0_git20260121-r1"
+    },
+    {
+      "version": "0.0_git20260121-r0"
+    },
+    {
+      "version": "0.0_git20260120-r1"
+    },
+    {
+      "version": "0.0_git20260120-r0"
+    },
+    {
+      "version": "0.0_git20260119-r0"
+    },
+    {
+      "version": "0.0_git20260118-r0"
+    },
+    {
+      "version": "0.0_git20260117-r0"
+    },
+    {
+      "version": "0.0_git20260116-r4"
+    },
+    {
+      "version": "0.0_git20260116-r3"
+    },
+    {
+      "version": "0.0_git20260116-r2"
+    },
+    {
+      "version": "0.0_git20260116-r1"
+    },
+    {
+      "version": "0.0_git20260116-r0"
+    },
+    {
+      "version": "0.0_git20260115-r5"
+    },
+    {
+      "version": "0.0_git20260115-r4"
+    },
+    {
+      "version": "0.0_git20260115-r3"
+    },
+    {
+      "version": "0.0_git20260115-r2"
+    },
+    {
+      "version": "0.0_git20260115-r1"
+    },
+    {
+      "version": "0.0_git20260115-r0"
+    },
+    {
+      "version": "0.0_git20260114-r3"
+    },
+    {
+      "version": "0.0_git20260114-r2"
+    },
+    {
+      "version": "0.0_git20260114-r1"
+    },
+    {
+      "version": "0.0_git20260114-r0"
+    },
+    {
+      "version": "0.0_git20260113-r2"
+    },
+    {
+      "version": "0.0_git20260113-r1"
+    },
+    {
+      "version": "0.0_git20260113-r0"
+    },
+    {
+      "version": "0.0_git20260112-r1"
+    },
+    {
+      "version": "0.0_git20260112-r0"
+    },
+    {
+      "version": "0.0_git20260111-r0"
+    },
+    {
+      "version": "0.0_git20260109-r2"
+    },
+    {
+      "version": "0.0_git20260109-r1"
+    },
+    {
+      "version": "0.0_git20260109-r0"
+    },
+    {
+      "version": "0.0_git20260108-r2"
+    },
+    {
+      "version": "0.0_git20260108-r1"
+    },
+    {
+      "version": "0.0_git20260108-r0"
+    },
+    {
+      "version": "0.0_git20260107-r1"
+    },
+    {
+      "version": "0.0_git20260107-r0"
+    },
+    {
+      "version": "0.0_git20260106-r4"
+    },
+    {
+      "version": "0.0_git20260106-r3"
+    },
+    {
+      "version": "0.0_git20260106-r2"
+    },
+    {
+      "version": "0.0_git20260106-r1"
+    },
+    {
+      "version": "0.0_git20260106-r0"
+    },
+    {
+      "version": "0.0_git20260105-r3"
+    },
+    {
+      "version": "0.0_git20260105-r2"
+    },
+    {
+      "version": "0.0_git20260105-r1"
+    },
+    {
+      "version": "0.0_git20260105-r0"
+    },
+    {
+      "version": "0.0_git20260104-r2"
+    },
+    {
+      "version": "0.0_git20260104-r1"
+    },
+    {
+      "version": "0.0_git20260104-r0"
+    },
+    {
+      "version": "0.0_git20260103-r0"
+    },
+    {
+      "version": "0.0_git20260102-r3"
+    },
+    {
+      "version": "0.0_git20260102-r2"
+    },
+    {
+      "version": "0.0_git20260102-r1"
+    },
+    {
+      "version": "0.0_git20260102-r0"
+    },
+    {
+      "version": "0.0_git20251231-r0"
+    },
+    {
+      "version": "0.0_git20251230-r1"
+    },
+    {
+      "version": "0.0_git20251230-r0"
+    },
+    {
+      "version": "0.0_git20251224-r0"
+    },
+    {
+      "version": "0.0_git20251223-r1"
+    },
+    {
+      "version": "0.0_git20251223-r0"
+    },
+    {
+      "version": "0.0_git20251222-r0"
+    },
+    {
+      "version": "0.0_git20251220-r0"
+    },
+    {
+      "version": "0.0_git20251219-r3"
+    },
+    {
+      "version": "0.0_git20251219-r2"
+    },
+    {
+      "version": "0.0_git20251219-r1"
+    },
+    {
+      "version": "0.0_git20251219-r0"
+    },
+    {
+      "version": "0.0_git20251218-r2"
+    },
+    {
+      "version": "0.0_git20251218-r1"
+    },
+    {
+      "version": "0.0_git20251218-r0"
+    },
+    {
+      "version": "0.0_git20251217-r2"
+    },
+    {
+      "version": "0.0_git20251217-r1"
+    },
+    {
+      "version": "0.0_git20251217-r0"
+    },
+    {
+      "version": "0.0_git20251216-r1"
+    },
+    {
+      "version": "0.0_git20251216-r0"
+    },
+    {
+      "version": "0.0_git20251215-r0"
+    },
+    {
+      "version": "0.0_git20251213-r2"
+    },
+    {
+      "version": "0.0_git20251213-r1"
+    },
+    {
+      "version": "0.0_git20251213-r0"
+    },
+    {
+      "version": "0.0_git20251212-r1"
+    },
+    {
+      "version": "0.0_git20251212-r0"
+    },
+    {
+      "version": "0.0_git20251211-r3"
+    },
+    {
+      "version": "0.0_git20251211-r2"
+    },
+    {
+      "version": "0.0_git20251211-r1"
+    },
+    {
+      "version": "0.0_git20251211-r0"
+    },
+    {
+      "version": "0.0_git20251210-r1"
+    },
+    {
+      "version": "0.0_git20251210-r0"
+    },
+    {
+      "version": "0.0_git20251209-r2"
+    },
+    {
+      "version": "0.0_git20251209-r1"
+    },
+    {
+      "version": "0.0_git20251209-r0"
+    },
+    {
+      "version": "0.0_git20251206-r0"
+    },
+    {
+      "version": "0.0_git20251205-r3"
+    },
+    {
+      "version": "0.0_git20251205-r2"
+    },
+    {
+      "version": "0.0_git20251205-r1"
+    },
+    {
+      "version": "0.0_git20251205-r0"
+    },
+    {
+      "version": "0.0_git20251204-r2"
+    },
+    {
+      "version": "0.0_git20251204-r1"
+    },
+    {
+      "version": "0.0_git20251204-r0"
+    },
+    {
+      "version": "0.0_git20251203-r1"
+    },
+    {
+      "version": "0.0_git20251203-r0"
+    },
+    {
+      "version": "0.0_git20251202-r6"
+    },
+    {
+      "version": "0.0_git20251202-r5"
+    },
+    {
+      "version": "0.0_git20251202-r4"
+    },
+    {
+      "version": "0.0_git20251202-r3"
+    },
+    {
+      "version": "0.0_git20251202-r2"
+    },
+    {
+      "version": "0.0_git20251202-r1"
+    },
+    {
+      "version": "0.0_git20251202-r0"
+    },
+    {
+      "version": "0.0_git20251201-r0"
+    },
+    {
+      "version": "0.0_git20251128-r0"
+    },
+    {
+      "version": "0.0_git20251127-r1"
+    },
+    {
+      "version": "0.0_git20251127-r0"
+    },
+    {
+      "version": "0.0_git20251126-r1"
+    },
+    {
+      "version": "0.0_git20251126-r0"
+    },
+    {
+      "version": "0.0_git20251125-r2"
+    },
+    {
+      "version": "0.0_git20251125-r1"
+    },
+    {
+      "version": "0.0_git20251125-r0"
+    },
+    {
+      "version": "0.0_git20251124-r0"
+    },
+    {
+      "version": "0.0_git20251123-r0"
+    },
+    {
+      "version": "0.0_git20251122-r1"
+    },
+    {
+      "version": "0.0_git20251122-r0"
+    },
+    {
+      "version": "0.0_git20251121-r2"
+    },
+    {
+      "version": "0.0_git20251121-r1"
+    },
+    {
+      "version": "0.0_git20251121-r0"
+    },
+    {
+      "version": "0.0_git20251120-r2"
+    },
+    {
+      "version": "0.0_git20251120-r1"
+    },
+    {
+      "version": "0.0_git20251120-r0"
+    },
+    {
+      "version": "0.0_git20251119-r4"
+    },
+    {
+      "version": "0.0_git20251119-r3"
+    },
+    {
+      "version": "0.0_git20251119-r2"
+    },
+    {
+      "version": "0.0_git20251119-r1"
+    },
+    {
+      "version": "0.0_git20251119-r0"
+    },
+    {
+      "version": "0.0_git20251118-r1"
+    },
+    {
+      "version": "0.0_git20251118-r0"
+    },
+    {
+      "version": "0.0_git20251115-r1"
+    },
+    {
+      "version": "0.0_git20251115-r0"
+    },
+    {
+      "version": "0.0_git20251114-r2"
+    },
+    {
+      "version": "0.0_git20251114-r1"
+    },
+    {
+      "version": "0.0_git20251114-r0"
+    },
+    {
+      "version": "0.0_git20251113-r1"
+    },
+    {
+      "version": "0.0_git20251113-r0"
+    },
+    {
+      "version": "0.0_git20251112-r3"
+    },
+    {
+      "version": "0.0_git20251112-r2"
+    },
+    {
+      "version": "0.0_git20251112-r1"
+    },
+    {
+      "version": "0.0_git20251112-r0"
+    },
+    {
+      "version": "0.0_git20251001-r0"
+    },
+    {
+      "version": "0.0_git20250901-r0"
+    },
+    {
+      "version": "0.0_git20250801-r0"
+    },
+    {
+      "version": "0.0_git20250611-r1"
+    },
+    {
+      "version": "0.0_git20250611-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
