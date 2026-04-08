@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/cwaits6/apk-datasource/compare/v1.1.1...v1.1.2) (2026-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/rs/zerolog to v1.35.0 ([#19](https://github.com/cwaits6/apk-datasource/issues/19)) ([10ebe45](https://github.com/cwaits6/apk-datasource/commit/10ebe4501363539c6e4e49421e3fd96fe267d24b))
+
 ## [1.1.1](https://github.com/cwaits6/apk-datasource/compare/v1.1.0...v1.1.1) (2026-04-08)
 
 
