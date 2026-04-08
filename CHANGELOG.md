@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/cwaits6/apk-datasource/compare/v1.1.0...v1.1.1) (2026-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update opentelemetry-go monorepo ([#20](https://github.com/cwaits6/apk-datasource/issues/20)) ([524d175](https://github.com/cwaits6/apk-datasource/commit/524d1756716cf4d8a98a35fb963cf38ad9eba58e))
+
 # [1.1.0](https://github.com/cwaits6/apk-datasource/compare/v1.0.1...v1.1.0) (2026-03-25)
 
 
