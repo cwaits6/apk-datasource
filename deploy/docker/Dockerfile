@@ -1,6 +1,6 @@
 FROM cgr.dev/chainguard/wolfi-base:latest AS builder
 
-RUN apk add --no-cache go-1.26=1.26.1-r1
+RUN apk add --no-cache go-1.26=1.26.2-r0
 
 ARG VERSION=dev
 ARG COMMIT=none
