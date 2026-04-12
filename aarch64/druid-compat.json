@@ -1,0 +1,131 @@
+{
+  "releases": [
+    {
+      "version": "36.0.0-r7"
+    },
+    {
+      "version": "36.0.0-r6"
+    },
+    {
+      "version": "36.0.0-r5"
+    },
+    {
+      "version": "36.0.0-r4"
+    },
+    {
+      "version": "36.0.0-r3"
+    },
+    {
+      "version": "36.0.0-r2"
+    },
+    {
+      "version": "36.0.0-r13"
+    },
+    {
+      "version": "36.0.0-r12"
+    },
+    {
+      "version": "36.0.0-r11"
+    },
+    {
+      "version": "36.0.0-r10"
+    },
+    {
+      "version": "36.0.0-r1"
+    },
+    {
+      "version": "36.0.0-r0"
+    },
+    {
+      "version": "35.0.1-r8"
+    },
+    {
+      "version": "35.0.1-r7"
+    },
+    {
+      "version": "35.0.1-r6"
+    },
+    {
+      "version": "35.0.1-r5"
+    },
+    {
+      "version": "35.0.1-r4"
+    },
+    {
+      "version": "35.0.1-r3"
+    },
+    {
+      "version": "35.0.1-r2"
+    },
+    {
+      "version": "35.0.1-r1"
+    },
+    {
+      "version": "35.0.1-r0"
+    },
+    {
+      "version": "35.0.0-r0"
+    },
+    {
+      "version": "34.0.0-r6"
+    },
+    {
+      "version": "34.0.0-r5"
+    },
+    {
+      "version": "34.0.0-r4"
+    },
+    {
+      "version": "34.0.0-r3"
+    },
+    {
+      "version": "34.0.0-r2"
+    },
+    {
+      "version": "34.0.0-r1"
+    },
+    {
+      "version": "34.0.0-r0"
+    },
+    {
+      "version": "33.0.0-r8"
+    },
+    {
+      "version": "33.0.0-r7"
+    },
+    {
+      "version": "33.0.0-r6"
+    },
+    {
+      "version": "33.0.0-r5"
+    },
+    {
+      "version": "33.0.0-r4"
+    },
+    {
+      "version": "33.0.0-r3"
+    },
+    {
+      "version": "33.0.0-r2"
+    },
+    {
+      "version": "33.0.0-r1"
+    },
+    {
+      "version": "33.0.0-r0"
+    },
+    {
+      "version": "32.0.1-r2"
+    },
+    {
+      "version": "32.0.1-r1"
+    },
+    {
+      "version": "32.0.1-r0"
+    },
+    {
+      "version": "32.0.0-r7"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

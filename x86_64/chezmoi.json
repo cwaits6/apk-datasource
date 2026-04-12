@@ -1,0 +1,131 @@
+{
+  "releases": [
+    {
+      "version": "2.70.1-r1"
+    },
+    {
+      "version": "2.70.1-r0"
+    },
+    {
+      "version": "2.70.0-r1"
+    },
+    {
+      "version": "2.70.0-r0"
+    },
+    {
+      "version": "2.69.4-r4"
+    },
+    {
+      "version": "2.69.4-r3"
+    },
+    {
+      "version": "2.69.4-r2"
+    },
+    {
+      "version": "2.69.4-r1"
+    },
+    {
+      "version": "2.69.4-r0"
+    },
+    {
+      "version": "2.69.3-r2"
+    },
+    {
+      "version": "2.69.3-r1"
+    },
+    {
+      "version": "2.69.3-r0"
+    },
+    {
+      "version": "2.69.1-r0"
+    },
+    {
+      "version": "2.69.0-r0"
+    },
+    {
+      "version": "2.68.1-r0"
+    },
+    {
+      "version": "2.68.0-r0"
+    },
+    {
+      "version": "2.67.1-r0"
+    },
+    {
+      "version": "2.67.0-r1"
+    },
+    {
+      "version": "2.67.0-r0"
+    },
+    {
+      "version": "2.66.1-r0"
+    },
+    {
+      "version": "2.66.0-r1"
+    },
+    {
+      "version": "2.66.0-r0"
+    },
+    {
+      "version": "2.65.2-r0"
+    },
+    {
+      "version": "2.65.1-r0"
+    },
+    {
+      "version": "2.65.0-r1"
+    },
+    {
+      "version": "2.65.0-r0"
+    },
+    {
+      "version": "2.64.0-r0"
+    },
+    {
+      "version": "2.63.1-r0"
+    },
+    {
+      "version": "2.63.0-r2"
+    },
+    {
+      "version": "2.63.0-r1"
+    },
+    {
+      "version": "2.63.0-r0"
+    },
+    {
+      "version": "2.62.7-r0"
+    },
+    {
+      "version": "2.62.6-r0"
+    },
+    {
+      "version": "2.62.5-r0"
+    },
+    {
+      "version": "2.62.4-r0"
+    },
+    {
+      "version": "2.62.3-r0"
+    },
+    {
+      "version": "2.62.2-r0"
+    },
+    {
+      "version": "2.62.1-r0"
+    },
+    {
+      "version": "2.62.0-r0"
+    },
+    {
+      "version": "2.61.0-r1"
+    },
+    {
+      "version": "2.61.0-r0"
+    },
+    {
+      "version": "2.60.1-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

@@ -1,0 +1,20 @@
+{
+  "releases": [
+    {
+      "version": "2.002004-r8"
+    },
+    {
+      "version": "2.002004-r7"
+    },
+    {
+      "version": "2.002004-r6"
+    },
+    {
+      "version": "2.002004-r5"
+    },
+    {
+      "version": "2.002004-r4"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

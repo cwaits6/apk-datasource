@@ -1,0 +1,35 @@
+{
+  "releases": [
+    {
+      "version": "3.8.2-r59"
+    },
+    {
+      "version": "3.8.2-r58"
+    },
+    {
+      "version": "3.8.2-r57"
+    },
+    {
+      "version": "3.8.2-r56"
+    },
+    {
+      "version": "3.8.2-r55"
+    },
+    {
+      "version": "3.8.2-r54"
+    },
+    {
+      "version": "3.8.2-r53"
+    },
+    {
+      "version": "3.8.2-r52"
+    },
+    {
+      "version": "3.8.2-r51"
+    },
+    {
+      "version": "3.8.2-r50"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

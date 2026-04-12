@@ -1,0 +1,137 @@
+{
+  "releases": [
+    {
+      "version": "4.52.0-r0"
+    },
+    {
+      "version": "4.50.3-r0"
+    },
+    {
+      "version": "4.50.2-r0"
+    },
+    {
+      "version": "4.50.0-r2"
+    },
+    {
+      "version": "4.50.0-r1"
+    },
+    {
+      "version": "4.49.1-r0"
+    },
+    {
+      "version": "4.49.0-r0"
+    },
+    {
+      "version": "4.48.1-r0"
+    },
+    {
+      "version": "4.47.3-r0"
+    },
+    {
+      "version": "4.47.0-r0"
+    },
+    {
+      "version": "4.46.3-r0"
+    },
+    {
+      "version": "4.46.1-r0"
+    },
+    {
+      "version": "4.46.0-r0"
+    },
+    {
+      "version": "4.45.0-r0"
+    },
+    {
+      "version": "4.44.0-r0"
+    },
+    {
+      "version": "4.43.0-r0"
+    },
+    {
+      "version": "4.42.0-r0"
+    },
+    {
+      "version": "4.41.0-r0"
+    },
+    {
+      "version": "4.40.0-r0"
+    },
+    {
+      "version": "4.39.0-r0"
+    },
+    {
+      "version": "4.38.0-r0"
+    },
+    {
+      "version": "4.37.0-r0"
+    },
+    {
+      "version": "4.36.1-r0"
+    },
+    {
+      "version": "4.35.0-r0"
+    },
+    {
+      "version": "4.34.1-r1"
+    },
+    {
+      "version": "4.34.1-r0"
+    },
+    {
+      "version": "4.34.0-r0"
+    },
+    {
+      "version": "4.33.0-r0"
+    },
+    {
+      "version": "4.32.0-r1"
+    },
+    {
+      "version": "4.32.0-r0"
+    },
+    {
+      "version": "4.31.0-r0"
+    },
+    {
+      "version": "4.30.3-r0"
+    },
+    {
+      "version": "4.30.2-r0"
+    },
+    {
+      "version": "4.30.1-r0"
+    },
+    {
+      "version": "4.29.0-r0"
+    },
+    {
+      "version": "4.28.4-r0"
+    },
+    {
+      "version": "4.28.3-r0"
+    },
+    {
+      "version": "4.28.1-r0"
+    },
+    {
+      "version": "4.28.0-r0"
+    },
+    {
+      "version": "4.27.0-r1"
+    },
+    {
+      "version": "4.27.0-r0"
+    },
+    {
+      "version": "4.26.0-r0"
+    },
+    {
+      "version": "4.25.0-r0"
+    },
+    {
+      "version": "4.24.2-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

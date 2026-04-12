@@ -1,0 +1,29 @@
+{
+  "releases": [
+    {
+      "version": "5.78-r0"
+    },
+    {
+      "version": "5.77-r1"
+    },
+    {
+      "version": "5.77-r0"
+    },
+    {
+      "version": "5.76-r0"
+    },
+    {
+      "version": "5.75-r2"
+    },
+    {
+      "version": "5.75-r1"
+    },
+    {
+      "version": "5.75-r0"
+    },
+    {
+      "version": "5.74-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

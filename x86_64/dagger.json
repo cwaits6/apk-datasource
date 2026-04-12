@@ -1,0 +1,173 @@
+{
+  "releases": [
+    {
+      "version": "0.20.5-r0"
+    },
+    {
+      "version": "0.20.4-r0"
+    },
+    {
+      "version": "0.20.3-r2"
+    },
+    {
+      "version": "0.20.3-r1"
+    },
+    {
+      "version": "0.20.3-r0"
+    },
+    {
+      "version": "0.20.2-r0"
+    },
+    {
+      "version": "0.20.1-r1"
+    },
+    {
+      "version": "0.20.1-r0"
+    },
+    {
+      "version": "0.20.0-r1"
+    },
+    {
+      "version": "0.20.0-r0"
+    },
+    {
+      "version": "0.19.9-r0"
+    },
+    {
+      "version": "0.19.8-r0"
+    },
+    {
+      "version": "0.19.7-r1"
+    },
+    {
+      "version": "0.19.7-r0"
+    },
+    {
+      "version": "0.19.6-r1"
+    },
+    {
+      "version": "0.19.6-r0"
+    },
+    {
+      "version": "0.19.5-r0"
+    },
+    {
+      "version": "0.19.4-r0"
+    },
+    {
+      "version": "0.19.3-r0"
+    },
+    {
+      "version": "0.19.2-r1"
+    },
+    {
+      "version": "0.19.11-r2"
+    },
+    {
+      "version": "0.19.11-r1"
+    },
+    {
+      "version": "0.19.11-r0"
+    },
+    {
+      "version": "0.19.10-r1"
+    },
+    {
+      "version": "0.19.10-r0"
+    },
+    {
+      "version": "0.19.1-r0"
+    },
+    {
+      "version": "0.19.0-r0"
+    },
+    {
+      "version": "0.18.9-r0"
+    },
+    {
+      "version": "0.18.8-r0"
+    },
+    {
+      "version": "0.18.7-r0"
+    },
+    {
+      "version": "0.18.6-r0"
+    },
+    {
+      "version": "0.18.5-r0"
+    },
+    {
+      "version": "0.18.4-r0"
+    },
+    {
+      "version": "0.18.3-r0"
+    },
+    {
+      "version": "0.18.2-r0"
+    },
+    {
+      "version": "0.18.19-r0"
+    },
+    {
+      "version": "0.18.18-r0"
+    },
+    {
+      "version": "0.18.17-r0"
+    },
+    {
+      "version": "0.18.16-r1"
+    },
+    {
+      "version": "0.18.16-r0"
+    },
+    {
+      "version": "0.18.15-r0"
+    },
+    {
+      "version": "0.18.14-r2"
+    },
+    {
+      "version": "0.18.14-r1"
+    },
+    {
+      "version": "0.18.14-r0"
+    },
+    {
+      "version": "0.18.13-r0"
+    },
+    {
+      "version": "0.18.12-r1"
+    },
+    {
+      "version": "0.18.12-r0"
+    },
+    {
+      "version": "0.18.11-r0"
+    },
+    {
+      "version": "0.18.10-r0"
+    },
+    {
+      "version": "0.18.1-r0"
+    },
+    {
+      "version": "0.18.0-r0"
+    },
+    {
+      "version": "0.17.2-r0"
+    },
+    {
+      "version": "0.17.1-r0"
+    },
+    {
+      "version": "0.17.0-r0"
+    },
+    {
+      "version": "0.16.3-r1"
+    },
+    {
+      "version": "0.16.3-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
