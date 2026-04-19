@@ -1,0 +1,14 @@
+{
+  "releases": [
+    {
+      "version": "17.0.6-r5"
+    },
+    {
+      "version": "17.0.6-r4"
+    },
+    {
+      "version": "17.0.6-r3"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

@@ -1,0 +1,32 @@
+{
+  "releases": [
+    {
+      "version": "0_git20250417-r0"
+    },
+    {
+      "version": "0_git20250416-r0"
+    },
+    {
+      "version": "0_git20250415-r0"
+    },
+    {
+      "version": "0_git20250413-r0"
+    },
+    {
+      "version": "0_git20250412-r0"
+    },
+    {
+      "version": "0_git20250411-r0"
+    },
+    {
+      "version": "0_git20250410-r0"
+    },
+    {
+      "version": "0_git20250409-r0"
+    },
+    {
+      "version": "0_git20250408-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

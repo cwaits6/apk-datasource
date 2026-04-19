@@ -1,0 +1,20 @@
+{
+  "releases": [
+    {
+      "version": "475-r6"
+    },
+    {
+      "version": "475-r5"
+    },
+    {
+      "version": "475-r4"
+    },
+    {
+      "version": "475-r3"
+    },
+    {
+      "version": "474-r2"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

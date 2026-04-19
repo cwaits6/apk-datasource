@@ -1,0 +1,11 @@
+{
+  "releases": [
+    {
+      "version": "2022.10.3-r22"
+    },
+    {
+      "version": "2022.10.3-r21"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

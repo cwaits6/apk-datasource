@@ -1,0 +1,65 @@
+{
+  "releases": [
+    {
+      "version": "7.1.1-r9"
+    },
+    {
+      "version": "7.1.1-r8"
+    },
+    {
+      "version": "7.1.1-r7"
+    },
+    {
+      "version": "7.1.1-r6"
+    },
+    {
+      "version": "7.1.1-r5"
+    },
+    {
+      "version": "7.1.1-r4"
+    },
+    {
+      "version": "7.1.1-r3"
+    },
+    {
+      "version": "7.1.1-r2"
+    },
+    {
+      "version": "7.1.1-r18"
+    },
+    {
+      "version": "7.1.1-r17"
+    },
+    {
+      "version": "7.1.1-r16"
+    },
+    {
+      "version": "7.1.1-r13"
+    },
+    {
+      "version": "7.1.1-r12"
+    },
+    {
+      "version": "7.1.1-r11"
+    },
+    {
+      "version": "7.1.1-r10"
+    },
+    {
+      "version": "7.1.1-r1"
+    },
+    {
+      "version": "7.1.1-r0"
+    },
+    {
+      "version": "7.1.0-r0"
+    },
+    {
+      "version": "7.0.1-r3"
+    },
+    {
+      "version": "7.0.1-r2"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
