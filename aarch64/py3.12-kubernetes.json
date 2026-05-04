@@ -1,0 +1,26 @@
+{
+  "releases": [
+    {
+      "version": "35.0.0-r1"
+    },
+    {
+      "version": "35.0.0-r0"
+    },
+    {
+      "version": "34.1.0-r0"
+    },
+    {
+      "version": "33.1.0-r2"
+    },
+    {
+      "version": "33.1.0-r1"
+    },
+    {
+      "version": "33.1.0-r0"
+    },
+    {
+      "version": "32.0.1-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

@@ -1,0 +1,14 @@
+{
+  "releases": [
+    {
+      "version": "20220322-r4"
+    },
+    {
+      "version": "20220322-r3"
+    },
+    {
+      "version": "20220322-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

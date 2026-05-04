@@ -1,0 +1,539 @@
+{
+  "releases": [
+    {
+      "version": "0.9.9-r99"
+    },
+    {
+      "version": "0.9.9-r98"
+    },
+    {
+      "version": "0.9.9-r97"
+    },
+    {
+      "version": "0.9.9-r96"
+    },
+    {
+      "version": "0.9.9-r95"
+    },
+    {
+      "version": "0.9.9-r94"
+    },
+    {
+      "version": "0.9.9-r93"
+    },
+    {
+      "version": "0.9.9-r92"
+    },
+    {
+      "version": "0.9.9-r91"
+    },
+    {
+      "version": "0.9.9-r90"
+    },
+    {
+      "version": "0.9.9-r9"
+    },
+    {
+      "version": "0.9.9-r89"
+    },
+    {
+      "version": "0.9.9-r88"
+    },
+    {
+      "version": "0.9.9-r87"
+    },
+    {
+      "version": "0.9.9-r86"
+    },
+    {
+      "version": "0.9.9-r85"
+    },
+    {
+      "version": "0.9.9-r84"
+    },
+    {
+      "version": "0.9.9-r83"
+    },
+    {
+      "version": "0.9.9-r82"
+    },
+    {
+      "version": "0.9.9-r81"
+    },
+    {
+      "version": "0.9.9-r80"
+    },
+    {
+      "version": "0.9.9-r8"
+    },
+    {
+      "version": "0.9.9-r79"
+    },
+    {
+      "version": "0.9.9-r78"
+    },
+    {
+      "version": "0.9.9-r77"
+    },
+    {
+      "version": "0.9.9-r75"
+    },
+    {
+      "version": "0.9.9-r74"
+    },
+    {
+      "version": "0.9.9-r73"
+    },
+    {
+      "version": "0.9.9-r72"
+    },
+    {
+      "version": "0.9.9-r71"
+    },
+    {
+      "version": "0.9.9-r70"
+    },
+    {
+      "version": "0.9.9-r7"
+    },
+    {
+      "version": "0.9.9-r69"
+    },
+    {
+      "version": "0.9.9-r68"
+    },
+    {
+      "version": "0.9.9-r67"
+    },
+    {
+      "version": "0.9.9-r66"
+    },
+    {
+      "version": "0.9.9-r65"
+    },
+    {
+      "version": "0.9.9-r64"
+    },
+    {
+      "version": "0.9.9-r63"
+    },
+    {
+      "version": "0.9.9-r62"
+    },
+    {
+      "version": "0.9.9-r61"
+    },
+    {
+      "version": "0.9.9-r60"
+    },
+    {
+      "version": "0.9.9-r6"
+    },
+    {
+      "version": "0.9.9-r59"
+    },
+    {
+      "version": "0.9.9-r58"
+    },
+    {
+      "version": "0.9.9-r57"
+    },
+    {
+      "version": "0.9.9-r56"
+    },
+    {
+      "version": "0.9.9-r55"
+    },
+    {
+      "version": "0.9.9-r54"
+    },
+    {
+      "version": "0.9.9-r53"
+    },
+    {
+      "version": "0.9.9-r52"
+    },
+    {
+      "version": "0.9.9-r51"
+    },
+    {
+      "version": "0.9.9-r50"
+    },
+    {
+      "version": "0.9.9-r5"
+    },
+    {
+      "version": "0.9.9-r49"
+    },
+    {
+      "version": "0.9.9-r48"
+    },
+    {
+      "version": "0.9.9-r47"
+    },
+    {
+      "version": "0.9.9-r46"
+    },
+    {
+      "version": "0.9.9-r45"
+    },
+    {
+      "version": "0.9.9-r44"
+    },
+    {
+      "version": "0.9.9-r43"
+    },
+    {
+      "version": "0.9.9-r42"
+    },
+    {
+      "version": "0.9.9-r41"
+    },
+    {
+      "version": "0.9.9-r40"
+    },
+    {
+      "version": "0.9.9-r4"
+    },
+    {
+      "version": "0.9.9-r39"
+    },
+    {
+      "version": "0.9.9-r38"
+    },
+    {
+      "version": "0.9.9-r37"
+    },
+    {
+      "version": "0.9.9-r36"
+    },
+    {
+      "version": "0.9.9-r35"
+    },
+    {
+      "version": "0.9.9-r34"
+    },
+    {
+      "version": "0.9.9-r33"
+    },
+    {
+      "version": "0.9.9-r32"
+    },
+    {
+      "version": "0.9.9-r31"
+    },
+    {
+      "version": "0.9.9-r30"
+    },
+    {
+      "version": "0.9.9-r3"
+    },
+    {
+      "version": "0.9.9-r29"
+    },
+    {
+      "version": "0.9.9-r28"
+    },
+    {
+      "version": "0.9.9-r27"
+    },
+    {
+      "version": "0.9.9-r26"
+    },
+    {
+      "version": "0.9.9-r25"
+    },
+    {
+      "version": "0.9.9-r24"
+    },
+    {
+      "version": "0.9.9-r23"
+    },
+    {
+      "version": "0.9.9-r22"
+    },
+    {
+      "version": "0.9.9-r21"
+    },
+    {
+      "version": "0.9.9-r20"
+    },
+    {
+      "version": "0.9.9-r2"
+    },
+    {
+      "version": "0.9.9-r19"
+    },
+    {
+      "version": "0.9.9-r18"
+    },
+    {
+      "version": "0.9.9-r17"
+    },
+    {
+      "version": "0.9.9-r16"
+    },
+    {
+      "version": "0.9.9-r15"
+    },
+    {
+      "version": "0.9.9-r14"
+    },
+    {
+      "version": "0.9.9-r13"
+    },
+    {
+      "version": "0.9.9-r12"
+    },
+    {
+      "version": "0.9.9-r11"
+    },
+    {
+      "version": "0.9.9-r104"
+    },
+    {
+      "version": "0.9.9-r103"
+    },
+    {
+      "version": "0.9.9-r102"
+    },
+    {
+      "version": "0.9.9-r101"
+    },
+    {
+      "version": "0.9.9-r100"
+    },
+    {
+      "version": "0.9.9-r10"
+    },
+    {
+      "version": "0.9.9-r1"
+    },
+    {
+      "version": "0.9.9-r0"
+    },
+    {
+      "version": "0.9.8-r9"
+    },
+    {
+      "version": "0.9.8-r8"
+    },
+    {
+      "version": "0.9.8-r7"
+    },
+    {
+      "version": "0.9.8-r6"
+    },
+    {
+      "version": "0.9.8-r59"
+    },
+    {
+      "version": "0.9.8-r58"
+    },
+    {
+      "version": "0.9.8-r57"
+    },
+    {
+      "version": "0.9.8-r56"
+    },
+    {
+      "version": "0.9.8-r55"
+    },
+    {
+      "version": "0.9.8-r54"
+    },
+    {
+      "version": "0.9.8-r53"
+    },
+    {
+      "version": "0.9.8-r52"
+    },
+    {
+      "version": "0.9.8-r51"
+    },
+    {
+      "version": "0.9.8-r50"
+    },
+    {
+      "version": "0.9.8-r5"
+    },
+    {
+      "version": "0.9.8-r49"
+    },
+    {
+      "version": "0.9.8-r48"
+    },
+    {
+      "version": "0.9.8-r47"
+    },
+    {
+      "version": "0.9.8-r46"
+    },
+    {
+      "version": "0.9.8-r45"
+    },
+    {
+      "version": "0.9.8-r44"
+    },
+    {
+      "version": "0.9.8-r43"
+    },
+    {
+      "version": "0.9.8-r42"
+    },
+    {
+      "version": "0.9.8-r41"
+    },
+    {
+      "version": "0.9.8-r40"
+    },
+    {
+      "version": "0.9.8-r4"
+    },
+    {
+      "version": "0.9.8-r39"
+    },
+    {
+      "version": "0.9.8-r38"
+    },
+    {
+      "version": "0.9.8-r37"
+    },
+    {
+      "version": "0.9.8-r36"
+    },
+    {
+      "version": "0.9.8-r35"
+    },
+    {
+      "version": "0.9.8-r34"
+    },
+    {
+      "version": "0.9.8-r33"
+    },
+    {
+      "version": "0.9.8-r32"
+    },
+    {
+      "version": "0.9.8-r31"
+    },
+    {
+      "version": "0.9.8-r30"
+    },
+    {
+      "version": "0.9.8-r3"
+    },
+    {
+      "version": "0.9.8-r29"
+    },
+    {
+      "version": "0.9.8-r28"
+    },
+    {
+      "version": "0.9.8-r27"
+    },
+    {
+      "version": "0.9.8-r26"
+    },
+    {
+      "version": "0.9.8-r25"
+    },
+    {
+      "version": "0.9.8-r24"
+    },
+    {
+      "version": "0.9.8-r23"
+    },
+    {
+      "version": "0.9.8-r22"
+    },
+    {
+      "version": "0.9.8-r21"
+    },
+    {
+      "version": "0.9.8-r20"
+    },
+    {
+      "version": "0.9.8-r2"
+    },
+    {
+      "version": "0.9.8-r19"
+    },
+    {
+      "version": "0.9.8-r18"
+    },
+    {
+      "version": "0.9.8-r17"
+    },
+    {
+      "version": "0.9.8-r16"
+    },
+    {
+      "version": "0.9.8-r15"
+    },
+    {
+      "version": "0.9.8-r14"
+    },
+    {
+      "version": "0.9.8-r13"
+    },
+    {
+      "version": "0.9.8-r12"
+    },
+    {
+      "version": "0.9.8-r11"
+    },
+    {
+      "version": "0.9.8-r10"
+    },
+    {
+      "version": "0.9.8-r1"
+    },
+    {
+      "version": "0.9.8-r0"
+    },
+    {
+      "version": "0.9.7-r2"
+    },
+    {
+      "version": "0.9.7-r1"
+    },
+    {
+      "version": "0.9.7-r0"
+    },
+    {
+      "version": "0.9.6-r0"
+    },
+    {
+      "version": "0.9.5-r9"
+    },
+    {
+      "version": "0.9.5-r18"
+    },
+    {
+      "version": "0.9.5-r17"
+    },
+    {
+      "version": "0.9.5-r16"
+    },
+    {
+      "version": "0.9.5-r15"
+    },
+    {
+      "version": "0.9.5-r14"
+    },
+    {
+      "version": "0.9.5-r13"
+    },
+    {
+      "version": "0.9.5-r12"
+    },
+    {
+      "version": "0.9.5-r11"
+    },
+    {
+      "version": "0.9.5-r10"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
