@@ -1,0 +1,20 @@
+{
+  "releases": [
+    {
+      "version": "20240308-r5"
+    },
+    {
+      "version": "20240308-r4"
+    },
+    {
+      "version": "20240308-r3"
+    },
+    {
+      "version": "20240308-r2"
+    },
+    {
+      "version": "20240308-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

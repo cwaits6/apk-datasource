@@ -1,0 +1,89 @@
+{
+  "releases": [
+    {
+      "version": "28.5.2-r9"
+    },
+    {
+      "version": "28.5.2-r8"
+    },
+    {
+      "version": "28.5.2-r7"
+    },
+    {
+      "version": "28.5.2-r6"
+    },
+    {
+      "version": "28.5.2-r5"
+    },
+    {
+      "version": "28.5.2-r4"
+    },
+    {
+      "version": "28.5.2-r3"
+    },
+    {
+      "version": "28.5.2-r2"
+    },
+    {
+      "version": "28.5.2-r1"
+    },
+    {
+      "version": "28.5.2-r0"
+    },
+    {
+      "version": "28.5.1-r3"
+    },
+    {
+      "version": "28.5.1-r0"
+    },
+    {
+      "version": "28.5.0-r0"
+    },
+    {
+      "version": "28.4.0-r1"
+    },
+    {
+      "version": "28.4.0-r0"
+    },
+    {
+      "version": "28.3.3-r3"
+    },
+    {
+      "version": "28.3.3-r2"
+    },
+    {
+      "version": "28.3.3-r1"
+    },
+    {
+      "version": "28.3.3-r0"
+    },
+    {
+      "version": "28.3.2-r1"
+    },
+    {
+      "version": "28.3.2-r0"
+    },
+    {
+      "version": "28.3.1-r0"
+    },
+    {
+      "version": "28.3.0-r0"
+    },
+    {
+      "version": "28.2.2-r1"
+    },
+    {
+      "version": "28.2.2-r0"
+    },
+    {
+      "version": "28.2.1-r0"
+    },
+    {
+      "version": "28.1.1-r0"
+    },
+    {
+      "version": "28.1.0-r0"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

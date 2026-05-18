@@ -1,0 +1,14 @@
+{
+  "releases": [
+    {
+      "version": "2013-r7"
+    },
+    {
+      "version": "2013-r6"
+    },
+    {
+      "version": "2013-r5"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

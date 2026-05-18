@@ -1,0 +1,29 @@
+{
+  "releases": [
+    {
+      "version": "2.1_p20250117-r6"
+    },
+    {
+      "version": "2.1_p20250117-r5"
+    },
+    {
+      "version": "2.1_p20250117-r4"
+    },
+    {
+      "version": "2.1_p20250117-r3"
+    },
+    {
+      "version": "2.1_p20250117-r2"
+    },
+    {
+      "version": "2.1_p20250117-r1"
+    },
+    {
+      "version": "2.1_p20250117-r0"
+    },
+    {
+      "version": "2.1_p20210510-r12"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
