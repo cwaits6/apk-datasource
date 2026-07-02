@@ -1,0 +1,92 @@
+{
+  "releases": [
+    {
+      "version": "1.252.0-r2"
+    },
+    {
+      "version": "1.252.0-r1"
+    },
+    {
+      "version": "1.252.0-r0"
+    },
+    {
+      "version": "1.251.0-r0"
+    },
+    {
+      "version": "1.250.0-r0"
+    },
+    {
+      "version": "1.249.0-r0"
+    },
+    {
+      "version": "1.248.0-r1"
+    },
+    {
+      "version": "1.248.0-r0"
+    },
+    {
+      "version": "1.247.0-r0"
+    },
+    {
+      "version": "1.246.2-r0"
+    },
+    {
+      "version": "1.246.1-r1"
+    },
+    {
+      "version": "1.246.1-r0"
+    },
+    {
+      "version": "1.246.0-r0"
+    },
+    {
+      "version": "1.245.1-r0"
+    },
+    {
+      "version": "1.245.0-r0"
+    },
+    {
+      "version": "1.244.0-r0"
+    },
+    {
+      "version": "1.243.0-r0"
+    },
+    {
+      "version": "1.242.0-r0"
+    },
+    {
+      "version": "1.241.2-r0"
+    },
+    {
+      "version": "1.241.0-r0"
+    },
+    {
+      "version": "1.240.0-r0"
+    },
+    {
+      "version": "1.239.0-r1"
+    },
+    {
+      "version": "1.239.0-r0"
+    },
+    {
+      "version": "1.238.1-r0"
+    },
+    {
+      "version": "1.238.0-r0"
+    },
+    {
+      "version": "1.237.0-r0"
+    },
+    {
+      "version": "1.236.1-r0"
+    },
+    {
+      "version": "1.236.0-r0"
+    },
+    {
+      "version": "1.235.0-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

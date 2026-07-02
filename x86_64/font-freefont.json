@@ -1,0 +1,14 @@
+{
+  "releases": [
+    {
+      "version": "20120503-r3"
+    },
+    {
+      "version": "20120503-r2"
+    },
+    {
+      "version": "20120503-r1"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

@@ -1,0 +1,17 @@
+{
+  "releases": [
+    {
+      "version": "18.1.8-r27"
+    },
+    {
+      "version": "18.1.8-r26"
+    },
+    {
+      "version": "18.1.8-r25"
+    },
+    {
+      "version": "18.1.8-r24"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

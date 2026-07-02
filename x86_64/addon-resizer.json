@@ -1,0 +1,44 @@
+{
+  "releases": [
+    {
+      "version": "1.8.23-r9"
+    },
+    {
+      "version": "1.8.23-r8"
+    },
+    {
+      "version": "1.8.23-r7"
+    },
+    {
+      "version": "1.8.23-r19"
+    },
+    {
+      "version": "1.8.23-r18"
+    },
+    {
+      "version": "1.8.23-r17"
+    },
+    {
+      "version": "1.8.23-r16"
+    },
+    {
+      "version": "1.8.23-r15"
+    },
+    {
+      "version": "1.8.23-r14"
+    },
+    {
+      "version": "1.8.23-r13"
+    },
+    {
+      "version": "1.8.23-r12"
+    },
+    {
+      "version": "1.8.23-r11"
+    },
+    {
+      "version": "1.8.23-r10"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
