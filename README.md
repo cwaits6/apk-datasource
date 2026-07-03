@@ -33,6 +33,7 @@ A public index for Wolfi x86_64 and aarch64 packages is hosted on GitHub Pages a
 
 ```text
 https://cwaits6.github.io/apk-datasource/x86_64/{{packageName}}.json
+https://cwaits6.github.io/apk-datasource/aarch64/{{packageName}}.json
 ```
 
 (Replace `{{packageName}}` with an actual package name, e.g., `curl`)
