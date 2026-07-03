@@ -9,8 +9,6 @@
       "groupName": "Lock file maintenance",
       "automerge": true,
       "automergeSchedule": ["before 6am on Monday"],
-      // 3-day cooldown is a deliberate choice for the wolfi-base security image;
-      // semgrep's rule wants >=7 days, so suppress only that one rule here.
       // nosemgrep: package_managers.renovate.renovate-missing-minimum-release-age.renovate-missing-minimum-release-age
       "minimumReleaseAge": "3 days"
     }
