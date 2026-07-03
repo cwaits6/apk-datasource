@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/cwaits6/apk-datasource/compare/v1.1.3...v1.2.0) (2026-07-03)
+
+
+### Features
+
+* emit releaseTimestamp in Renovate datasource output ([#36](https://github.com/cwaits6/apk-datasource/issues/36)) ([de7fa80](https://github.com/cwaits6/apk-datasource/commit/de7fa806b9c06d0e4e47d1e7882292ae5fdbc909))
+
 ## [1.1.3](https://github.com/cwaits6/apk-datasource/compare/v1.1.2...v1.1.3) (2026-07-03)
 
 ## [1.1.2](https://github.com/cwaits6/apk-datasource/compare/v1.1.1...v1.1.2) (2026-04-08)
