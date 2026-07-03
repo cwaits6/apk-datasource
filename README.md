@@ -216,7 +216,7 @@ apk-datasource serve \
 ```json
 {
   "releases": [
-    { "version": "8.11.1-r0" }
+    { "version": "8.11.1-r0", "releaseTimestamp": "2026-06-15T12:30:00Z" }
   ],
   "sourceUrl": "https://github.com/wolfi-dev/os",
   "homepage": "https://curl.se"

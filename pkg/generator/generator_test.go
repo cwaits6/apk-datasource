@@ -2,7 +2,9 @@ package generator
 
 import (
 	"encoding/json"
+	"strings"
 	"testing"
+	"time"
 
 	"github.com/cwaits6/apk-datasource/pkg/fetcher"
 	"gitlab.alpinelinux.org/alpine/go/repository"
@@ -87,13 +89,46 @@ func TestGenerate_OverrideSourceURL(t *testing.T) {
 	}
 }
 
+func TestGenerate_ReleaseTimestamp(t *testing.T) {
+	buildTime := time.Date(2026, 6, 15, 12, 30, 0, 0, time.UTC)
+	sources := []*fetcher.IndexSource{
+		{
+			Arch: "x86_64",
+			URL:  "https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz",
+			Packages: []*repository.Package{
+				{Name: "curl", Version: "8.11.1-r0", BuildTime: buildTime},
+				{Name: "curl", Version: "8.10.0-r0"},
+			},
+		},
+	}
+
+	result := Generate(sources, "", "")
+	releases := result["x86_64"]["curl"].Releases
+
+	if releases[0].ReleaseTimestamp != "2026-06-15T12:30:00Z" {
+		t.Errorf("expected releaseTimestamp 2026-06-15T12:30:00Z, got %q", releases[0].ReleaseTimestamp)
+	}
+	if releases[1].ReleaseTimestamp != "" {
+		t.Errorf("expected empty releaseTimestamp for zero build time, got %q", releases[1].ReleaseTimestamp)
+	}
+
+	// Zero build time must omit the key entirely, not emit an empty string.
+	data, err := json.Marshal(releases[1])
+	if err != nil {
+		t.Fatalf("marshal error: %v", err)
+	}
+	if strings.Contains(string(data), "releaseTimestamp") {
+		t.Errorf("expected releaseTimestamp key omitted, got %s", data)
+	}
+}
+
 func TestGenerate_RenovateJSONContract(t *testing.T) {
 	sources := []*fetcher.IndexSource{
 		{
 			Arch: "x86_64",
 			URL:  "https://packages.wolfi.dev/os/x86_64/APKINDEX.tar.gz",
 			Packages: []*repository.Package{
-				{Name: "curl", Version: "8.11.1-r0", URL: "https://curl.se"},
+				{Name: "curl", Version: "8.11.1-r0", URL: "https://curl.se", BuildTime: time.Date(2026, 6, 15, 12, 30, 0, 0, time.UTC)},
 			},
 		},
 	}

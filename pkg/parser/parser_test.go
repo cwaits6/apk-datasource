@@ -2,6 +2,7 @@ package parser
 
 import (
 	"testing"
+	"time"
 
 	"gitlab.alpinelinux.org/alpine/go/repository"
 )
@@ -69,8 +70,9 @@ func TestParse_SkipsMissingFields(t *testing.T) {
 }
 
 func TestParse_PreservesMetadata(t *testing.T) {
+	buildTime := time.Date(2026, 6, 15, 12, 0, 0, 0, time.UTC)
 	packages := []*repository.Package{
-		{Name: "curl", Version: "8.11.1-r0", URL: "https://curl.se", License: "MIT", Origin: "curl"},
+		{Name: "curl", Version: "8.11.1-r0", URL: "https://curl.se", License: "MIT", Origin: "curl", BuildTime: buildTime},
 	}
 
 	result := Parse(packages)
@@ -84,5 +86,8 @@ func TestParse_PreservesMetadata(t *testing.T) {
 	}
 	if info.Origin != "curl" {
 		t.Errorf("expected origin curl, got %s", info.Origin)
+	}
+	if !info.BuildTime.Equal(buildTime) {
+		t.Errorf("expected build time %s, got %s", buildTime, info.BuildTime)
 	}
 }

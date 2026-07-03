@@ -2,16 +2,18 @@ package parser
 
 import (
 	"sort"
+	"time"
 
 	"gitlab.alpinelinux.org/alpine/go/repository"
 )
 
 // PackageInfo holds normalized metadata for a single package version.
 type PackageInfo struct {
-	Version string
-	URL     string
-	Origin  string
-	License string
+	Version   string
+	URL       string
+	Origin    string
+	License   string
+	BuildTime time.Time
 }
 
 // Parse groups packages by name and returns a map of package name to sorted versions (descending).
@@ -24,10 +26,11 @@ func Parse(packages []*repository.Package) map[string][]PackageInfo {
 		}
 
 		info := PackageInfo{
-			Version: pkg.Version,
-			URL:     pkg.URL,
-			Origin:  pkg.Origin,
-			License: pkg.License,
+			Version:   pkg.Version,
+			URL:       pkg.URL,
+			Origin:    pkg.Origin,
+			License:   pkg.License,
+			BuildTime: pkg.BuildTime,
 		}
 
 		grouped[pkg.Name] = append(grouped[pkg.Name], info)

@@ -2,6 +2,7 @@ package generator
 
 import (
 	"strings"
+	"time"
 
 	"github.com/cwaits6/apk-datasource/pkg/fetcher"
 	"github.com/cwaits6/apk-datasource/pkg/parser"
@@ -9,7 +10,8 @@ import (
 
 // Release represents a single version entry in the Renovate datasource output.
 type Release struct {
-	Version string `json:"version"`
+	Version          string `json:"version"`
+	ReleaseTimestamp string `json:"releaseTimestamp,omitempty"`
 }
 
 // RenovatePackage is the Renovate custom datasource JSON schema for a single package.
@@ -49,7 +51,11 @@ func Generate(sources []*fetcher.IndexSource, sourceURLOverride, homepageOverrid
 		for name, versions := range parsed {
 			releases := make([]Release, 0, len(versions))
 			for _, v := range versions {
-				releases = append(releases, Release{Version: v.Version})
+				release := Release{Version: v.Version}
+				if !v.BuildTime.IsZero() {
+					release.ReleaseTimestamp = v.BuildTime.UTC().Format(time.RFC3339)
+				}
+				releases = append(releases, release)
 			}
 
 			homepage := homepageOverride
