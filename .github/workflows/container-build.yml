@@ -5,6 +5,14 @@ on:
     types: [published]
   pull_request:
     branches: [main]
+    # Only build the image when something that actually affects it changes.
+    # Docs/CI-only PRs (e.g. Renovate action bumps) don't need a container build.
+    paths:
+      - "**/*.go"
+      - "go.mod"
+      - "go.sum"
+      - "deploy/docker/**"
+      - ".github/workflows/container-build.yml"
 
 permissions:
   contents: read
