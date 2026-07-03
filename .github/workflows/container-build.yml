@@ -5,6 +5,12 @@ on:
     types: [published]
   pull_request:
     branches: [main]
+    paths:
+      - "**/*.go"
+      - "go.mod"
+      - "go.sum"
+      - "deploy/docker/**"
+      - ".github/workflows/container-build.yml"
 
 permissions:
   contents: read
