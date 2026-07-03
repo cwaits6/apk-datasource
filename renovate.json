@@ -8,7 +8,8 @@
       "matchPackagePatterns": ["cgr.dev/chainguard/wolfi-base"],
       "groupName": "Lock file maintenance",
       "automerge": true,
-      "automergeSchedule": ["before 6am on Monday"]
+      "automergeSchedule": ["before 6am on Monday"],
+      "minimumReleaseAge": "3 days"
     }
   ]
 }
