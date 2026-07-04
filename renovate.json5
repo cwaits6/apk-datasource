@@ -1,29 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>krypsis-io/renovate-config"],
-
-  // The blocks below already come from the krypsis-io preset. They are
-  // duplicated here on purpose: this repo dogfoods its own datasource, and
-  // keeping a working example inline shows visitors how to wire it up.
-  // Renovate merges the duplicate manager into a single update branch.
-  "customDatasources": {
-    "apk-wolfi": {
-      "defaultRegistryUrlTemplate": "https://cwaits6.github.io/apk-datasource/x86_64/{{packageName}}.json",
-      "format": "json"
-    }
-  },
-  "customManagers": [
-    {
-      "customType": "regex",
-      "description": "Update apk add name=version pins in Dockerfiles",
-      "managerFilePatterns": ["/(^|/)Dockerfile[^/]*$/"],
-      "matchStringsStrategy": "recursive",
-      "matchStrings": [
-        "apk\\s+add[^\\n\\\\]*(?:\\\\[^\\S\\n]*\\n[^\\n\\\\]*)*",
-        "(?<depName>[a-zA-Z0-9][a-zA-Z0-9._+-]*)=(?<currentValue>\\d+[^\\s\\\\]+)"
-      ],
-      "datasourceTemplate": "custom.apk-wolfi",
-      "versioningTemplate": "loose"
-    }
-  ]
+  "extends": ["github>krypsis-io/renovate-config"]
 }
