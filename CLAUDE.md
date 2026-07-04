@@ -61,14 +61,14 @@ Uses [Conventional Commits](https://www.conventionalcommits.org/) with semantic-
 ## CI/CD
 
 - **ci.yml** — lint (golangci-lint), test, build on PRs
-- **pr.yml** — dependency-review, trivy, semgrep (reuses cwaits6/.github shared workflows)
+- **pr.yml** — dependency-review, trivy, semgrep (reuses krypsis-io/.github shared workflows)
 - **release.yml** — semantic-release on push to main (Go binary builds via shared workflow)
 - **container-build.yml** — multi-arch (amd64/arm64) buildah builds; GHCR always, Docker Hub on tags only
 - **generate-index.yml** — every 4h, generates static index and deploys to GitHub Pages
 - **check-go-version.yml** — weekly check for newer Go minor version in Wolfi, auto-creates PR
 - **scorecard.yml** — OpenSSF Scorecard weekly + on push to main
 
-Shared workflows live in `cwaits6/.github` repo.
+Shared workflows live in `krypsis-io/.github` repo.
 
 ## Deploy
 
