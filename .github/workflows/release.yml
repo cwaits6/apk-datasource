@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   release:
-    uses: krypsis-io/.github/.github/workflows/release.yml@main
+    uses: krypsis-io/.github/.github/workflows/release.yml@8e8d276392baa91e98d98f33ac6f3990c3869650 # main
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}

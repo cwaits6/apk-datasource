@@ -12,14 +12,14 @@ jobs:
     permissions:
       contents: read
       pull-requests: read
-    uses: krypsis-io/.github/.github/workflows/dependency-review.yml@main
+    uses: krypsis-io/.github/.github/workflows/dependency-review.yml@8e8d276392baa91e98d98f33ac6f3990c3869650 # main
   trivy:
     permissions:
       contents: read
-    uses: krypsis-io/.github/.github/workflows/trivy.yml@main
+    uses: krypsis-io/.github/.github/workflows/trivy.yml@8e8d276392baa91e98d98f33ac6f3990c3869650 # main
   semgrep:
     permissions:
       contents: write
       issues: write
       pull-requests: write
-    uses: krypsis-io/.github/.github/workflows/semgrep.yml@main
+    uses: krypsis-io/.github/.github/workflows/semgrep.yml@8e8d276392baa91e98d98f33ac6f3990c3869650 # main

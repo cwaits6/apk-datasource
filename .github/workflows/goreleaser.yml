@@ -9,4 +9,4 @@ permissions:
 
 jobs:
   goreleaser:
-    uses: krypsis-io/.github/.github/workflows/goreleaser.yml@main
+    uses: krypsis-io/.github/.github/workflows/goreleaser.yml@8e8d276392baa91e98d98f33ac6f3990c3869650 # main

@@ -13,4 +13,4 @@ jobs:
       security-events: write
       id-token: write
       actions: read
-    uses: krypsis-io/.github/.github/workflows/scorecard.yml@main
+    uses: krypsis-io/.github/.github/workflows/scorecard.yml@8e8d276392baa91e98d98f33ac6f3990c3869650 # main

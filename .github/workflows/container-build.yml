@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   build:
-    uses: krypsis-io/.github/.github/workflows/container-build.yml@main
+    uses: krypsis-io/.github/.github/workflows/container-build.yml@8e8d276392baa91e98d98f33ac6f3990c3869650 # main
     with:
       dockerfile: deploy/docker/Dockerfile
       platforms: linux/amd64,linux/arm64
