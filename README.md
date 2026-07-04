@@ -61,7 +61,7 @@ Add the following `customDatasources` and `customManagers` blocks to your existi
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["(^|/)Dockerfile[^/]*$"],
+      "managerFilePatterns": ["/(^|/)Dockerfile[^/]*$/"],
       "matchStringsStrategy": "recursive",
       "matchStrings": [
         "apk\\s+add[^\\n\\\\]*(?:\\\\[^\\S\\n]*\\n[^\\n\\\\]*)*",

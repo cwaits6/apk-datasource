@@ -1,16 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>krypsis-io/renovate-config"],
-  "packageRules": [
-    {
-      "description": "Wolfi-base - grouped with lock file maintenance, merge Monday",
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["cgr.dev/chainguard/wolfi-base"],
-      "groupName": "Lock file maintenance",
-      "automerge": true,
-      "automergeSchedule": ["before 6am on Monday"],
-      // nosemgrep: package_managers.renovate.renovate-missing-minimum-release-age.renovate-missing-minimum-release-age
-      "minimumReleaseAge": "3 days"
-    }
-  ]
+  "extends": ["github>krypsis-io/renovate-config"]
 }
