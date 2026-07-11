@@ -1,3 +1,5 @@
+## [1.2.3](https://github.com/cwaits6/apk-datasource/compare/v1.2.2...v1.2.3) (2026-07-11)
+
 ## [1.2.2](https://github.com/cwaits6/apk-datasource/compare/v1.2.1...v1.2.2) (2026-07-08)
 
 ## [1.2.1](https://github.com/cwaits6/apk-datasource/compare/v1.2.0...v1.2.1) (2026-07-04)
