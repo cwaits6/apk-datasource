@@ -1,0 +1,1157 @@
+{
+  "releases": [
+    {
+      "version": "1.37-r99",
+      "releaseTimestamp": "2026-04-07T04:49:57Z"
+    },
+    {
+      "version": "1.37-r98",
+      "releaseTimestamp": "2026-04-07T04:44:14Z"
+    },
+    {
+      "version": "1.37-r97",
+      "releaseTimestamp": "2026-04-07T04:39:15Z"
+    },
+    {
+      "version": "1.37-r96",
+      "releaseTimestamp": "2026-04-07T04:30:42Z"
+    },
+    {
+      "version": "1.37-r95",
+      "releaseTimestamp": "2026-04-07T04:27:07Z"
+    },
+    {
+      "version": "1.37-r94",
+      "releaseTimestamp": "2026-04-07T04:20:24Z"
+    },
+    {
+      "version": "1.37-r93",
+      "releaseTimestamp": "2026-04-07T04:13:06Z"
+    },
+    {
+      "version": "1.37-r92",
+      "releaseTimestamp": "2026-04-07T04:06:33Z"
+    },
+    {
+      "version": "1.37-r91",
+      "releaseTimestamp": "2026-04-07T03:59:31Z"
+    },
+    {
+      "version": "1.37-r90",
+      "releaseTimestamp": "2026-04-07T03:53:56Z"
+    },
+    {
+      "version": "1.37-r9",
+      "releaseTimestamp": "2026-03-22T16:40:11Z"
+    },
+    {
+      "version": "1.37-r89",
+      "releaseTimestamp": "2026-04-07T03:47:18Z"
+    },
+    {
+      "version": "1.37-r88",
+      "releaseTimestamp": "2026-04-07T03:42:59Z"
+    },
+    {
+      "version": "1.37-r87",
+      "releaseTimestamp": "2026-04-07T03:37:58Z"
+    },
+    {
+      "version": "1.37-r86",
+      "releaseTimestamp": "2026-04-07T03:31:33Z"
+    },
+    {
+      "version": "1.37-r85",
+      "releaseTimestamp": "2026-04-07T03:23:15Z"
+    },
+    {
+      "version": "1.37-r84",
+      "releaseTimestamp": "2026-04-07T03:16:39Z"
+    },
+    {
+      "version": "1.37-r83",
+      "releaseTimestamp": "2026-04-07T03:11:40Z"
+    },
+    {
+      "version": "1.37-r82",
+      "releaseTimestamp": "2026-04-07T03:02:56Z"
+    },
+    {
+      "version": "1.37-r81",
+      "releaseTimestamp": "2026-04-07T02:56:41Z"
+    },
+    {
+      "version": "1.37-r80",
+      "releaseTimestamp": "2026-04-07T02:53:59Z"
+    },
+    {
+      "version": "1.37-r8",
+      "releaseTimestamp": "2026-03-22T16:30:29Z"
+    },
+    {
+      "version": "1.37-r79",
+      "releaseTimestamp": "2026-04-07T02:44:06Z"
+    },
+    {
+      "version": "1.37-r78",
+      "releaseTimestamp": "2026-04-07T02:35:57Z"
+    },
+    {
+      "version": "1.37-r77",
+      "releaseTimestamp": "2026-04-07T02:30:20Z"
+    },
+    {
+      "version": "1.37-r76",
+      "releaseTimestamp": "2026-04-07T02:21:02Z"
+    },
+    {
+      "version": "1.37-r75",
+      "releaseTimestamp": "2026-04-07T02:11:02Z"
+    },
+    {
+      "version": "1.37-r74",
+      "releaseTimestamp": "2026-04-07T02:07:17Z"
+    },
+    {
+      "version": "1.37-r73",
+      "releaseTimestamp": "2026-04-07T01:57:39Z"
+    },
+    {
+      "version": "1.37-r72",
+      "releaseTimestamp": "2026-04-07T01:51:42Z"
+    },
+    {
+      "version": "1.37-r71",
+      "releaseTimestamp": "2026-04-07T01:48:47Z"
+    },
+    {
+      "version": "1.37-r70",
+      "releaseTimestamp": "2026-04-07T01:40:30Z"
+    },
+    {
+      "version": "1.37-r7",
+      "releaseTimestamp": "2026-03-22T16:22:44Z"
+    },
+    {
+      "version": "1.37-r69",
+      "releaseTimestamp": "2026-04-07T01:30:06Z"
+    },
+    {
+      "version": "1.37-r68",
+      "releaseTimestamp": "2026-04-07T01:23:02Z"
+    },
+    {
+      "version": "1.37-r67",
+      "releaseTimestamp": "2026-04-07T01:16:41Z"
+    },
+    {
+      "version": "1.37-r66",
+      "releaseTimestamp": "2026-04-07T01:09:15Z"
+    },
+    {
+      "version": "1.37-r65",
+      "releaseTimestamp": "2026-04-07T01:00:05Z"
+    },
+    {
+      "version": "1.37-r64",
+      "releaseTimestamp": "2026-04-07T00:56:51Z"
+    },
+    {
+      "version": "1.37-r63",
+      "releaseTimestamp": "2026-04-07T00:46:31Z"
+    },
+    {
+      "version": "1.37-r62",
+      "releaseTimestamp": "2026-04-07T00:41:07Z"
+    },
+    {
+      "version": "1.37-r61",
+      "releaseTimestamp": "2026-04-07T00:33:24Z"
+    },
+    {
+      "version": "1.37-r60",
+      "releaseTimestamp": "2026-04-07T00:24:49Z"
+    },
+    {
+      "version": "1.37-r6",
+      "releaseTimestamp": "2026-03-22T16:17:01Z"
+    },
+    {
+      "version": "1.37-r59",
+      "releaseTimestamp": "2026-04-07T00:16:47Z"
+    },
+    {
+      "version": "1.37-r58",
+      "releaseTimestamp": "2026-04-07T00:11:02Z"
+    },
+    {
+      "version": "1.37-r57",
+      "releaseTimestamp": "2026-04-07T00:07:43Z"
+    },
+    {
+      "version": "1.37-r56",
+      "releaseTimestamp": "2026-04-06T23:56:49Z"
+    },
+    {
+      "version": "1.37-r55",
+      "releaseTimestamp": "2026-04-06T23:49:17Z"
+    },
+    {
+      "version": "1.37-r54",
+      "releaseTimestamp": "2026-04-06T23:42:19Z"
+    },
+    {
+      "version": "1.37-r53",
+      "releaseTimestamp": "2026-04-06T23:34:41Z"
+    },
+    {
+      "version": "1.37-r52",
+      "releaseTimestamp": "2026-04-06T23:28:20Z"
+    },
+    {
+      "version": "1.37-r51",
+      "releaseTimestamp": "2026-04-06T23:19:49Z"
+    },
+    {
+      "version": "1.37-r50",
+      "releaseTimestamp": "2026-04-06T23:11:54Z"
+    },
+    {
+      "version": "1.37-r5",
+      "releaseTimestamp": "2026-03-22T16:11:46Z"
+    },
+    {
+      "version": "1.37-r49",
+      "releaseTimestamp": "2026-04-06T23:03:08Z"
+    },
+    {
+      "version": "1.37-r48",
+      "releaseTimestamp": "2026-04-06T22:58:09Z"
+    },
+    {
+      "version": "1.37-r47",
+      "releaseTimestamp": "2026-04-06T22:49:53Z"
+    },
+    {
+      "version": "1.37-r46",
+      "releaseTimestamp": "2026-04-06T22:34:42Z"
+    },
+    {
+      "version": "1.37-r45",
+      "releaseTimestamp": "2026-04-06T22:28:23Z"
+    },
+    {
+      "version": "1.37-r44",
+      "releaseTimestamp": "2026-04-06T22:12:57Z"
+    },
+    {
+      "version": "1.37-r43",
+      "releaseTimestamp": "2026-04-06T22:07:51Z"
+    },
+    {
+      "version": "1.37-r42",
+      "releaseTimestamp": "2026-04-06T21:47:05Z"
+    },
+    {
+      "version": "1.37-r41",
+      "releaseTimestamp": "2026-04-06T21:36:54Z"
+    },
+    {
+      "version": "1.37-r40",
+      "releaseTimestamp": "2026-04-06T21:30:29Z"
+    },
+    {
+      "version": "1.37-r4",
+      "releaseTimestamp": "2026-03-22T16:05:57Z"
+    },
+    {
+      "version": "1.37-r39",
+      "releaseTimestamp": "2026-04-06T21:21:40Z"
+    },
+    {
+      "version": "1.37-r38",
+      "releaseTimestamp": "2026-04-06T21:13:18Z"
+    },
+    {
+      "version": "1.37-r37",
+      "releaseTimestamp": "2026-04-06T21:05:13Z"
+    },
+    {
+      "version": "1.37-r36",
+      "releaseTimestamp": "2026-04-06T21:01:59Z"
+    },
+    {
+      "version": "1.37-r35",
+      "releaseTimestamp": "2026-04-06T20:47:55Z"
+    },
+    {
+      "version": "1.37-r34",
+      "releaseTimestamp": "2026-04-06T20:40:24Z"
+    },
+    {
+      "version": "1.37-r33",
+      "releaseTimestamp": "2026-04-06T20:33:22Z"
+    },
+    {
+      "version": "1.37-r32",
+      "releaseTimestamp": "2026-04-06T20:22:37Z"
+    },
+    {
+      "version": "1.37-r31",
+      "releaseTimestamp": "2026-04-06T20:14:34Z"
+    },
+    {
+      "version": "1.37-r30",
+      "releaseTimestamp": "2026-04-06T20:06:07Z"
+    },
+    {
+      "version": "1.37-r3",
+      "releaseTimestamp": "2026-02-02T00:52:18Z"
+    },
+    {
+      "version": "1.37-r291",
+      "releaseTimestamp": "2026-06-08T14:11:10Z"
+    },
+    {
+      "version": "1.37-r290",
+      "releaseTimestamp": "2026-05-26T10:40:19Z"
+    },
+    {
+      "version": "1.37-r29",
+      "releaseTimestamp": "2026-04-06T19:58:42Z"
+    },
+    {
+      "version": "1.37-r289",
+      "releaseTimestamp": "2026-05-26T10:24:47Z"
+    },
+    {
+      "version": "1.37-r288",
+      "releaseTimestamp": "2026-05-26T10:15:14Z"
+    },
+    {
+      "version": "1.37-r287",
+      "releaseTimestamp": "2026-05-26T10:04:29Z"
+    },
+    {
+      "version": "1.37-r286",
+      "releaseTimestamp": "2026-05-26T09:53:39Z"
+    },
+    {
+      "version": "1.37-r285",
+      "releaseTimestamp": "2026-05-26T09:47:39Z"
+    },
+    {
+      "version": "1.37-r284",
+      "releaseTimestamp": "2026-05-26T09:36:55Z"
+    },
+    {
+      "version": "1.37-r283",
+      "releaseTimestamp": "2026-05-26T09:28:28Z"
+    },
+    {
+      "version": "1.37-r282",
+      "releaseTimestamp": "2026-05-26T09:24:53Z"
+    },
+    {
+      "version": "1.37-r281",
+      "releaseTimestamp": "2026-05-26T09:14:59Z"
+    },
+    {
+      "version": "1.37-r280",
+      "releaseTimestamp": "2026-05-26T08:40:15Z"
+    },
+    {
+      "version": "1.37-r28",
+      "releaseTimestamp": "2026-04-06T19:52:26Z"
+    },
+    {
+      "version": "1.37-r279",
+      "releaseTimestamp": "2026-05-26T08:32:55Z"
+    },
+    {
+      "version": "1.37-r278",
+      "releaseTimestamp": "2026-05-26T08:26:34Z"
+    },
+    {
+      "version": "1.37-r277",
+      "releaseTimestamp": "2026-05-26T08:16:55Z"
+    },
+    {
+      "version": "1.37-r276",
+      "releaseTimestamp": "2026-05-26T08:09:59Z"
+    },
+    {
+      "version": "1.37-r275",
+      "releaseTimestamp": "2026-05-26T08:04:22Z"
+    },
+    {
+      "version": "1.37-r274",
+      "releaseTimestamp": "2026-05-26T07:55:44Z"
+    },
+    {
+      "version": "1.37-r273",
+      "releaseTimestamp": "2026-05-26T07:46:59Z"
+    },
+    {
+      "version": "1.37-r272",
+      "releaseTimestamp": "2026-05-26T07:41:54Z"
+    },
+    {
+      "version": "1.37-r271",
+      "releaseTimestamp": "2026-05-26T07:33:20Z"
+    },
+    {
+      "version": "1.37-r270",
+      "releaseTimestamp": "2026-05-26T07:25:44Z"
+    },
+    {
+      "version": "1.37-r27",
+      "releaseTimestamp": "2026-04-06T19:44:55Z"
+    },
+    {
+      "version": "1.37-r269",
+      "releaseTimestamp": "2026-05-26T07:20:36Z"
+    },
+    {
+      "version": "1.37-r268",
+      "releaseTimestamp": "2026-05-26T07:09:43Z"
+    },
+    {
+      "version": "1.37-r267",
+      "releaseTimestamp": "2026-05-26T07:04:03Z"
+    },
+    {
+      "version": "1.37-r266",
+      "releaseTimestamp": "2026-05-26T06:52:51Z"
+    },
+    {
+      "version": "1.37-r265",
+      "releaseTimestamp": "2026-05-26T06:45:53Z"
+    },
+    {
+      "version": "1.37-r264",
+      "releaseTimestamp": "2026-05-26T06:37:12Z"
+    },
+    {
+      "version": "1.37-r263",
+      "releaseTimestamp": "2026-05-26T06:32:19Z"
+    },
+    {
+      "version": "1.37-r262",
+      "releaseTimestamp": "2026-05-26T06:21:24Z"
+    },
+    {
+      "version": "1.37-r261",
+      "releaseTimestamp": "2026-05-26T06:13:03Z"
+    },
+    {
+      "version": "1.37-r260",
+      "releaseTimestamp": "2026-05-26T06:05:08Z"
+    },
+    {
+      "version": "1.37-r26",
+      "releaseTimestamp": "2026-04-06T19:38:16Z"
+    },
+    {
+      "version": "1.37-r259",
+      "releaseTimestamp": "2026-05-26T05:57:13Z"
+    },
+    {
+      "version": "1.37-r258",
+      "releaseTimestamp": "2026-05-26T05:52:54Z"
+    },
+    {
+      "version": "1.37-r257",
+      "releaseTimestamp": "2026-05-26T05:42:40Z"
+    },
+    {
+      "version": "1.37-r256",
+      "releaseTimestamp": "2026-05-26T05:33:15Z"
+    },
+    {
+      "version": "1.37-r255",
+      "releaseTimestamp": "2026-05-26T05:26:33Z"
+    },
+    {
+      "version": "1.37-r254",
+      "releaseTimestamp": "2026-05-26T05:17:35Z"
+    },
+    {
+      "version": "1.37-r253",
+      "releaseTimestamp": "2026-05-26T05:10:17Z"
+    },
+    {
+      "version": "1.37-r252",
+      "releaseTimestamp": "2026-05-26T05:00:20Z"
+    },
+    {
+      "version": "1.37-r251",
+      "releaseTimestamp": "2026-05-26T04:52:32Z"
+    },
+    {
+      "version": "1.37-r250",
+      "releaseTimestamp": "2026-05-26T04:44:10Z"
+    },
+    {
+      "version": "1.37-r25",
+      "releaseTimestamp": "2026-04-06T19:32:01Z"
+    },
+    {
+      "version": "1.37-r249",
+      "releaseTimestamp": "2026-05-26T04:35:27Z"
+    },
+    {
+      "version": "1.37-r248",
+      "releaseTimestamp": "2026-05-26T04:28:14Z"
+    },
+    {
+      "version": "1.37-r247",
+      "releaseTimestamp": "2026-05-26T04:21:09Z"
+    },
+    {
+      "version": "1.37-r246",
+      "releaseTimestamp": "2026-05-26T04:13:39Z"
+    },
+    {
+      "version": "1.37-r245",
+      "releaseTimestamp": "2026-05-26T04:04:42Z"
+    },
+    {
+      "version": "1.37-r244",
+      "releaseTimestamp": "2026-05-26T03:55:42Z"
+    },
+    {
+      "version": "1.37-r243",
+      "releaseTimestamp": "2026-05-26T03:47:29Z"
+    },
+    {
+      "version": "1.37-r242",
+      "releaseTimestamp": "2026-05-26T03:39:43Z"
+    },
+    {
+      "version": "1.37-r241",
+      "releaseTimestamp": "2026-05-26T03:31:39Z"
+    },
+    {
+      "version": "1.37-r240",
+      "releaseTimestamp": "2026-05-26T03:21:42Z"
+    },
+    {
+      "version": "1.37-r24",
+      "releaseTimestamp": "2026-04-06T19:22:16Z"
+    },
+    {
+      "version": "1.37-r239",
+      "releaseTimestamp": "2026-05-26T03:14:28Z"
+    },
+    {
+      "version": "1.37-r238",
+      "releaseTimestamp": "2026-05-26T03:08:00Z"
+    },
+    {
+      "version": "1.37-r237",
+      "releaseTimestamp": "2026-05-26T02:47:13Z"
+    },
+    {
+      "version": "1.37-r236",
+      "releaseTimestamp": "2026-05-26T02:40:45Z"
+    },
+    {
+      "version": "1.37-r235",
+      "releaseTimestamp": "2026-05-26T02:31:45Z"
+    },
+    {
+      "version": "1.37-r234",
+      "releaseTimestamp": "2026-05-26T02:24:31Z"
+    },
+    {
+      "version": "1.37-r233",
+      "releaseTimestamp": "2026-05-26T02:15:47Z"
+    },
+    {
+      "version": "1.37-r232",
+      "releaseTimestamp": "2026-05-26T02:10:49Z"
+    },
+    {
+      "version": "1.37-r231",
+      "releaseTimestamp": "2026-05-26T01:56:50Z"
+    },
+    {
+      "version": "1.37-r230",
+      "releaseTimestamp": "2026-05-26T01:49:12Z"
+    },
+    {
+      "version": "1.37-r23",
+      "releaseTimestamp": "2026-04-06T19:14:24Z"
+    },
+    {
+      "version": "1.37-r229",
+      "releaseTimestamp": "2026-05-26T01:42:01Z"
+    },
+    {
+      "version": "1.37-r228",
+      "releaseTimestamp": "2026-05-26T01:35:27Z"
+    },
+    {
+      "version": "1.37-r227",
+      "releaseTimestamp": "2026-05-26T01:28:40Z"
+    },
+    {
+      "version": "1.37-r225",
+      "releaseTimestamp": "2026-05-26T01:11:14Z"
+    },
+    {
+      "version": "1.37-r224",
+      "releaseTimestamp": "2026-05-26T01:03:51Z"
+    },
+    {
+      "version": "1.37-r223",
+      "releaseTimestamp": "2026-05-26T00:54:51Z"
+    },
+    {
+      "version": "1.37-r222",
+      "releaseTimestamp": "2026-05-26T00:50:38Z"
+    },
+    {
+      "version": "1.37-r221",
+      "releaseTimestamp": "2026-05-26T00:41:55Z"
+    },
+    {
+      "version": "1.37-r220",
+      "releaseTimestamp": "2026-05-26T00:34:40Z"
+    },
+    {
+      "version": "1.37-r22",
+      "releaseTimestamp": "2026-04-06T18:58:56Z"
+    },
+    {
+      "version": "1.37-r219",
+      "releaseTimestamp": "2026-05-26T00:23:44Z"
+    },
+    {
+      "version": "1.37-r218",
+      "releaseTimestamp": "2026-05-25T23:44:45Z"
+    },
+    {
+      "version": "1.37-r217",
+      "releaseTimestamp": "2026-05-25T23:38:07Z"
+    },
+    {
+      "version": "1.37-r216",
+      "releaseTimestamp": "2026-05-25T23:27:10Z"
+    },
+    {
+      "version": "1.37-r215",
+      "releaseTimestamp": "2026-05-25T23:17:43Z"
+    },
+    {
+      "version": "1.37-r214",
+      "releaseTimestamp": "2026-05-25T23:11:25Z"
+    },
+    {
+      "version": "1.37-r213",
+      "releaseTimestamp": "2026-05-25T23:03:17Z"
+    },
+    {
+      "version": "1.37-r212",
+      "releaseTimestamp": "2026-05-25T22:54:52Z"
+    },
+    {
+      "version": "1.37-r211",
+      "releaseTimestamp": "2026-05-25T22:48:23Z"
+    },
+    {
+      "version": "1.37-r210",
+      "releaseTimestamp": "2026-05-25T22:41:41Z"
+    },
+    {
+      "version": "1.37-r21",
+      "releaseTimestamp": "2026-04-06T18:51:02Z"
+    },
+    {
+      "version": "1.37-r209",
+      "releaseTimestamp": "2026-05-25T22:30:49Z"
+    },
+    {
+      "version": "1.37-r208",
+      "releaseTimestamp": "2026-05-25T22:21:20Z"
+    },
+    {
+      "version": "1.37-r207",
+      "releaseTimestamp": "2026-05-25T22:14:25Z"
+    },
+    {
+      "version": "1.37-r206",
+      "releaseTimestamp": "2026-05-25T22:06:35Z"
+    },
+    {
+      "version": "1.37-r205",
+      "releaseTimestamp": "2026-05-25T22:02:29Z"
+    },
+    {
+      "version": "1.37-r204",
+      "releaseTimestamp": "2026-05-25T21:51:28Z"
+    },
+    {
+      "version": "1.37-r203",
+      "releaseTimestamp": "2026-05-25T21:46:46Z"
+    },
+    {
+      "version": "1.37-r202",
+      "releaseTimestamp": "2026-05-25T21:36:06Z"
+    },
+    {
+      "version": "1.37-r201",
+      "releaseTimestamp": "2026-05-25T21:32:07Z"
+    },
+    {
+      "version": "1.37-r200",
+      "releaseTimestamp": "2026-05-25T21:20:34Z"
+    },
+    {
+      "version": "1.37-r20",
+      "releaseTimestamp": "2026-04-06T18:46:48Z"
+    },
+    {
+      "version": "1.37-r199",
+      "releaseTimestamp": "2026-05-25T21:12:13Z"
+    },
+    {
+      "version": "1.37-r198",
+      "releaseTimestamp": "2026-05-25T21:05:18Z"
+    },
+    {
+      "version": "1.37-r197",
+      "releaseTimestamp": "2026-05-25T20:55:22Z"
+    },
+    {
+      "version": "1.37-r196",
+      "releaseTimestamp": "2026-05-25T20:46:33Z"
+    },
+    {
+      "version": "1.37-r195",
+      "releaseTimestamp": "2026-05-25T20:38:42Z"
+    },
+    {
+      "version": "1.37-r194",
+      "releaseTimestamp": "2026-05-25T20:31:00Z"
+    },
+    {
+      "version": "1.37-r193",
+      "releaseTimestamp": "2026-05-25T20:22:52Z"
+    },
+    {
+      "version": "1.37-r192",
+      "releaseTimestamp": "2026-05-25T20:15:35Z"
+    },
+    {
+      "version": "1.37-r191",
+      "releaseTimestamp": "2026-05-25T20:08:21Z"
+    },
+    {
+      "version": "1.37-r190",
+      "releaseTimestamp": "2026-05-25T19:59:46Z"
+    },
+    {
+      "version": "1.37-r19",
+      "releaseTimestamp": "2026-04-06T18:38:26Z"
+    },
+    {
+      "version": "1.37-r189",
+      "releaseTimestamp": "2026-05-25T19:50:45Z"
+    },
+    {
+      "version": "1.37-r188",
+      "releaseTimestamp": "2026-05-25T19:43:41Z"
+    },
+    {
+      "version": "1.37-r187",
+      "releaseTimestamp": "2026-05-25T19:34:05Z"
+    },
+    {
+      "version": "1.37-r186",
+      "releaseTimestamp": "2026-05-25T19:25:24Z"
+    },
+    {
+      "version": "1.37-r185",
+      "releaseTimestamp": "2026-05-25T19:17:41Z"
+    },
+    {
+      "version": "1.37-r184",
+      "releaseTimestamp": "2026-05-25T19:09:53Z"
+    },
+    {
+      "version": "1.37-r183",
+      "releaseTimestamp": "2026-05-25T19:01:24Z"
+    },
+    {
+      "version": "1.37-r182",
+      "releaseTimestamp": "2026-05-25T18:52:32Z"
+    },
+    {
+      "version": "1.37-r181",
+      "releaseTimestamp": "2026-05-25T18:45:03Z"
+    },
+    {
+      "version": "1.37-r180",
+      "releaseTimestamp": "2026-05-25T18:37:20Z"
+    },
+    {
+      "version": "1.37-r18",
+      "releaseTimestamp": "2026-04-06T18:16:11Z"
+    },
+    {
+      "version": "1.37-r179",
+      "releaseTimestamp": "2026-05-25T18:31:52Z"
+    },
+    {
+      "version": "1.37-r178",
+      "releaseTimestamp": "2026-05-25T18:23:19Z"
+    },
+    {
+      "version": "1.37-r177",
+      "releaseTimestamp": "2026-05-25T18:14:15Z"
+    },
+    {
+      "version": "1.37-r176",
+      "releaseTimestamp": "2026-05-25T18:05:25Z"
+    },
+    {
+      "version": "1.37-r175",
+      "releaseTimestamp": "2026-05-25T17:56:58Z"
+    },
+    {
+      "version": "1.37-r174",
+      "releaseTimestamp": "2026-05-25T17:51:23Z"
+    },
+    {
+      "version": "1.37-r173",
+      "releaseTimestamp": "2026-05-25T17:43:19Z"
+    },
+    {
+      "version": "1.37-r172",
+      "releaseTimestamp": "2026-05-25T17:34:12Z"
+    },
+    {
+      "version": "1.37-r171",
+      "releaseTimestamp": "2026-05-25T17:21:19Z"
+    },
+    {
+      "version": "1.37-r170",
+      "releaseTimestamp": "2026-05-25T17:13:12Z"
+    },
+    {
+      "version": "1.37-r17",
+      "releaseTimestamp": "2026-04-06T18:06:37Z"
+    },
+    {
+      "version": "1.37-r169",
+      "releaseTimestamp": "2026-05-25T17:05:22Z"
+    },
+    {
+      "version": "1.37-r168",
+      "releaseTimestamp": "2026-05-25T16:57:40Z"
+    },
+    {
+      "version": "1.37-r167",
+      "releaseTimestamp": "2026-05-25T16:49:36Z"
+    },
+    {
+      "version": "1.37-r166",
+      "releaseTimestamp": "2026-05-25T16:41:12Z"
+    },
+    {
+      "version": "1.37-r165",
+      "releaseTimestamp": "2026-05-25T16:34:20Z"
+    },
+    {
+      "version": "1.37-r164",
+      "releaseTimestamp": "2026-05-25T16:26:38Z"
+    },
+    {
+      "version": "1.37-r163",
+      "releaseTimestamp": "2026-05-25T16:19:26Z"
+    },
+    {
+      "version": "1.37-r162",
+      "releaseTimestamp": "2026-05-25T16:13:59Z"
+    },
+    {
+      "version": "1.37-r161",
+      "releaseTimestamp": "2026-05-25T16:02:34Z"
+    },
+    {
+      "version": "1.37-r160",
+      "releaseTimestamp": "2026-05-25T15:57:59Z"
+    },
+    {
+      "version": "1.37-r16",
+      "releaseTimestamp": "2026-04-06T17:55:40Z"
+    },
+    {
+      "version": "1.37-r159",
+      "releaseTimestamp": "2026-05-25T15:49:06Z"
+    },
+    {
+      "version": "1.37-r158",
+      "releaseTimestamp": "2026-05-25T15:41:42Z"
+    },
+    {
+      "version": "1.37-r157",
+      "releaseTimestamp": "2026-05-25T15:30:15Z"
+    },
+    {
+      "version": "1.37-r156",
+      "releaseTimestamp": "2026-05-25T15:27:03Z"
+    },
+    {
+      "version": "1.37-r155",
+      "releaseTimestamp": "2026-05-25T15:15:02Z"
+    },
+    {
+      "version": "1.37-r154",
+      "releaseTimestamp": "2026-05-25T15:08:28Z"
+    },
+    {
+      "version": "1.37-r153",
+      "releaseTimestamp": "2026-05-25T14:59:12Z"
+    },
+    {
+      "version": "1.37-r152",
+      "releaseTimestamp": "2026-05-25T14:51:24Z"
+    },
+    {
+      "version": "1.37-r151",
+      "releaseTimestamp": "2026-05-20T20:30:30Z"
+    },
+    {
+      "version": "1.37-r150",
+      "releaseTimestamp": "2026-05-20T20:18:06Z"
+    },
+    {
+      "version": "1.37-r15",
+      "releaseTimestamp": "2026-04-06T17:49:02Z"
+    },
+    {
+      "version": "1.37-r149",
+      "releaseTimestamp": "2026-05-20T20:10:50Z"
+    },
+    {
+      "version": "1.37-r148",
+      "releaseTimestamp": "2026-05-20T20:04:32Z"
+    },
+    {
+      "version": "1.37-r147",
+      "releaseTimestamp": "2026-05-20T19:53:51Z"
+    },
+    {
+      "version": "1.37-r146",
+      "releaseTimestamp": "2026-05-20T19:45:05Z"
+    },
+    {
+      "version": "1.37-r145",
+      "releaseTimestamp": "2026-05-14T13:34:51Z"
+    },
+    {
+      "version": "1.37-r144",
+      "releaseTimestamp": "2026-05-14T13:27:49Z"
+    },
+    {
+      "version": "1.37-r143",
+      "releaseTimestamp": "2026-05-14T13:19:09Z"
+    },
+    {
+      "version": "1.37-r142",
+      "releaseTimestamp": "2026-05-14T13:09:16Z"
+    },
+    {
+      "version": "1.37-r141",
+      "releaseTimestamp": "2026-05-14T13:01:58Z"
+    },
+    {
+      "version": "1.37-r140",
+      "releaseTimestamp": "2026-04-07T09:04:26Z"
+    },
+    {
+      "version": "1.37-r14",
+      "releaseTimestamp": "2026-04-06T17:41:24Z"
+    },
+    {
+      "version": "1.37-r139",
+      "releaseTimestamp": "2026-04-07T09:01:37Z"
+    },
+    {
+      "version": "1.37-r138",
+      "releaseTimestamp": "2026-04-07T08:53:06Z"
+    },
+    {
+      "version": "1.37-r137",
+      "releaseTimestamp": "2026-04-07T08:47:25Z"
+    },
+    {
+      "version": "1.37-r136",
+      "releaseTimestamp": "2026-04-07T08:40:59Z"
+    },
+    {
+      "version": "1.37-r135",
+      "releaseTimestamp": "2026-04-07T08:34:23Z"
+    },
+    {
+      "version": "1.37-r134",
+      "releaseTimestamp": "2026-04-07T08:27:50Z"
+    },
+    {
+      "version": "1.37-r133",
+      "releaseTimestamp": "2026-04-07T08:21:27Z"
+    },
+    {
+      "version": "1.37-r132",
+      "releaseTimestamp": "2026-04-07T08:17:40Z"
+    },
+    {
+      "version": "1.37-r131",
+      "releaseTimestamp": "2026-04-07T08:08:31Z"
+    },
+    {
+      "version": "1.37-r130",
+      "releaseTimestamp": "2026-04-07T08:05:12Z"
+    },
+    {
+      "version": "1.37-r13",
+      "releaseTimestamp": "2026-03-22T17:01:41Z"
+    },
+    {
+      "version": "1.37-r129",
+      "releaseTimestamp": "2026-04-07T07:57:54Z"
+    },
+    {
+      "version": "1.37-r128",
+      "releaseTimestamp": "2026-04-07T07:50:03Z"
+    },
+    {
+      "version": "1.37-r127",
+      "releaseTimestamp": "2026-04-07T07:43:44Z"
+    },
+    {
+      "version": "1.37-r126",
+      "releaseTimestamp": "2026-04-07T07:37:47Z"
+    },
+    {
+      "version": "1.37-r125",
+      "releaseTimestamp": "2026-04-07T07:33:14Z"
+    },
+    {
+      "version": "1.37-r124",
+      "releaseTimestamp": "2026-04-07T07:25:18Z"
+    },
+    {
+      "version": "1.37-r123",
+      "releaseTimestamp": "2026-04-07T07:19:10Z"
+    },
+    {
+      "version": "1.37-r122",
+      "releaseTimestamp": "2026-04-07T07:11:55Z"
+    },
+    {
+      "version": "1.37-r121",
+      "releaseTimestamp": "2026-04-07T07:05:57Z"
+    },
+    {
+      "version": "1.37-r120",
+      "releaseTimestamp": "2026-04-07T06:59:55Z"
+    },
+    {
+      "version": "1.37-r12",
+      "releaseTimestamp": "2026-03-22T16:58:13Z"
+    },
+    {
+      "version": "1.37-r119",
+      "releaseTimestamp": "2026-04-07T06:53:44Z"
+    },
+    {
+      "version": "1.37-r118",
+      "releaseTimestamp": "2026-04-07T06:49:28Z"
+    },
+    {
+      "version": "1.37-r117",
+      "releaseTimestamp": "2026-04-07T06:39:58Z"
+    },
+    {
+      "version": "1.37-r116",
+      "releaseTimestamp": "2026-04-07T06:32:42Z"
+    },
+    {
+      "version": "1.37-r115",
+      "releaseTimestamp": "2026-04-07T06:26:34Z"
+    },
+    {
+      "version": "1.37-r114",
+      "releaseTimestamp": "2026-04-07T06:20:55Z"
+    },
+    {
+      "version": "1.37-r113",
+      "releaseTimestamp": "2026-04-07T06:17:23Z"
+    },
+    {
+      "version": "1.37-r112",
+      "releaseTimestamp": "2026-04-07T06:08:12Z"
+    },
+    {
+      "version": "1.37-r111",
+      "releaseTimestamp": "2026-04-07T06:02:58Z"
+    },
+    {
+      "version": "1.37-r110",
+      "releaseTimestamp": "2026-04-07T05:54:56Z"
+    },
+    {
+      "version": "1.37-r11",
+      "releaseTimestamp": "2026-03-22T16:49:50Z"
+    },
+    {
+      "version": "1.37-r109",
+      "releaseTimestamp": "2026-04-07T05:49:19Z"
+    },
+    {
+      "version": "1.37-r108",
+      "releaseTimestamp": "2026-04-07T05:43:39Z"
+    },
+    {
+      "version": "1.37-r107",
+      "releaseTimestamp": "2026-04-07T05:37:48Z"
+    },
+    {
+      "version": "1.37-r106",
+      "releaseTimestamp": "2026-04-07T05:35:08Z"
+    },
+    {
+      "version": "1.37-r105",
+      "releaseTimestamp": "2026-04-07T05:28:24Z"
+    },
+    {
+      "version": "1.37-r104",
+      "releaseTimestamp": "2026-04-07T05:20:23Z"
+    },
+    {
+      "version": "1.37-r103",
+      "releaseTimestamp": "2026-04-07T05:14:25Z"
+    },
+    {
+      "version": "1.37-r102",
+      "releaseTimestamp": "2026-04-07T05:11:45Z"
+    },
+    {
+      "version": "1.37-r101",
+      "releaseTimestamp": "2026-04-07T05:03:43Z"
+    },
+    {
+      "version": "1.37-r100",
+      "releaseTimestamp": "2026-04-07T04:56:03Z"
+    },
+    {
+      "version": "1.37-r10",
+      "releaseTimestamp": "2026-03-22T16:44:45Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

@@ -1,0 +1,157 @@
+{
+  "releases": [
+    {
+      "version": "2.51.0-r2",
+      "releaseTimestamp": "2026-06-05T21:10:20Z"
+    },
+    {
+      "version": "2.51.0-r1",
+      "releaseTimestamp": "2026-06-05T01:17:28Z"
+    },
+    {
+      "version": "2.51.0-r0",
+      "releaseTimestamp": "2026-06-04T19:47:15Z"
+    },
+    {
+      "version": "2.50.0-r2",
+      "releaseTimestamp": "2026-06-04T12:20:10Z"
+    },
+    {
+      "version": "2.50.0-r1",
+      "releaseTimestamp": "2026-05-27T16:17:13Z"
+    },
+    {
+      "version": "2.50.0-r0",
+      "releaseTimestamp": "2026-05-21T16:36:43Z"
+    },
+    {
+      "version": "2.49.1-r3",
+      "releaseTimestamp": "2026-05-19T07:31:40Z"
+    },
+    {
+      "version": "2.49.1-r2",
+      "releaseTimestamp": "2026-05-14T07:26:10Z"
+    },
+    {
+      "version": "2.49.1-r1",
+      "releaseTimestamp": "2026-05-07T22:04:08Z"
+    },
+    {
+      "version": "2.49.1-r0",
+      "releaseTimestamp": "2026-04-27T05:16:39Z"
+    },
+    {
+      "version": "2.49.0-r0",
+      "releaseTimestamp": "2026-04-22T16:56:33Z"
+    },
+    {
+      "version": "2.48.4-r0",
+      "releaseTimestamp": "2026-04-20T22:55:58Z"
+    },
+    {
+      "version": "2.48.3-r1",
+      "releaseTimestamp": "2026-04-16T18:09:29Z"
+    },
+    {
+      "version": "2.48.3-r0",
+      "releaseTimestamp": "2026-04-14T20:55:09Z"
+    },
+    {
+      "version": "2.48.2-r0",
+      "releaseTimestamp": "2026-04-10T23:06:19Z"
+    },
+    {
+      "version": "2.48.1-r2",
+      "releaseTimestamp": "2026-04-04T01:14:17Z"
+    },
+    {
+      "version": "2.48.1-r1",
+      "releaseTimestamp": "2026-04-03T22:08:18Z"
+    },
+    {
+      "version": "2.48.1-r0",
+      "releaseTimestamp": "2026-04-03T08:59:18Z"
+    },
+    {
+      "version": "2.48.0-r2",
+      "releaseTimestamp": "2026-04-03T08:43:20Z"
+    },
+    {
+      "version": "2.48.0-r1",
+      "releaseTimestamp": "2026-03-23T08:52:28Z"
+    },
+    {
+      "version": "2.48.0-r0",
+      "releaseTimestamp": "2026-03-19T23:05:09Z"
+    },
+    {
+      "version": "2.47.3-r8",
+      "releaseTimestamp": "2026-03-19T14:35:25Z"
+    },
+    {
+      "version": "2.47.3-r7",
+      "releaseTimestamp": "2026-03-17T12:12:36Z"
+    },
+    {
+      "version": "2.47.3-r2",
+      "releaseTimestamp": "2026-03-16T22:44:44Z"
+    },
+    {
+      "version": "2.47.3-r1",
+      "releaseTimestamp": "2026-03-13T21:39:34Z"
+    },
+    {
+      "version": "2.47.3-r0",
+      "releaseTimestamp": "2026-03-10T23:12:37Z"
+    },
+    {
+      "version": "2.47.2-r2",
+      "releaseTimestamp": "2026-03-09T18:46:31Z"
+    },
+    {
+      "version": "2.47.2-r1",
+      "releaseTimestamp": "2026-03-09T18:36:16Z"
+    },
+    {
+      "version": "2.47.2-r0",
+      "releaseTimestamp": "2026-02-27T01:11:50Z"
+    },
+    {
+      "version": "2.47.0-r0",
+      "releaseTimestamp": "2026-02-25T21:59:19Z"
+    },
+    {
+      "version": "2.46.0-r0",
+      "releaseTimestamp": "2026-02-24T21:06:39Z"
+    },
+    {
+      "version": "2.45.4-r0",
+      "releaseTimestamp": "2026-02-23T18:30:34Z"
+    },
+    {
+      "version": "2.45.3-r0",
+      "releaseTimestamp": "2026-02-11T22:15:33Z"
+    },
+    {
+      "version": "2.45.2-r0",
+      "releaseTimestamp": "2026-02-09T18:28:40Z"
+    },
+    {
+      "version": "2.45.1-r0",
+      "releaseTimestamp": "2026-02-07T03:40:43Z"
+    },
+    {
+      "version": "2.45.0-r0",
+      "releaseTimestamp": "2026-02-05T02:11:25Z"
+    },
+    {
+      "version": "2.44.1-r1",
+      "releaseTimestamp": "2026-02-01T05:48:45Z"
+    },
+    {
+      "version": "2.44.1-r0",
+      "releaseTimestamp": "2026-01-10T03:10:21Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

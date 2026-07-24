@@ -1,0 +1,89 @@
+{
+  "releases": [
+    {
+      "version": "4.3.0-r0",
+      "releaseTimestamp": "2026-06-08T16:57:21Z"
+    },
+    {
+      "version": "4.2.0-r1",
+      "releaseTimestamp": "2026-06-04T12:42:44Z"
+    },
+    {
+      "version": "4.2.0-r0",
+      "releaseTimestamp": "2026-06-01T15:30:09Z"
+    },
+    {
+      "version": "4.1.1-r2",
+      "releaseTimestamp": "2026-06-01T07:18:27Z"
+    },
+    {
+      "version": "4.1.1-r1",
+      "releaseTimestamp": "2026-05-26T16:12:33Z"
+    },
+    {
+      "version": "4.1.1-r0",
+      "releaseTimestamp": "2026-05-18T16:54:51Z"
+    },
+    {
+      "version": "4.1.0-r2",
+      "releaseTimestamp": "2026-05-10T00:16:57Z"
+    },
+    {
+      "version": "4.1.0-r1",
+      "releaseTimestamp": "2026-05-07T22:39:05Z"
+    },
+    {
+      "version": "4.1.0-r0",
+      "releaseTimestamp": "2026-05-06T23:44:42Z"
+    },
+    {
+      "version": "4.0.1-r0",
+      "releaseTimestamp": "2026-04-17T00:17:25Z"
+    },
+    {
+      "version": "4.0.0-r0",
+      "releaseTimestamp": "2026-04-09T21:08:25Z"
+    },
+    {
+      "version": "3.57.0-r1",
+      "releaseTimestamp": "2026-03-16T16:01:14Z"
+    },
+    {
+      "version": "3.57.0-r0",
+      "releaseTimestamp": "2026-03-16T14:02:22Z"
+    },
+    {
+      "version": "3.56.0-r0",
+      "releaseTimestamp": "2026-03-10T19:08:34Z"
+    },
+    {
+      "version": "3.55.0-r1",
+      "releaseTimestamp": "2026-03-06T00:12:24Z"
+    },
+    {
+      "version": "3.55.0-r0",
+      "releaseTimestamp": "2026-03-02T13:59:14Z"
+    },
+    {
+      "version": "3.54.0-r0",
+      "releaseTimestamp": "2026-02-17T10:57:52Z"
+    },
+    {
+      "version": "3.53.2-r0",
+      "releaseTimestamp": "2026-02-09T13:10:03Z"
+    },
+    {
+      "version": "3.53.1-r0",
+      "releaseTimestamp": "2026-02-03T09:35:13Z"
+    },
+    {
+      "version": "3.53.0-r1",
+      "releaseTimestamp": "2026-02-01T01:21:52Z"
+    },
+    {
+      "version": "3.53.0-r0",
+      "releaseTimestamp": "2026-01-19T13:58:58Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

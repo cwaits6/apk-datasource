@@ -1,0 +1,113 @@
+{
+  "releases": [
+    {
+      "version": "3.3.9-r4",
+      "releaseTimestamp": "2026-05-12T04:29:48Z"
+    },
+    {
+      "version": "3.3.9-r3",
+      "releaseTimestamp": "2026-05-10T12:47:10Z"
+    },
+    {
+      "version": "3.3.9-r2",
+      "releaseTimestamp": "2026-05-09T22:23:22Z"
+    },
+    {
+      "version": "3.3.9-r1",
+      "releaseTimestamp": "2026-05-07T09:35:34Z"
+    },
+    {
+      "version": "3.3.9-r0",
+      "releaseTimestamp": "2026-04-30T18:41:10Z"
+    },
+    {
+      "version": "3.3.8-r0",
+      "releaseTimestamp": "2026-04-21T19:01:43Z"
+    },
+    {
+      "version": "3.3.7-r2",
+      "releaseTimestamp": "2026-04-18T12:03:14Z"
+    },
+    {
+      "version": "3.3.7-r1",
+      "releaseTimestamp": "2026-04-18T05:54:17Z"
+    },
+    {
+      "version": "3.3.7-r0",
+      "releaseTimestamp": "2026-04-17T20:05:45Z"
+    },
+    {
+      "version": "3.3.6-r4",
+      "releaseTimestamp": "2026-04-17T19:36:17Z"
+    },
+    {
+      "version": "3.3.6-r3",
+      "releaseTimestamp": "2026-04-03T11:52:50Z"
+    },
+    {
+      "version": "3.3.6-r2",
+      "releaseTimestamp": "2026-04-02T13:07:22Z"
+    },
+    {
+      "version": "3.3.6-r1",
+      "releaseTimestamp": "2026-04-02T02:47:07Z"
+    },
+    {
+      "version": "3.3.6-r0",
+      "releaseTimestamp": "2026-03-27T15:59:24Z"
+    },
+    {
+      "version": "3.3.5-r0",
+      "releaseTimestamp": "2026-03-25T19:52:30Z"
+    },
+    {
+      "version": "3.3.4-r5",
+      "releaseTimestamp": "2026-03-19T21:48:05Z"
+    },
+    {
+      "version": "3.3.4-r4",
+      "releaseTimestamp": "2026-03-19T14:57:23Z"
+    },
+    {
+      "version": "3.3.4-r2",
+      "releaseTimestamp": "2026-03-17T12:34:05Z"
+    },
+    {
+      "version": "3.3.4-r1",
+      "releaseTimestamp": "2026-03-16T15:57:26Z"
+    },
+    {
+      "version": "3.3.4-r0",
+      "releaseTimestamp": "2026-03-16T12:44:23Z"
+    },
+    {
+      "version": "3.3.3-r0",
+      "releaseTimestamp": "2026-03-09T20:02:01Z"
+    },
+    {
+      "version": "3.3.2-r2",
+      "releaseTimestamp": "2026-03-03T20:20:56Z"
+    },
+    {
+      "version": "3.3.2-r1",
+      "releaseTimestamp": "2026-02-26T14:24:55Z"
+    },
+    {
+      "version": "3.3.2-r0",
+      "releaseTimestamp": "2026-02-22T17:33:02Z"
+    },
+    {
+      "version": "3.3.10-r0",
+      "releaseTimestamp": "2026-05-12T22:23:42Z"
+    },
+    {
+      "version": "3.3.1-r0",
+      "releaseTimestamp": "2026-02-18T14:03:40Z"
+    },
+    {
+      "version": "3.3.0-r0",
+      "releaseTimestamp": "2026-02-12T21:53:20Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

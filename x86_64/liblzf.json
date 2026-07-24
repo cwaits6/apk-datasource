@@ -1,0 +1,14 @@
+{
+  "releases": [
+    {
+      "version": "3.6-r4",
+      "releaseTimestamp": "2026-07-15T19:45:40Z"
+    },
+    {
+      "version": "3.6-r3",
+      "releaseTimestamp": "2026-01-31T22:21:22Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os",
+  "homepage": "http://software.schmorp.de/pkg/liblzf.html"
+}

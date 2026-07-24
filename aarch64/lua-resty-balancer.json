@@ -1,0 +1,9 @@
+{
+  "releases": [
+    {
+      "version": "0.05-r9",
+      "releaseTimestamp": "2026-01-31T21:47:52Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

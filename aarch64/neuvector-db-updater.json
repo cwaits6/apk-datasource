@@ -1,0 +1,93 @@
+{
+  "releases": [
+    {
+      "version": "0_git20260718-r0",
+      "releaseTimestamp": "2026-07-18T02:15:12Z"
+    },
+    {
+      "version": "0_git20260627-r1",
+      "releaseTimestamp": "2026-07-09T13:36:07Z"
+    },
+    {
+      "version": "0_git20260627-r0",
+      "releaseTimestamp": "2026-06-27T20:22:56Z"
+    },
+    {
+      "version": "0_git20260626-r1",
+      "releaseTimestamp": "2026-06-26T22:04:49Z"
+    },
+    {
+      "version": "0_git20260626-r0",
+      "releaseTimestamp": "2026-06-26T14:08:45Z"
+    },
+    {
+      "version": "0_git20260617-r0",
+      "releaseTimestamp": "2026-06-17T02:33:38Z"
+    },
+    {
+      "version": "0_git20260616-r0",
+      "releaseTimestamp": "2026-06-16T02:14:34Z"
+    },
+    {
+      "version": "0_git20260529-r1",
+      "releaseTimestamp": "2026-06-04T20:42:28Z"
+    },
+    {
+      "version": "0_git20260529-r0",
+      "releaseTimestamp": "2026-05-29T05:52:20Z"
+    },
+    {
+      "version": "0_git20260507-r2",
+      "releaseTimestamp": "2026-05-26T23:36:44Z"
+    },
+    {
+      "version": "0_git20260507-r1",
+      "releaseTimestamp": "2026-05-19T07:31:40Z"
+    },
+    {
+      "version": "0_git20260507-r0",
+      "releaseTimestamp": "2026-05-15T14:19:46Z"
+    },
+    {
+      "version": "0_git20240423-r20",
+      "releaseTimestamp": "2026-05-08T21:46:34Z"
+    },
+    {
+      "version": "0_git20240423-r19",
+      "releaseTimestamp": "2026-04-10T22:56:11Z"
+    },
+    {
+      "version": "0_git20240423-r18",
+      "releaseTimestamp": "2026-04-04T01:12:30Z"
+    },
+    {
+      "version": "0_git20240423-r17",
+      "releaseTimestamp": "2026-04-02T02:39:38Z"
+    },
+    {
+      "version": "0_git20240423-r16",
+      "releaseTimestamp": "2026-03-12T15:06:09Z"
+    },
+    {
+      "version": "0_git20240423-r15",
+      "releaseTimestamp": "2026-03-11T20:10:05Z"
+    },
+    {
+      "version": "0_git20240423-r14",
+      "releaseTimestamp": "2026-03-10T21:07:48Z"
+    },
+    {
+      "version": "0_git20240423-r13",
+      "releaseTimestamp": "2026-03-06T00:17:36Z"
+    },
+    {
+      "version": "0_git20240423-r12",
+      "releaseTimestamp": "2026-02-10T21:33:24Z"
+    },
+    {
+      "version": "0_git20240423-r11",
+      "releaseTimestamp": "2026-01-31T09:50:40Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

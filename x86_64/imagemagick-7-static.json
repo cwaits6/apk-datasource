@@ -1,0 +1,85 @@
+{
+  "releases": [
+    {
+      "version": "7.1.2.27-r1",
+      "releaseTimestamp": "2026-07-17T14:36:48Z"
+    },
+    {
+      "version": "7.1.2.27-r0",
+      "releaseTimestamp": "2026-07-06T00:12:43Z"
+    },
+    {
+      "version": "7.1.2.26-r0",
+      "releaseTimestamp": "2026-06-22T11:38:58Z"
+    },
+    {
+      "version": "7.1.2.25-r0",
+      "releaseTimestamp": "2026-06-04T23:14:35Z"
+    },
+    {
+      "version": "7.1.2.24-r0",
+      "releaseTimestamp": "2026-05-27T15:22:45Z"
+    },
+    {
+      "version": "7.1.2.23-r0",
+      "releaseTimestamp": "2026-05-17T10:45:42Z"
+    },
+    {
+      "version": "7.1.2.22-r0",
+      "releaseTimestamp": "2026-05-12T15:39:54Z"
+    },
+    {
+      "version": "7.1.2.21-r2",
+      "releaseTimestamp": "2026-05-02T14:49:33Z"
+    },
+    {
+      "version": "7.1.2.21-r1",
+      "releaseTimestamp": "2026-04-22T22:02:03Z"
+    },
+    {
+      "version": "7.1.2.21-r0",
+      "releaseTimestamp": "2026-04-21T16:08:48Z"
+    },
+    {
+      "version": "7.1.2.20-r0",
+      "releaseTimestamp": "2026-04-21T14:24:42Z"
+    },
+    {
+      "version": "7.1.2.19-r0",
+      "releaseTimestamp": "2026-04-12T17:27:51Z"
+    },
+    {
+      "version": "7.1.2.18-r1",
+      "releaseTimestamp": "2026-04-03T13:17:20Z"
+    },
+    {
+      "version": "7.1.2.18-r0",
+      "releaseTimestamp": "2026-03-22T22:32:08Z"
+    },
+    {
+      "version": "7.1.2.17-r3",
+      "releaseTimestamp": "2026-03-18T21:48:01Z"
+    },
+    {
+      "version": "7.1.2.17-r0",
+      "releaseTimestamp": "2026-03-15T18:15:50Z"
+    },
+    {
+      "version": "7.1.2.16-r0",
+      "releaseTimestamp": "2026-03-08T13:54:27Z"
+    },
+    {
+      "version": "7.1.2.15-r0",
+      "releaseTimestamp": "2026-02-22T22:55:31Z"
+    },
+    {
+      "version": "7.1.2.13-r1",
+      "releaseTimestamp": "2026-02-03T04:09:14Z"
+    },
+    {
+      "version": "7.1.2.13-r0",
+      "releaseTimestamp": "2026-01-19T13:04:24Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

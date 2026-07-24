@@ -1,0 +1,46 @@
+{
+  "releases": [
+    {
+      "version": "20250904-r8",
+      "releaseTimestamp": "2026-05-13T20:49:35Z"
+    },
+    {
+      "version": "20250904-r7",
+      "releaseTimestamp": "2026-03-16T22:20:11Z"
+    },
+    {
+      "version": "20250904-r6",
+      "releaseTimestamp": "2026-03-16T20:47:06Z"
+    },
+    {
+      "version": "20250904-r5",
+      "releaseTimestamp": "2026-03-13T02:05:19Z"
+    },
+    {
+      "version": "20250904-r4",
+      "releaseTimestamp": "2026-02-04T14:33:00Z"
+    },
+    {
+      "version": "20250904-r3",
+      "releaseTimestamp": "2026-02-01T13:40:50Z"
+    },
+    {
+      "version": "20250904-r2",
+      "releaseTimestamp": "2025-12-05T18:10:05Z"
+    },
+    {
+      "version": "20240627-r33",
+      "releaseTimestamp": "2025-10-27T21:10:54Z"
+    },
+    {
+      "version": "20240627-r30",
+      "releaseTimestamp": "2025-09-29T23:27:32Z"
+    },
+    {
+      "version": "20240627-r12",
+      "releaseTimestamp": "2025-02-04T01:18:02Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os",
+  "homepage": "https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html"
+}

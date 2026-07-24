@@ -1,0 +1,30 @@
+{
+  "releases": [
+    {
+      "version": "2.1.1-r1",
+      "releaseTimestamp": "2026-06-29T16:20:42Z"
+    },
+    {
+      "version": "2.1.1-r0",
+      "releaseTimestamp": "2026-03-30T11:10:23Z"
+    },
+    {
+      "version": "2.1.0-r0",
+      "releaseTimestamp": "2026-03-10T13:24:18Z"
+    },
+    {
+      "version": "2.0.0-r2",
+      "releaseTimestamp": "2026-03-03T22:09:24Z"
+    },
+    {
+      "version": "2.0.0-r1",
+      "releaseTimestamp": "2026-02-02T08:24:16Z"
+    },
+    {
+      "version": "1.14.6-r4",
+      "releaseTimestamp": "2025-07-17T16:41:08Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os",
+  "homepage": "https://www.hdfgroup.org/solutions/hdf5/"
+}

@@ -1,0 +1,389 @@
+{
+  "releases": [
+    {
+      "version": "0_git20260723-r0",
+      "releaseTimestamp": "2026-07-23T09:49:31Z"
+    },
+    {
+      "version": "0_git20260720-r0",
+      "releaseTimestamp": "2026-07-21T00:15:54Z"
+    },
+    {
+      "version": "0_git20260717-r2",
+      "releaseTimestamp": "2026-07-17T21:25:56Z"
+    },
+    {
+      "version": "0_git20260717-r0",
+      "releaseTimestamp": "2026-07-17T01:29:27Z"
+    },
+    {
+      "version": "0_git20260712-r0",
+      "releaseTimestamp": "2026-07-12T15:23:28Z"
+    },
+    {
+      "version": "0_git20260708-r0",
+      "releaseTimestamp": "2026-07-08T02:28:12Z"
+    },
+    {
+      "version": "0_git20260706-r0",
+      "releaseTimestamp": "2026-07-06T15:30:57Z"
+    },
+    {
+      "version": "0_git20260626-r0",
+      "releaseTimestamp": "2026-06-26T13:50:12Z"
+    },
+    {
+      "version": "0_git20260624-r0",
+      "releaseTimestamp": "2026-06-24T09:48:36Z"
+    },
+    {
+      "version": "0_git20260623-r0",
+      "releaseTimestamp": "2026-06-23T01:05:56Z"
+    },
+    {
+      "version": "0_git20260618-r1",
+      "releaseTimestamp": "2026-06-18T16:57:52Z"
+    },
+    {
+      "version": "0_git20260618-r0",
+      "releaseTimestamp": "2026-06-18T14:14:45Z"
+    },
+    {
+      "version": "0_git20260617-r0",
+      "releaseTimestamp": "2026-06-17T01:04:08Z"
+    },
+    {
+      "version": "0_git20260616-r0",
+      "releaseTimestamp": "2026-06-16T01:56:41Z"
+    },
+    {
+      "version": "0_git20260610-r0",
+      "releaseTimestamp": "2026-06-10T20:50:21Z"
+    },
+    {
+      "version": "0_git20260609-r0",
+      "releaseTimestamp": "2026-06-09T09:12:37Z"
+    },
+    {
+      "version": "0_git20260608-r1",
+      "releaseTimestamp": "2026-06-08T21:09:09Z"
+    },
+    {
+      "version": "0_git20260608-r0",
+      "releaseTimestamp": "2026-06-08T11:50:49Z"
+    },
+    {
+      "version": "0_git20260605-r0",
+      "releaseTimestamp": "2026-06-05T15:02:47Z"
+    },
+    {
+      "version": "0_git20260604-r3",
+      "releaseTimestamp": "2026-06-04T20:39:06Z"
+    },
+    {
+      "version": "0_git20260604-r2",
+      "releaseTimestamp": "2026-06-04T17:13:29Z"
+    },
+    {
+      "version": "0_git20260604-r1",
+      "releaseTimestamp": "2026-06-04T11:01:13Z"
+    },
+    {
+      "version": "0_git20260604-r0",
+      "releaseTimestamp": "2026-06-04T05:05:44Z"
+    },
+    {
+      "version": "0_git20260602-r0",
+      "releaseTimestamp": "2026-06-02T11:31:11Z"
+    },
+    {
+      "version": "0_git20260601-r1",
+      "releaseTimestamp": "2026-06-01T22:30:33Z"
+    },
+    {
+      "version": "0_git20260601-r0",
+      "releaseTimestamp": "2026-06-01T15:41:41Z"
+    },
+    {
+      "version": "0_git20260529-r0",
+      "releaseTimestamp": "2026-05-29T11:12:36Z"
+    },
+    {
+      "version": "0_git20260528-r0",
+      "releaseTimestamp": "2026-05-28T00:20:01Z"
+    },
+    {
+      "version": "0_git20260525-r0",
+      "releaseTimestamp": "2026-05-25T15:07:11Z"
+    },
+    {
+      "version": "0_git20260522-r0",
+      "releaseTimestamp": "2026-05-22T19:40:48Z"
+    },
+    {
+      "version": "0_git20260521-r1",
+      "releaseTimestamp": "2026-05-22T00:07:03Z"
+    },
+    {
+      "version": "0_git20260521-r0",
+      "releaseTimestamp": "2026-05-21T18:51:38Z"
+    },
+    {
+      "version": "0_git20260514-r0",
+      "releaseTimestamp": "2026-05-14T17:42:44Z"
+    },
+    {
+      "version": "0_git20260513-r0",
+      "releaseTimestamp": "2026-05-13T20:21:07Z"
+    },
+    {
+      "version": "0_git20260512-r0",
+      "releaseTimestamp": "2026-05-12T19:48:45Z"
+    },
+    {
+      "version": "0_git20260511-r0",
+      "releaseTimestamp": "2026-05-11T23:02:36Z"
+    },
+    {
+      "version": "0_git20260509-r1",
+      "releaseTimestamp": "2026-05-09T07:30:47Z"
+    },
+    {
+      "version": "0_git20260509-r0",
+      "releaseTimestamp": "2026-05-09T00:45:15Z"
+    },
+    {
+      "version": "0_git20260508-r1",
+      "releaseTimestamp": "2026-05-08T19:34:20Z"
+    },
+    {
+      "version": "0_git20260508-r0",
+      "releaseTimestamp": "2026-05-08T02:47:30Z"
+    },
+    {
+      "version": "0_git20260506-r1",
+      "releaseTimestamp": "2026-05-06T21:10:42Z"
+    },
+    {
+      "version": "0_git20260506-r0",
+      "releaseTimestamp": "2026-05-06T14:13:59Z"
+    },
+    {
+      "version": "0_git20260430-r0",
+      "releaseTimestamp": "2026-04-30T17:00:23Z"
+    },
+    {
+      "version": "0_git20260429-r0",
+      "releaseTimestamp": "2026-04-29T18:53:01Z"
+    },
+    {
+      "version": "0_git20260417-r0",
+      "releaseTimestamp": "2026-04-17T17:56:54Z"
+    },
+    {
+      "version": "0_git20260416-r3",
+      "releaseTimestamp": "2026-04-16T23:18:31Z"
+    },
+    {
+      "version": "0_git20260416-r2",
+      "releaseTimestamp": "2026-04-16T20:47:35Z"
+    },
+    {
+      "version": "0_git20260416-r1",
+      "releaseTimestamp": "2026-04-16T15:59:35Z"
+    },
+    {
+      "version": "0_git20260416-r0",
+      "releaseTimestamp": "2026-04-16T02:29:23Z"
+    },
+    {
+      "version": "0_git20260415-r1",
+      "releaseTimestamp": "2026-04-15T21:36:29Z"
+    },
+    {
+      "version": "0_git20260415-r0",
+      "releaseTimestamp": "2026-04-15T00:30:15Z"
+    },
+    {
+      "version": "0_git20260414-r0",
+      "releaseTimestamp": "2026-04-14T15:17:39Z"
+    },
+    {
+      "version": "0_git20260413-r0",
+      "releaseTimestamp": "2026-04-13T10:36:05Z"
+    },
+    {
+      "version": "0_git20260409-r1",
+      "releaseTimestamp": "2026-04-09T07:13:47Z"
+    },
+    {
+      "version": "0_git20260409-r0",
+      "releaseTimestamp": "2026-04-09T00:38:18Z"
+    },
+    {
+      "version": "0_git20260407-r0",
+      "releaseTimestamp": "2026-04-07T21:53:28Z"
+    },
+    {
+      "version": "0_git20260404-r0",
+      "releaseTimestamp": "2026-04-04T02:07:14Z"
+    },
+    {
+      "version": "0_git20260320-r2",
+      "releaseTimestamp": "2026-03-21T00:04:05Z"
+    },
+    {
+      "version": "0_git20260320-r1",
+      "releaseTimestamp": "2026-03-20T19:44:41Z"
+    },
+    {
+      "version": "0_git20260320-r0",
+      "releaseTimestamp": "2026-03-20T01:29:00Z"
+    },
+    {
+      "version": "0_git20260313-r2",
+      "releaseTimestamp": "2026-03-13T20:11:11Z"
+    },
+    {
+      "version": "0_git20260313-r1",
+      "releaseTimestamp": "2026-03-13T12:32:53Z"
+    },
+    {
+      "version": "0_git20260313-r0",
+      "releaseTimestamp": "2026-03-13T12:18:45Z"
+    },
+    {
+      "version": "0_git20260310-r5",
+      "releaseTimestamp": "2026-03-10T21:39:34Z"
+    },
+    {
+      "version": "0_git20260310-r4",
+      "releaseTimestamp": "2026-03-10T19:09:13Z"
+    },
+    {
+      "version": "0_git20260310-r3",
+      "releaseTimestamp": "2026-03-10T17:20:40Z"
+    },
+    {
+      "version": "0_git20260310-r2",
+      "releaseTimestamp": "2026-03-10T07:10:31Z"
+    },
+    {
+      "version": "0_git20260310-r1",
+      "releaseTimestamp": "2026-03-10T03:28:13Z"
+    },
+    {
+      "version": "0_git20260310-r0",
+      "releaseTimestamp": "2026-03-10T01:19:45Z"
+    },
+    {
+      "version": "0_git20260303-r1",
+      "releaseTimestamp": "2026-03-03T18:44:07Z"
+    },
+    {
+      "version": "0_git20260303-r0",
+      "releaseTimestamp": "2026-03-03T17:54:18Z"
+    },
+    {
+      "version": "0_git20260302-r0",
+      "releaseTimestamp": "2026-03-02T22:19:28Z"
+    },
+    {
+      "version": "0_git20260227-r0",
+      "releaseTimestamp": "2026-02-27T21:47:31Z"
+    },
+    {
+      "version": "0_git20260226-r0",
+      "releaseTimestamp": "2026-02-26T23:28:58Z"
+    },
+    {
+      "version": "0_git20260224-r1",
+      "releaseTimestamp": "2026-02-24T10:49:21Z"
+    },
+    {
+      "version": "0_git20260224-r0",
+      "releaseTimestamp": "2026-02-24T04:04:11Z"
+    },
+    {
+      "version": "0_git20260219-r0",
+      "releaseTimestamp": "2026-02-19T02:41:29Z"
+    },
+    {
+      "version": "0_git20260217-r0",
+      "releaseTimestamp": "2026-02-17T03:04:11Z"
+    },
+    {
+      "version": "0_git20260212-r0",
+      "releaseTimestamp": "2026-02-12T11:26:08Z"
+    },
+    {
+      "version": "0_git20260210-r0",
+      "releaseTimestamp": "2026-02-10T22:38:02Z"
+    },
+    {
+      "version": "0_git20260208-r0",
+      "releaseTimestamp": "2026-02-08T16:53:42Z"
+    },
+    {
+      "version": "0_git20260207-r1",
+      "releaseTimestamp": "2026-02-07T07:36:56Z"
+    },
+    {
+      "version": "0_git20260207-r0",
+      "releaseTimestamp": "2026-02-07T03:12:04Z"
+    },
+    {
+      "version": "0_git20260206-r0",
+      "releaseTimestamp": "2026-02-06T17:29:04Z"
+    },
+    {
+      "version": "0_git20260203-r0",
+      "releaseTimestamp": "2026-02-03T09:22:11Z"
+    },
+    {
+      "version": "0_git20260123-r0",
+      "releaseTimestamp": "2026-01-23T12:49:26Z"
+    },
+    {
+      "version": "0_git20260120-r0",
+      "releaseTimestamp": "2026-01-20T18:18:44Z"
+    },
+    {
+      "version": "0_git20260119-r1",
+      "releaseTimestamp": "2026-01-19T20:56:52Z"
+    },
+    {
+      "version": "0_git20260119-r0",
+      "releaseTimestamp": "2026-01-19T11:08:46Z"
+    },
+    {
+      "version": "0_git20260116-r1",
+      "releaseTimestamp": "2026-01-16T19:15:55Z"
+    },
+    {
+      "version": "0_git20260116-r0",
+      "releaseTimestamp": "2026-01-16T11:43:03Z"
+    },
+    {
+      "version": "0_git20260114-r0",
+      "releaseTimestamp": "2026-01-14T15:03:26Z"
+    },
+    {
+      "version": "0_git20260110-r0",
+      "releaseTimestamp": "2026-01-10T02:12:21Z"
+    },
+    {
+      "version": "0_git20260109-r0",
+      "releaseTimestamp": "2026-01-09T21:38:40Z"
+    },
+    {
+      "version": "0_git20260108-r0",
+      "releaseTimestamp": "2026-01-08T20:06:22Z"
+    },
+    {
+      "version": "0_git20260107-r0",
+      "releaseTimestamp": "2026-01-07T21:25:25Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
