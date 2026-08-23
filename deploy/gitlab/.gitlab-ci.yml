@@ -7,7 +7,7 @@ variables:
 
 build:
   stage: build
-  image: golang:1.26-alpine
+  image: golang:1.27-alpine
   script:
     - go build -o apk-datasource ./cmd/apk-datasource
     - mkdir -p public
