@@ -1,0 +1,49 @@
+{
+  "releases": [
+    {
+      "version": "18.11.4-r4",
+      "releaseTimestamp": "2026-06-04T12:52:30Z"
+    },
+    {
+      "version": "18.11.4-r3",
+      "releaseTimestamp": "2026-05-30T14:52:18Z"
+    },
+    {
+      "version": "18.11.4-r2",
+      "releaseTimestamp": "2026-05-29T16:32:43Z"
+    },
+    {
+      "version": "18.11.4-r1",
+      "releaseTimestamp": "2026-05-28T18:26:13Z"
+    },
+    {
+      "version": "18.11.4-r0",
+      "releaseTimestamp": "2026-05-27T09:16:25Z"
+    },
+    {
+      "version": "18.11.3-r1",
+      "releaseTimestamp": "2026-05-26T18:35:27Z"
+    },
+    {
+      "version": "18.11.3-r0",
+      "releaseTimestamp": "2026-05-13T19:08:55Z"
+    },
+    {
+      "version": "18.11.2-r2",
+      "releaseTimestamp": "2026-05-13T15:44:32Z"
+    },
+    {
+      "version": "18.11.2-r1",
+      "releaseTimestamp": "2026-05-08T23:37:41Z"
+    },
+    {
+      "version": "18.11.2-r0",
+      "releaseTimestamp": "2026-04-28T18:18:47Z"
+    },
+    {
+      "version": "18.11.1-r0",
+      "releaseTimestamp": "2026-04-27T05:33:06Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

@@ -1,0 +1,66 @@
+{
+  "releases": [
+    {
+      "version": "0.6.0-r9",
+      "releaseTimestamp": "2026-05-21T09:56:33Z"
+    },
+    {
+      "version": "0.6.0-r8",
+      "releaseTimestamp": "2026-05-07T23:28:11Z"
+    },
+    {
+      "version": "0.6.0-r7",
+      "releaseTimestamp": "2026-04-11T01:55:21Z"
+    },
+    {
+      "version": "0.6.0-r6",
+      "releaseTimestamp": "2026-03-10T11:09:29Z"
+    },
+    {
+      "version": "0.6.0-r5",
+      "releaseTimestamp": "2026-03-06T00:17:36Z"
+    },
+    {
+      "version": "0.6.0-r4",
+      "releaseTimestamp": "2026-02-12T23:06:19Z"
+    },
+    {
+      "version": "0.6.0-r18",
+      "releaseTimestamp": "2026-09-02T00:30:55Z"
+    },
+    {
+      "version": "0.6.0-r17",
+      "releaseTimestamp": "2026-09-01T18:00:10Z"
+    },
+    {
+      "version": "0.6.0-r16",
+      "releaseTimestamp": "2026-08-21T21:59:51Z"
+    },
+    {
+      "version": "0.6.0-r15",
+      "releaseTimestamp": "2026-08-20T04:55:17Z"
+    },
+    {
+      "version": "0.6.0-r14",
+      "releaseTimestamp": "2026-08-14T03:30:33Z"
+    },
+    {
+      "version": "0.6.0-r13",
+      "releaseTimestamp": "2026-07-23T22:25:45Z"
+    },
+    {
+      "version": "0.6.0-r12",
+      "releaseTimestamp": "2026-07-08T07:58:55Z"
+    },
+    {
+      "version": "0.6.0-r11",
+      "releaseTimestamp": "2026-06-04T20:44:20Z"
+    },
+    {
+      "version": "0.6.0-r10",
+      "releaseTimestamp": "2026-05-26T19:33:21Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os",
+  "homepage": "https://github.com/uber-go/mock"
+}

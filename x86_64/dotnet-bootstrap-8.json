@@ -1,0 +1,189 @@
+{
+  "releases": [
+    {
+      "version": "8.0.130-r0",
+      "releaseTimestamp": "2026-08-12T09:42:30Z"
+    },
+    {
+      "version": "8.0.129-r9",
+      "releaseTimestamp": "2026-07-30T16:01:02Z"
+    },
+    {
+      "version": "8.0.129-r8",
+      "releaseTimestamp": "2026-07-30T11:33:44Z"
+    },
+    {
+      "version": "8.0.129-r7",
+      "releaseTimestamp": "2026-07-30T01:52:37Z"
+    },
+    {
+      "version": "8.0.129-r6",
+      "releaseTimestamp": "2026-07-29T17:48:59Z"
+    },
+    {
+      "version": "8.0.129-r5",
+      "releaseTimestamp": "2026-07-28T23:39:25Z"
+    },
+    {
+      "version": "8.0.129-r4",
+      "releaseTimestamp": "2026-07-28T14:56:32Z"
+    },
+    {
+      "version": "8.0.129-r39",
+      "releaseTimestamp": "2026-08-10T07:04:01Z"
+    },
+    {
+      "version": "8.0.129-r38",
+      "releaseTimestamp": "2026-08-09T16:10:32Z"
+    },
+    {
+      "version": "8.0.129-r37",
+      "releaseTimestamp": "2026-08-09T05:39:49Z"
+    },
+    {
+      "version": "8.0.129-r36",
+      "releaseTimestamp": "2026-08-08T21:27:05Z"
+    },
+    {
+      "version": "8.0.129-r35",
+      "releaseTimestamp": "2026-08-08T13:48:14Z"
+    },
+    {
+      "version": "8.0.129-r34",
+      "releaseTimestamp": "2026-08-08T02:57:09Z"
+    },
+    {
+      "version": "8.0.129-r33",
+      "releaseTimestamp": "2026-08-07T18:54:36Z"
+    },
+    {
+      "version": "8.0.129-r32",
+      "releaseTimestamp": "2026-08-07T09:39:06Z"
+    },
+    {
+      "version": "8.0.129-r31",
+      "releaseTimestamp": "2026-08-07T06:25:52Z"
+    },
+    {
+      "version": "8.0.129-r30",
+      "releaseTimestamp": "2026-08-06T23:06:10Z"
+    },
+    {
+      "version": "8.0.129-r3",
+      "releaseTimestamp": "2026-07-25T07:02:58Z"
+    },
+    {
+      "version": "8.0.129-r29",
+      "releaseTimestamp": "2026-08-06T10:58:48Z"
+    },
+    {
+      "version": "8.0.129-r28",
+      "releaseTimestamp": "2026-08-06T05:17:39Z"
+    },
+    {
+      "version": "8.0.129-r27",
+      "releaseTimestamp": "2026-08-05T19:30:14Z"
+    },
+    {
+      "version": "8.0.129-r26",
+      "releaseTimestamp": "2026-08-05T11:43:26Z"
+    },
+    {
+      "version": "8.0.129-r25",
+      "releaseTimestamp": "2026-08-05T02:04:41Z"
+    },
+    {
+      "version": "8.0.129-r24",
+      "releaseTimestamp": "2026-08-04T21:42:25Z"
+    },
+    {
+      "version": "8.0.129-r23",
+      "releaseTimestamp": "2026-08-04T14:41:02Z"
+    },
+    {
+      "version": "8.0.129-r22",
+      "releaseTimestamp": "2026-08-04T01:10:19Z"
+    },
+    {
+      "version": "8.0.129-r21",
+      "releaseTimestamp": "2026-08-03T22:33:54Z"
+    },
+    {
+      "version": "8.0.129-r20",
+      "releaseTimestamp": "2026-08-03T08:48:31Z"
+    },
+    {
+      "version": "8.0.129-r2",
+      "releaseTimestamp": "2026-07-24T13:34:43Z"
+    },
+    {
+      "version": "8.0.129-r19",
+      "releaseTimestamp": "2026-08-03T05:53:53Z"
+    },
+    {
+      "version": "8.0.129-r18",
+      "releaseTimestamp": "2026-08-02T17:41:47Z"
+    },
+    {
+      "version": "8.0.129-r17",
+      "releaseTimestamp": "2026-08-02T10:37:21Z"
+    },
+    {
+      "version": "8.0.129-r16",
+      "releaseTimestamp": "2026-08-02T02:30:28Z"
+    },
+    {
+      "version": "8.0.129-r15",
+      "releaseTimestamp": "2026-08-01T20:37:08Z"
+    },
+    {
+      "version": "8.0.129-r14",
+      "releaseTimestamp": "2026-08-01T15:49:59Z"
+    },
+    {
+      "version": "8.0.129-r13",
+      "releaseTimestamp": "2026-08-01T05:14:44Z"
+    },
+    {
+      "version": "8.0.129-r12",
+      "releaseTimestamp": "2026-07-31T17:18:52Z"
+    },
+    {
+      "version": "8.0.129-r11",
+      "releaseTimestamp": "2026-07-31T15:29:32Z"
+    },
+    {
+      "version": "8.0.129-r10",
+      "releaseTimestamp": "2026-07-31T03:26:25Z"
+    },
+    {
+      "version": "8.0.129-r1",
+      "releaseTimestamp": "2026-07-23T11:08:15Z"
+    },
+    {
+      "version": "8.0.129-r0",
+      "releaseTimestamp": "2026-07-14T19:41:26Z"
+    },
+    {
+      "version": "8.0.128-r0",
+      "releaseTimestamp": "2026-06-09T19:38:52Z"
+    },
+    {
+      "version": "8.0.127-r0",
+      "releaseTimestamp": "2026-05-13T01:17:16Z"
+    },
+    {
+      "version": "8.0.126-r0",
+      "releaseTimestamp": "2026-04-15T10:22:51Z"
+    },
+    {
+      "version": "8.0.125-r0",
+      "releaseTimestamp": "2026-03-11T02:06:08Z"
+    },
+    {
+      "version": "8.0.124-r0",
+      "releaseTimestamp": "2026-02-11T00:35:06Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}

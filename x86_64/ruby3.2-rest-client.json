@@ -1,0 +1,17 @@
+{
+  "releases": [
+    {
+      "version": "2.1.0-r4",
+      "releaseTimestamp": "2026-09-02T04:09:39Z"
+    },
+    {
+      "version": "2.1.0-r3",
+      "releaseTimestamp": "2026-08-17T02:18:07Z"
+    },
+    {
+      "version": "2.1.0-r2",
+      "releaseTimestamp": "2025-09-16T20:24:40Z"
+    }
+  ],
+  "sourceUrl": "https://github.com/wolfi-dev/os"
+}
