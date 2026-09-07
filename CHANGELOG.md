@@ -1,3 +1,13 @@
+## [1.3.0](https://github.com/cwaits6/apk-datasource/compare/v1.2.12...v1.3.0) (2026-09-07)
+
+### Features
+
+* upgrade to go-1.27 ([#57](https://github.com/cwaits6/apk-datasource/issues/57)) ([76e1096](https://github.com/cwaits6/apk-datasource/commit/76e1096293dae3db24a2cd82842b6040da67252b))
+
+### Dependencies
+
+* **deps:** Update actions/setup-go action to v7 ([#46](https://github.com/cwaits6/apk-datasource/issues/46)) ([285b0a6](https://github.com/cwaits6/apk-datasource/commit/285b0a6123de0160779293672da0a1eba38cc04f))
+
 ## [1.2.12](https://github.com/cwaits6/apk-datasource/compare/v1.2.11...v1.2.12) (2026-09-05)
 
 ## [1.2.11](https://github.com/cwaits6/apk-datasource/compare/v1.2.10...v1.2.11) (2026-08-28)
