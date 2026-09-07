@@ -1,6 +1,6 @@
 module github.com/cwaits6/apk-datasource
 
-go 1.26.1
+go 1.27.1
 
 require (
 	github.com/prometheus/client_golang v1.24.1
@@ -33,7 +33,6 @@ require (
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel/sdk v1.46.0 // indirect
 	go.opentelemetry.io/otel/trace v1.46.0 // indirect
-	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	golang.org/x/sys v0.47.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
