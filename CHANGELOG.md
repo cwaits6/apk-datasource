@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/cwaits6/apk-datasource/compare/v1.3.0...v1.3.1) (2026-09-08)
+
+### Dependencies
+
+* **deps:** Update module golang.org/x/sync to v0.23.0 ([#63](https://github.com/cwaits6/apk-datasource/issues/63)) ([0666952](https://github.com/cwaits6/apk-datasource/commit/0666952bf5a50a56a5c014817151a6d820fb1982))
+
 ## [1.3.0](https://github.com/cwaits6/apk-datasource/compare/v1.2.12...v1.3.0) (2026-09-07)
 
 ### Features
