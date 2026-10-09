@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/cwaits6/apk-datasource/compare/v1.3.1...v1.3.2) (2026-10-09)
+
+### Dependencies
+
+* **deps:** Update dependency golangci/golangci-lint to v2.14.0 ([#64](https://github.com/cwaits6/apk-datasource/issues/64)) ([efac964](https://github.com/cwaits6/apk-datasource/commit/efac964cf342db1c16f5c05a87e6e1110e3e5c6e))
+* **deps:** Update opentelemetry-go monorepo ([#65](https://github.com/cwaits6/apk-datasource/issues/65)) ([4bd7494](https://github.com/cwaits6/apk-datasource/commit/4bd74944346d96a2ff1b76879df0e5af049b2e91))
+
 ## [1.3.1](https://github.com/cwaits6/apk-datasource/compare/v1.3.0...v1.3.1) (2026-09-08)
 
 ### Dependencies
