@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/cwaits6/apk-datasource/compare/v1.3.3...v1.3.4) (2026-10-15)
+
+### Dependencies
+
+* **deps:** Update actions/upload-artifact action to v7.0.2 ([#67](https://github.com/cwaits6/apk-datasource/issues/67)) ([1c21617](https://github.com/cwaits6/apk-datasource/commit/1c2161708cb6cd6709221fa04671b75dfe01b805))
+* **deps:** Update module github.com/prometheus/client_golang to v1.25.0 ([#68](https://github.com/cwaits6/apk-datasource/issues/68)) ([aaf94f8](https://github.com/cwaits6/apk-datasource/commit/aaf94f808b4cfc901a365cc042ad95dd21fdf818))
+
 ## [1.3.3](https://github.com/cwaits6/apk-datasource/compare/v1.3.2...v1.3.3) (2026-10-09)
 
 ### Dependencies
