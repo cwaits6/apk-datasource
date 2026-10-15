@@ -3,7 +3,7 @@ module github.com/cwaits6/apk-datasource
 go 1.27.1
 
 require (
-	github.com/prometheus/client_golang v1.24.1
+	github.com/prometheus/client_golang v1.25.0
 	github.com/rs/zerolog v1.35.1
 	github.com/spf13/cobra v1.10.2
 	gitlab.alpinelinux.org/alpine/go v0.10.1
