@@ -1,3 +1,9 @@
+## [1.3.5](https://github.com/cwaits6/apk-datasource/compare/v1.3.4...v1.3.5) (2026-10-16)
+
+### Dependencies
+
+* **deps:** Update dependency go-1.27 to v1.27.2-r0 ([#69](https://github.com/cwaits6/apk-datasource/issues/69)) ([40d2b9c](https://github.com/cwaits6/apk-datasource/commit/40d2b9c4164b6f63d8cbb1b343c5eac8a2e9cff1))
+
 ## [1.3.4](https://github.com/cwaits6/apk-datasource/compare/v1.3.3...v1.3.4) (2026-10-15)
 
 ### Dependencies
