@@ -1,3 +1,11 @@
+## [1.3.6](https://github.com/cwaits6/apk-datasource/compare/v1.3.5...v1.3.6) (2026-10-27)
+
+### Dependencies
+
+* **deps:** Update actions/create-github-app-token action to v3.3.0 ([#70](https://github.com/cwaits6/apk-datasource/issues/70)) ([76805a8](https://github.com/cwaits6/apk-datasource/commit/76805a818e4a2334593f2b043bf3ee0f45048007))
+* **deps:** Update dependency go-1.27 to v1.27.3-r0 ([#72](https://github.com/cwaits6/apk-datasource/issues/72)) ([35fbab9](https://github.com/cwaits6/apk-datasource/commit/35fbab990a14e2d6260dfa481a3a57daa1381fda))
+* **deps:** Update dependency golangci/golangci-lint to v2.15.0 ([#71](https://github.com/cwaits6/apk-datasource/issues/71)) ([4867111](https://github.com/cwaits6/apk-datasource/commit/486711149cf630497cf2a3582120c9ac636780e7))
+
 ## [1.3.5](https://github.com/cwaits6/apk-datasource/compare/v1.3.4...v1.3.5) (2026-10-16)
 
 ### Dependencies
